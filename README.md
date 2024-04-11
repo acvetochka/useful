@@ -1,1 +1,26 @@
-# useful-links
+# Useful-links
+
+## DevOps
+
+### Linux
+
+- [Основи Linux](https://apps.prometheus.org.ua/learning/course/course-v1:LinuxFoundation+INTRO_LINUX101+2023_T1/home) - курс українською
+- [Linux Commands Cheat Sheet](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/)
+- [Basic linux commands](https://lohvynenko.com/uk/blog/basic-linux-commands.html) - базові команди linux з поясненнями українською
+- [Базові команди Linux](https://magefan.com/ua/blog/korysni-komandy-linux)
+
+Bash:
+- [Bash learning](https://learnxinyminutes.com/docs/bash/)
+- [Bash scripting cheatsheet](https://devhints.io/bash)
+- [Bash in Linux](https://acode.com.ua/bash-in-linux/) - Гайд по написанню bash-скриптів (українською)
+
+
+### Go
+
+- [Learning Go in practice (укр.)](https://go-tour-ua-translation.lm.r.appspot.com/welcome/1) - you can choose different languages
+- [Go cheatsheet](https://devhints.io/go)
+
+### Kubernetes
+
+- [Основи Kubernetes](https://apps.prometheus.org.ua/learning/course/course-v1:LinuxFoundation+INTRO101+2023_T1/home) - курс українською
+- [Kubernetes CLI (kubectl) Commands](https://www.coursera.org/collections/kubernetes-cheat-sheet?utm_source=ln&utm_medium=page_share&utm_content=cc&utm_campaign=top_button)
