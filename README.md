@@ -5,6 +5,7 @@
 ### Linux
 
 - [Основи Linux](https://apps.prometheus.org.ua/learning/course/course-v1:LinuxFoundation+INTRO_LINUX101+2023_T1/home) - курс українською
+- [Linux Essentials (укр.)](https://learning.lpi.org/uk/learning-materials/010-160/) - you can choose different languages
 - [Linux Commands Cheat Sheet](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/)
 - [Basic linux commands](https://lohvynenko.com/uk/blog/basic-linux-commands.html) - базові команди linux з поясненнями українською
 - [Базові команди Linux](https://magefan.com/ua/blog/korysni-komandy-linux)
