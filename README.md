@@ -25,3 +25,8 @@ Bash:
 
 - [Основи Kubernetes](https://apps.prometheus.org.ua/learning/course/course-v1:LinuxFoundation+INTRO101+2023_T1/home) - курс українською
 - [Kubernetes CLI (kubectl) Commands](https://www.coursera.org/collections/kubernetes-cheat-sheet?utm_source=ln&utm_medium=page_share&utm_content=cc&utm_campaign=top_button)
+
+
+### Other
+
+- [aciinema to gif](https://dstein64.github.io/gifcast/)
