@@ -15,17 +15,20 @@ Bash:
 - [Bash scripting cheatsheet](https://devhints.io/bash)
 - [Bash in Linux](https://acode.com.ua/bash-in-linux/) - Гайд по написанню bash-скриптів (українською)
 
-
 ### Go
 
 - [Learning Go in practice (укр.)](https://go-tour-ua-translation.lm.r.appspot.com/welcome/1) - you can choose different languages
 - [Go cheatsheet](https://devhints.io/go)
 
+### YAML
+
+- [YAML Tutorial](https://spacelift.io/blog/yaml)
+  
 ### Kubernetes
 
 - [Основи Kubernetes](https://apps.prometheus.org.ua/learning/course/course-v1:LinuxFoundation+INTRO101+2023_T1/home) - курс українською
 - [Kubernetes CLI (kubectl) Commands](https://www.coursera.org/collections/kubernetes-cheat-sheet?utm_source=ln&utm_medium=page_share&utm_content=cc&utm_campaign=top_button)
-
+- 
 
 ### Other
 
