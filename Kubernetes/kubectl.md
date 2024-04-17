@@ -35,19 +35,49 @@ kubectl config use-context
 (виводить роль, версію та поточний статус кожної ноди)
 
 ```
-k get nodes
+kubectl get nodes
 ```
 or
 ```
-k get no
+kubectl get no
 ```
 
 ### Вивід всіх автивних об'єктів кластеру
 ```
-k get all -A
+kubectl get all -A
+```
+
+Вивід об'єктів по певному namespace
+```
+kubectl get all -n <namespace>
 ```
 
 ### Статус контроль-менеджера та планувальника
 ```
-k get componentstatus
+kubectl get componentstatus
+```
+
+### Вивід всіх namespaces
+
+```
+kubectl get namespaces
+```
+or
+```
+kubectl get ns
+```
+
+
+### Вивід подів 
+- default namespace
+```
+kubectl get pods
+```
+or 
+```
+kubectl get po
+```
+- по namespace
+```
+kubectl get po -n <namespace>
 ```
