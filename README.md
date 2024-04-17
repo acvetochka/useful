@@ -26,7 +26,8 @@ Bash:
   
 ### Kubernetes
 
-- [Основи Kubernetes](https://apps.prometheus.org.ua/learning/course/course-v1:LinuxFoundation+INTRO101+2023_T1/home) - курс українською
+- [Learn Kubernetes Basics (укр.)](https://kubernetes.io/uk/docs/tutorials/kubernetes-basics/) - you can choose different languages
+- [Основи Kubernetes](https://apps.prometheus.org.ua/learning/course/course-v1:LinuxFoundation+INTRO101+2023_T1/home) - курс українською на Prometheus
 - [Kubernetes CLI (kubectl) Commands](https://www.coursera.org/collections/kubernetes-cheat-sheet?utm_source=ln&utm_medium=page_share&utm_content=cc&utm_campaign=top_button)
 - 
 
