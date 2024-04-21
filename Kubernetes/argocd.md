@@ -1,6 +1,6 @@
-# ArgoCd
+# ArgoCD
 
-1. Створюємо namespace `argocd`, в якому буде по замовченню встановлено систему
+Створюємо namespace `argocd`, в якому буде по замовченню встановлено систему
 ```
 kubectl create namespace argocd
 ```
@@ -12,7 +12,7 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 
 Вивід всіх об'єктів namespace argocd
 ```
-k get all -n argocd
+kubectl get all -n argocd
 ```
 
 Налаштування port-forward для доступу до argocd за допомогою локального порта
@@ -21,9 +21,10 @@ k get all -n argocd
 kubectl port-forward svc/argocd-server -n argocd 8080:443
 ```
 
-Необхідно налаштувати на https, для цього в codespace натиснути вкладку Ports, обрати необхідний порт 
-Change Port Protocol - Https
-Port visibility - Public
+Необхідно налаштувати на https, для цього в середовищі розробки (наприклад codespace) натиснути вкладку Ports, обрати необхідний порт 
+`Change Port Protocol -> Https`
+та змінити доступність
+`Port visibility -> Public`
 
 Отримання пароля для входу в ArgoCD
 ```
