@@ -38,3 +38,5 @@ Bash:
 ### Other
 
 - [aciinema to gif](https://dstein64.github.io/gifcast/)
+
+- [k2d](https://docs.k2d.io/)
