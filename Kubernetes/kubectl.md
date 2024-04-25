@@ -81,3 +81,14 @@ kubectl get po
 ```
 kubectl get po -n <namespace>
 ```
+
+
+# Get commands with basic output
+| command                         |                                         |                                    |
+| -------------------------------- | --------------------------------------- | ---------------------------------- |
+| `kubectl get services`          | List all services in the namespace      | Список всіх служб у просторі імен  |
+| `kubectl get pods --all-namespaces`| List all pods in all namespaces         | Список усіх подів в усіх namespace  |
+| `kubectl get pods -o wide`         | List all pods in the current namespace, with more details | Список усіх модулів в поточному просторі імен із детальнішою інформацією|
+| `kubectl get deployment my-dep`    | List a particular deployment | Виводить конкретне розгортання |
+| `kubectl get pods`                 | List all pods in the namespace | Виводить всі модулі в просторі імен|
+| `kubectl get pod my-pod -o yaml`   | Get a pod's YAML | Виводить под у форматі YAML |
