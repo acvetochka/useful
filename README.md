@@ -2,7 +2,7 @@
 
 ## DevOps
 
-### Linux
+### ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 - [Основи Linux](https://apps.prometheus.org.ua/learning/course/course-v1:LinuxFoundation+INTRO_LINUX101+2023_T1/home) - курс українською
 - [Linux Essentials (укр.)](https://learning.lpi.org/uk/learning-materials/010-160/) - you can choose different languages
@@ -15,23 +15,23 @@ Bash:
 - [Bash scripting cheatsheet](https://devhints.io/bash)
 - [Bash in Linux](https://acode.com.ua/bash-in-linux/) - Гайд по написанню bash-скриптів (українською)
 
-### Go
+### ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 
 - [Learning Go in practice (укр.)](https://go-tour-ua-translation.lm.r.appspot.com/welcome/1) - you can choose different languages
 - [Go cheatsheet](https://devhints.io/go)
 
-### YAML
+### ![YAML](https://img.shields.io/badge/yaml-%23ffffff.svg?style=for-the-badge&logo=yaml&logoColor=151515)
 
 - [YAML Tutorial](https://spacelift.io/blog/yaml)
   
-### Kubernetes
+### ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 - [Learn Kubernetes Basics (укр.)](https://kubernetes.io/uk/docs/tutorials/kubernetes-basics/) - you can choose different languages
 - [Основи Kubernetes](https://apps.prometheus.org.ua/learning/course/course-v1:LinuxFoundation+INTRO101+2023_T1/home) - курс українською на Prometheus
 - [Kubernetes CLI (kubectl) Commands](https://www.coursera.org/collections/kubernetes-cheat-sheet?utm_source=ln&utm_medium=page_share&utm_content=cc&utm_campaign=top_button)
 
 
-### Docker
+### ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 - [Docker Command Sheet](https://github.com/Ignitetechnologies/Mindmap/tree/main/Docker%20CheatSheet)
 
