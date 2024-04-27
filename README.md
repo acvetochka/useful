@@ -29,7 +29,8 @@ Bash:
 - [Learn Kubernetes Basics (укр.)](https://kubernetes.io/uk/docs/tutorials/kubernetes-basics/) - you can choose different languages
 - [Основи Kubernetes](https://apps.prometheus.org.ua/learning/course/course-v1:LinuxFoundation+INTRO101+2023_T1/home) - курс українською на Prometheus
 - [Kubernetes CLI (kubectl) Commands](https://www.coursera.org/collections/kubernetes-cheat-sheet?utm_source=ln&utm_medium=page_share&utm_content=cc&utm_campaign=top_button)
-
+- [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+- [Kubectl Commands](https://lyz-code.github.io/blue-book/devops/kubectl/kubectl_commands/)
 
 ### ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
