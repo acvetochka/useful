@@ -31,6 +31,7 @@ Bash:
 - [Kubernetes CLI (kubectl) Commands](https://www.coursera.org/collections/kubernetes-cheat-sheet?utm_source=ln&utm_medium=page_share&utm_content=cc&utm_campaign=top_button)
 - [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 - [Kubectl Commands](https://lyz-code.github.io/blue-book/devops/kubectl/kubectl_commands/)
+- [Helm Chart Tutorial](https://devopscube.com/create-helm-chart/)
 
 ### ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
