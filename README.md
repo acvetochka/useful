@@ -40,6 +40,10 @@ Helm
 
 - [Docker Command Sheet](https://github.com/Ignitetechnologies/Mindmap/tree/main/Docker%20CheatSheet)
 
+### GitOps
+
+-[Awesome-GitOps](https://github.com/weaveworks/awesome-gitops)
+
 ### Other
 
 - [aciinema to gif](https://dstein64.github.io/gifcast/)
