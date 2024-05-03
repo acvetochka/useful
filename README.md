@@ -42,7 +42,7 @@ Helm
 
 ### GitOps
 
--[Awesome-GitOps](https://github.com/weaveworks/awesome-gitops)
+- [Awesome-GitOps](https://github.com/weaveworks/awesome-gitops)
 
 ### Other
 
