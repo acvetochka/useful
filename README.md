@@ -43,7 +43,9 @@ Helm
 ### GitOps
 
 - [Awesome-GitOps](https://github.com/weaveworks/awesome-gitops)
-
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+- [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart)
+  
 ### Other
 
 - [aciinema to gif](https://dstein64.github.io/gifcast/)
