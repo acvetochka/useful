@@ -45,6 +45,9 @@ Helm
 - [Awesome-GitOps](https://github.com/weaveworks/awesome-gitops)
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
 - [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart)
+
+Jenkins
+- [Continuous Delivery with Jenkins in Kubernetes Engine](https://www.cloudskillsboost.google/focuses/1104?parent=catalog) -lab
   
 ### Other
 
