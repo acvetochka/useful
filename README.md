@@ -39,6 +39,7 @@ Helm
 ### ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 - [Docker Command Sheet](https://github.com/Ignitetechnologies/Mindmap/tree/main/Docker%20CheatSheet)
+- [Docker Tutorial](https://learn.microsoft.com/ru-ru/visualstudio/docker/tutorials/docker-tutorial) - Microsoft Learn
 
 ### GitOps
 
