@@ -5,6 +5,8 @@
 ### Git/Github
 
 - [Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+- [Git documentation](https://git-scm.com/docs/)
+- [Visual Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html#loc=index)
 
 ### ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
@@ -59,3 +61,7 @@ Jenkins
 - [aciinema to gif](https://dstein64.github.io/gifcast/)
 
 - [k2d](https://docs.k2d.io/)
+
+- [Шпаргалка по Markdown](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#file-markdown-md)
+
+- [Google courses](https://learning.google/intl/uk_ua/work/)
