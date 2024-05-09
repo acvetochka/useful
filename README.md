@@ -2,6 +2,10 @@
 
 ## DevOps
 
+### Git/Github
+
+- [Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
 ### ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 - [Основи Linux](https://apps.prometheus.org.ua/learning/course/course-v1:LinuxFoundation+INTRO_LINUX101+2023_T1/home) - курс українською
