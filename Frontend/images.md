@@ -3,3 +3,5 @@
 [iconsuck](https://iconduck.com/) - download svg, png
 
 [pngegg](https://www.pngegg.com/) - png
+
+[Fotor](https://www.fotor.com/) - fotoeditor
