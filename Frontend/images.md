@@ -9,3 +9,7 @@
 [Fotor](https://www.fotor.com/) - fotoeditor
 
 [SVG Repo](https://www.svgrepo.com/) - велика колекція іконок
+
+====
+
+[Як додати ефект свічення (тінь) для SVG при наведенні](https://denis-creative.com/kak-dobavit-ten-dlya-svg-pri-navedenii/)
