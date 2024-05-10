@@ -55,6 +55,11 @@ Helm
 
 Jenkins
 - [Continuous Delivery with Jenkins in Kubernetes Engine](https://www.cloudskillsboost.google/focuses/1104?parent=catalog) -lab
+
+### Terraform 
+
+- [Terraform best-practices](https://www.terraform-best-practices.com/v/uk)
+- [Terraform CheatSheet](https://www.pluralsight.com/resources/blog/cloud/the-ultimate-terraform-cheatsheet)
   
 ### Other
 
