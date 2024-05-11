@@ -13,3 +13,11 @@
 ====
 
 [Як додати ефект свічення (тінь) для SVG при наведенні](https://denis-creative.com/kak-dobavit-ten-dlya-svg-pri-navedenii/)
+
+[Accordion Image Gallery with HTML & CSS (Free Code)](https://foolishdeveloper.com/accordion-image-gallery-html-css/)
+
+[Circle Animation CSS & HTML (Step by Step)](https://foolishdeveloper.com/circle-animation-css/)
+
+[Skeuomorphism Button Using HTML & CSS (Free Code)](https://foolishdeveloper.com/skeuomorphism-button-css/)
+
+[Simple Image Hover Effects in HTML & CSS](https://foolishdeveloper.com/simple-image-hover-effects-in-html-css/)
