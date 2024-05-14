@@ -60,6 +60,18 @@ Jenkins
 
 - [Terraform best-practices](https://www.terraform-best-practices.com/v/uk)
 - [Terraform CheatSheet](https://www.pluralsight.com/resources/blog/cloud/the-ultimate-terraform-cheatsheet)
+
+### DevSecOps
+
+- [DevSecOps explained](https://resources.github.com/devops/fundamentals/devsecops/)
+- [DevSecOps library](https://github.com/sottlmarek/DevSecOps)
+- [The complete guide to developer-first application security](https://drive.google.com/file/d/1pWUV8zP6HWB1zl_Cz9AS2erszCWFdPib/view)
+- [DevSecOps Playbook](https://github.com/6mile/DevSecOps-Playbook)
+- [Building Secure and Reliable Systems](https://www.oreilly.com/library/view/building-secure-and/9781492083115/)
+- [Top 10 SonarQube Alternatives & Competitors](https://www.g2.com/products/sonarqube/competitors/alternatives)
+- [Cloud Security Labs](https://github.com/iknowjason/Awesome-CloudSec-Labs)
+- [10 BEST Dynamic Application Security Testing (DAST) Software](https://www.softwaretestinghelp.com/dynamic-application-security-testing-dast-software/)
+- [The full reading list/attacks guide](https://blog.cloudflare.com/2022-attacks-an-august-reading-list-to-go-shields-up)
   
 ### Other
 
