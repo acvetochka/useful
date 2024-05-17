@@ -72,6 +72,14 @@ Jenkins
 - [Cloud Security Labs](https://github.com/iknowjason/Awesome-CloudSec-Labs)
 - [10 BEST Dynamic Application Security Testing (DAST) Software](https://www.softwaretestinghelp.com/dynamic-application-security-testing-dast-software/)
 - [The full reading list/attacks guide](https://blog.cloudflare.com/2022-attacks-an-august-reading-list-to-go-shields-up)
+
+### Monitoring
+- [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)
+- [15 best cloud monitoring tools & services in 2023](https://middleware.io/blog/cloud-monitoring-tools/)
+- [10 Cloud Monitoring Tools You Should Know](https://bluexp.netapp.com/blog/blg-10-cloud-monitoring-tools-you-should-know)
+- [10 Best Cloud Monitoring Tools in 2023](https://betterstack.com/community/comparisons/cloud-monitoring-tools/)
+- [The Twelve-Factor App](https://12factor.net/)
+- [OpenTelemetry Metrics API for Go](https://uptrace.dev/opentelemetry/go-metrics.html)
   
 ### Other
 
