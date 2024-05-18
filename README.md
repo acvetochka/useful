@@ -7,6 +7,7 @@
 - [Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Git documentation](https://git-scm.com/docs/)
 - [Visual Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html#loc=index)
+- [Github Glossary](https://docs.github.com/en/get-started/learning-about-github/github-glossary)
 
 ### ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
@@ -37,10 +38,12 @@ Bash:
 - [Kubernetes CLI (kubectl) Commands](https://www.coursera.org/collections/kubernetes-cheat-sheet?utm_source=ln&utm_medium=page_share&utm_content=cc&utm_campaign=top_button)
 - [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/) the 
 - [Kubectl Commands](https://lyz-code.github.io/blue-book/devops/kubectl/kubectl_commands/)
+- [Kubernetes Glossary](https://kubernetes.io/uk/docs/reference/glossary/?core-object=true)
 
 Helm
 - [Helm Chart Tutorial](https://devopscube.com/create-helm-chart/)
 - [Helm](https://www.digitalocean.com/community/tutorials/an-introduction-to-helm-the-package-manager-for-kubernetes-ru)
+- [Helm Glossary](https://helm.sh/docs/glossary/)
 
 ### ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
@@ -60,6 +63,7 @@ Jenkins
 
 - [Terraform best-practices](https://www.terraform-best-practices.com/v/uk)
 - [Terraform CheatSheet](https://www.pluralsight.com/resources/blog/cloud/the-ultimate-terraform-cheatsheet)
+- [Terraform Glossary](https://developer.hashicorp.com/terraform/docs/glossary)
 
 ### DevSecOps
 
@@ -72,6 +76,7 @@ Jenkins
 - [Cloud Security Labs](https://github.com/iknowjason/Awesome-CloudSec-Labs)
 - [10 BEST Dynamic Application Security Testing (DAST) Software](https://www.softwaretestinghelp.com/dynamic-application-security-testing-dast-software/)
 - [The full reading list/attacks guide](https://blog.cloudflare.com/2022-attacks-an-august-reading-list-to-go-shields-up)
+- [DevSecOps Glossary](https://blog.gitguardian.com/glossary/)
 
 ### Monitoring
 - [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)
@@ -80,6 +85,9 @@ Jenkins
 - [10 Best Cloud Monitoring Tools in 2023](https://betterstack.com/community/comparisons/cloud-monitoring-tools/)
 - [The Twelve-Factor App](https://12factor.net/)
 - [OpenTelemetry Metrics API for Go](https://uptrace.dev/opentelemetry/go-metrics.html)
+- [Observability Glossary](https://www.honeycomb.io/getting-started/observability-glossary)
+- [OpenTelemetry Glossary](https://opentelemetry.io/docs/concepts/glossary/)
+- [Observability Glossary](https://www.solarwinds.com/resources/it-glossary/observability)
   
 ### Other
 
@@ -90,3 +98,5 @@ Jenkins
 - [Шпаргалка по Markdown](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#file-markdown-md)
 
 - [Google courses](https://learning.google/intl/uk_ua/work/)
+  
+- [Cloud Platforms glossary](https://solutionsreview.com/cloud-platforms/glossary/#theletterA)
