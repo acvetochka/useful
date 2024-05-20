@@ -4,6 +4,7 @@
 | -------- | ------------|
 | [react-query](https://www.npmjs.com/package/react-query) | керування станом даних та зєднання з АРІ |
 | [formik](https://formik.org/)| управління формами та валідація даних |
+| [yup](https://www.npmjs.com/package/yup) | валідація даних |
 | [react-spring](https://www.react-spring.dev/) | анімації та переходи |
 | [react-router-dom](https://www.npmjs.com/package/react-router-dom) | маршрутизація для веб-додатків |
 | [react-table](https://www.npmjs.com/package/react-table) | створення таблиць з функціональними можливостями сортування та фільтрації |
@@ -11,6 +12,8 @@
 | [react-select](https://react-select.com/home) | стилізований випадаючий список для для вибору елементів |
 | [react-beautiful-dnd](https://www.npmjs.com/package/react-beautiful-dnd) | красиве Drag and Drop для списків та таблиць |
 | [react-datetime](https://www.npmjs.com/package/react-datetime) | вибір дати та часу у форматі календаря |
+| [react-datepicker](https://www.npmjs.com/package/react-datepicker) | Простий компонент Datepicker для React, який можна багаторазово використовувати |
+| [moment](https://www.npmjs.com/package/moment) | Бібліотека дат JavaScript для аналізу, перевірки, обробки та форматування дат |
 | [react-icons](https://react-icons.github.io/react-icons/) | бібліотека іконок для React |
 | [react-leaflet](https://react-leaflet.js.org/) | інтеграція з leaflet для роботи з картами |
 | [react-modal](https://www.npmjs.com/package/react-modal) | модальні вікна для показу вмісту поверх основного вмісту |
@@ -26,3 +29,4 @@
 | [react-scroll](https://www.npmjs.com/package/react-scroll) | створення плавної прокрутки на сторінці |
 | [react-image-gallery](https://www.npmjs.com/package/react-image-gallery) | галерея зображень з можливістю слайдшоу |
 | [react-burger-menu](https://www.npmjs.com/package/react-burger-menu) | анімоване бокове меню (бургер-меню) |
+| [styled-media-query](https://www.npmjs.com/package/styled-media-query?activeTab=readme) | Красиві медіа-запити кращі за CSS @media для стилізованих компонентів із можливістю вказувати користувацькі точки зупину |
