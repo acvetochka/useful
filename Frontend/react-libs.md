@@ -5,7 +5,6 @@
 | [react-query](https://www.npmjs.com/package/react-query) | керування станом даних та зєднання з АРІ |
 | [formik](https://formik.org/)| управління формами та валідація даних |
 | [yup](https://www.npmjs.com/package/yup) | валідація даних |
-| [react-spring](https://www.react-spring.dev/) | анімації та переходи |
 | [react-router-dom](https://www.npmjs.com/package/react-router-dom) | маршрутизація для веб-додатків |
 | [react-table](https://www.npmjs.com/package/react-table) | створення таблиць з функціональними можливостями сортування та фільтрації |
 | [react-dnd](https://react-dnd.github.io/react-dnd/about) | перетягування та перестановака елементів за допомогою Drag and Drop |
@@ -33,3 +32,15 @@
 | [react-burger-menu](https://www.npmjs.com/package/react-burger-menu) | анімоване бокове меню (бургер-меню) |
 | [styled-media-query](https://www.npmjs.com/package/styled-media-query?activeTab=readme) | Красиві медіа-запити кращі за CSS @media для стилізованих компонентів із можливістю вказувати користувацькі точки зупину |
 | [react-webcam](https://www.npmjs.com/package/react-webcam) | Компонент веб-камери для React | 
+
+## Animation Libraries
+
+| Lib/link | Description |
+| -------- | ------------|
+| [framer-motion](https://www.framer.com/motion/) | бібліотека анімації з відкритим вихідним кодом, готова до виробництва |
+| [react-spring](https://www.react-spring.dev/) | бібліотека анімацій, надає гнучкі інструменти |
+| [remotion](https://www.remotion.dev/) | створення відео за допомогою React |
+| [react-awesome-reveal](https://www.npmjs.com/package/react-awesome-reveal) | бібліотека для програм React, написана на TypeScript, яка додає анімацію розкриття за допомогою API Intersection Observer, щоб визначити, коли елементи з’являються у вікні перегляду |
+| [react-move](https://react-move-docs.netlify.app/) | красиві, керовані даними анімації для React |
+| [react-anime](https://www.npmjs.com/package/react-anime) | анімує майже всі атрибути CSS, SVG і DOM | 
+| [react-motion](https://www.npmjs.com/package/react-motion-animate) | aнімує компоненти React, коли вони прокручуються та виходять із поля зору | 
