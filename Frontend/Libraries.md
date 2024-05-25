@@ -42,3 +42,12 @@ For React:
 ## HTTP-query
 
 - [Axios](https://axios-http.com/)
+
+## Amination
+
+- [animate-css](https://animate.style/)
+- [animista](https://animista.net/)
+- [magic.css](https://www.npmjs.com/package/magic.css?activeTab=readme)
+- [mimic.css](https://erictreacy.github.io/mimic.css/)
+- [animatopy](https://sarthology.github.io/Animatopy/)
+- [vov-css](https://vaibhav111tandon.github.io/vov.css/)
