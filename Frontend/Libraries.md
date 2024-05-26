@@ -51,3 +51,5 @@ For React:
 - [mimic.css](https://erictreacy.github.io/mimic.css/)
 - [animatopy](https://sarthology.github.io/Animatopy/)
 - [vov-css](https://vaibhav111tandon.github.io/vov.css/)
+- [animation-library](https://animation.kaustubhmenon.com/)
+- [woah](https://www.joerezendes.com/projects/Woah.css/)
