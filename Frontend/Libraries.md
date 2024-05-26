@@ -8,12 +8,6 @@
 - [Flickity](https://flickity.metafizzy.co/)
 - [Slick](https://kenwheeler.github.io/slick/)
 
-For React:
-
-- [React Slick](https://react-slick.neostack.com/)
-- [React Slider](https://www.npmjs.com/package/react-slider)
-- [Swiper React Component](https://swiperjs.com/react)
-
 ## Lightbox
 
 - [basicLightbox](https://basiclightbox.electerious.com)
