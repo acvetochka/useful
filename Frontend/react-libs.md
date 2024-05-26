@@ -3,17 +3,11 @@
 | Lib/link | Description |
 | -------- | ------------|
 | [react-query](https://www.npmjs.com/package/react-query) | керування станом даних та зєднання з АРІ |
-| [formik](https://formik.org/)| управління формами та валідація даних |
-| [yup](https://www.npmjs.com/package/yup) | валідація даних |
 | [react-router-dom](https://www.npmjs.com/package/react-router-dom) | маршрутизація для веб-додатків |
 | [react-table](https://www.npmjs.com/package/react-table) | створення таблиць з функціональними можливостями сортування та фільтрації |
 | [react-dnd](https://react-dnd.github.io/react-dnd/about) | перетягування та перестановака елементів за допомогою Drag and Drop |
 | [react-select](https://react-select.com/home) | стилізований випадаючий список для для вибору елементів |
 | [react-beautiful-dnd](https://www.npmjs.com/package/react-beautiful-dnd) | красиве Drag and Drop для списків та таблиць |
-| [react-big-calendar](https://github.com/jquense/react-big-calendar) | Компонент календаря подій, створений для React |
-| [react-datetime](https://www.npmjs.com/package/react-datetime) | вибір дати та часу у форматі календаря |
-| [react-datepicker](https://www.npmjs.com/package/react-datepicker) | Простий компонент Datepicker для React, який можна багаторазово використовувати |
-| [moment](https://www.npmjs.com/package/moment) | Бібліотека дат JavaScript для аналізу, перевірки, обробки та форматування дат |
 | [react-icons](https://react-icons.github.io/react-icons/) | бібліотека іконок для React |
 | [react-leaflet](https://react-leaflet.js.org/) | інтеграція з leaflet для роботи з картами |
 | [react-modal](https://www.npmjs.com/package/react-modal) | модальні вікна для показу вмісту поверх основного вмісту |
@@ -44,3 +38,29 @@
 | [react-move](https://react-move-docs.netlify.app/) | красиві, керовані даними анімації для React |
 | [react-anime](https://www.npmjs.com/package/react-anime) | анімує майже всі атрибути CSS, SVG і DOM | 
 | [react-motion](https://www.npmjs.com/package/react-motion-animate) | aнімує компоненти React, коли вони прокручуються та виходять із поля зору | 
+
+## Slider 
+
+| Lib/link | Description |
+| -------- | ------------|
+| [React Slick](https://react-slick.neostack.com/) | Carousel component built with React |
+| [React Slider](https://www.npmjs.com/package/react-slider) | Accessible, CSS agnostic, slider component for React |
+| [Swiper React Component](https://swiperjs.com/react) | the free and most modern mobile touch slider with hardware accelerated transitions and amazing native behavior |
+| [Swiper Element](https://swiperjs.com/element) | as WebComponent - for React from v.18 |
+
+## Date
+
+| Lib/link | Description |
+| -------- | ------------|
+| [react-big-calendar](https://github.com/jquense/react-big-calendar) | Компонент календаря подій, створений для React |
+| [react-datetime](https://www.npmjs.com/package/react-datetime) | вибір дати та часу у форматі календаря |
+| [react-datepicker](https://www.npmjs.com/package/react-datepicker) | Простий компонент Datepicker для React, який можна багаторазово використовувати |
+| [moment](https://www.npmjs.com/package/moment) | Бібліотека дат JavaScript для аналізу, перевірки, обробки та форматування дат |
+
+## Form
+
+| Lib/link | Description |
+| -------- | ------------|
+| [formik](https://formik.org/)| управління формами та валідація даних |
+| [yup](https://www.npmjs.com/package/yup) | валідація даних |
+| [react-hook-form](https://react-hook-form.com/) | Ефективні, гнучкі та розширювані форми з простою перевіркою |
