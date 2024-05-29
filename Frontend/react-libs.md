@@ -26,6 +26,7 @@
 | [react-burger-menu](https://www.npmjs.com/package/react-burger-menu) | анімоване бокове меню (бургер-меню) |
 | [styled-media-query](https://www.npmjs.com/package/styled-media-query?activeTab=readme) | Красиві медіа-запити кращі за CSS @media для стилізованих компонентів із можливістю вказувати користувацькі точки зупину |
 | [react-webcam](https://www.npmjs.com/package/react-webcam) | Компонент веб-камери для React | 
+| [react-virtualized](https://bvaughn.github.io/react-virtualized/)||
 
 ## Animation Libraries
 
