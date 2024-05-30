@@ -10,6 +10,8 @@
 
 [SVG Repo](https://www.svgrepo.com/) - велика колекція іконок
 
+[flaticon](https://www.flaticon.com/icons) - Найбільша база даних векторних іконок, доступних для завантаження: формати SVG, EPS, PSD і BASE 64.
+
 ====
 
 [Як додати ефект свічення (тінь) для SVG при наведенні](https://denis-creative.com/kak-dobavit-ten-dlya-svg-pri-navedenii/)
