@@ -12,6 +12,8 @@
 
 [flaticon](https://www.flaticon.com/icons) - Найбільша база даних векторних іконок, доступних для завантаження: формати SVG, EPS, PSD і BASE 64.
 
+[pexels](https://www.pexels.com/uk-ua/) - безкоштовні стокові фото та відео від талановитих авторів
+
 ====
 
 [Як додати ефект свічення (тінь) для SVG при наведенні](https://denis-creative.com/kak-dobavit-ten-dlya-svg-pri-navedenii/)
