@@ -39,6 +39,9 @@
 | [react-move](https://react-move-docs.netlify.app/) | красиві, керовані даними анімації для React |
 | [react-anime](https://www.npmjs.com/package/react-anime) | анімує майже всі атрибути CSS, SVG і DOM | 
 | [react-motion](https://www.npmjs.com/package/react-motion-animate) | aнімує компоненти React, коли вони прокручуються та виходять із поля зору | 
+| [ts-particles](https://particles.js.org/) | |
+| [react-tweenful](https://github.com/teodosii/react-tweenful) | |
+| [greek-sock](https://gsap.com/) | |
 
 ## Slider 
 
