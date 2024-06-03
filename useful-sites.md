@@ -1,4 +1,4 @@
-# 5 Mind-blowing Useful Websites for Developers
+#  Mind-blowing Useful Websites for Developers
 
 - [roadmap.sh](https://roadmap.sh/)
 - [codehype.in](https://codehype.in/)
@@ -9,3 +9,15 @@
 - [mockups-design](https://mockups-design.com/)
 - [deck.gallery](https://www.deck.gallery/) - beautifully designed decks, slides, keynotes, guidelines
 - [tableau](https://www.tableau.com/) 
+
+## Websites to Practice Your Frontend Skills
+
+- [Frontend Mentor](https://www.frontendmentor.io/)
+- [Frontend Practice](https://www.frontendpractice.com/)
+- [Dev Challenges](https://devchallenges.io/)
+- [Codewars](https://www.codewars.com/)
+- [CodePen Challenges](https://codepen.io/challenges)
+- [JavaScript30](https://javascript30.com/)
+- [CSS Battle](https://cssbattle.dev/)
+
+
