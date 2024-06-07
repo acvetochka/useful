@@ -26,6 +26,7 @@ Bash:
 
 - [Learning Go in practice (укр.)](https://go-tour-ua-translation.lm.r.appspot.com/welcome/1) - you can choose different languages
 - [Go cheatsheet](https://devhints.io/go)
+- [10 проектов для изучения Golang в 2023 году](https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D0%B4%D0%BB%D1%8F-%D0%B8%D0%B7%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-golang-%D0%B2-2023-%D0%B3%D0%BE%D0%B4%D1%83-d4517f464b99)
 
 ### ![YAML](https://img.shields.io/badge/yaml-%23ffffff.svg?style=for-the-badge&logo=yaml&logoColor=151515)
 
