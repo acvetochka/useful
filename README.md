@@ -8,6 +8,7 @@
 - [Git documentation](https://git-scm.com/docs/)
 - [Visual Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html#loc=index)
 - [Github Glossary](https://docs.github.com/en/get-started/learning-about-github/github-glossary)
+- [Git how to](https://githowto.com/uk)
 
 ### ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
