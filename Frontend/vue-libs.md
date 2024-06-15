@@ -4,16 +4,18 @@
 
 1. Vue.js Transition & Transition-group
 2. Vue Animate CSS
-3. Vue-Motion
-4. Vuenime
-5. Vue Page Transition
-6. Vue Move
-7. Vue Flipbook
-8. Vue-GSAP
-9. Vue-Typed-Animation
-10. Vue Smooth Scroll
-11. Vue-Kinesis
-12. Vue-Lottie
-13. Vue-Parallax
-14. Vue-Particles
-15. Vue-Tilt.js
+3. 
+4. Vue-Motion
+5. Vuenime
+6. Vue Page Transition
+7. Vue Move
+8. Vue Flipbook
+9. Vue-GSAP
+10. Vue-Typed-Animation
+11. Vue Smooth Scroll
+12. Vue-Kinesis
+13. Vue-Lottie
+14. Vue-Parallax
+15. Vue-Particles
+    
+16. Vue-Tilt.js
