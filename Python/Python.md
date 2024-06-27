@@ -27,3 +27,11 @@
 [Keywords](https://www.w3schools.com/python/python_ref_keywords.asp)
 
 [Different Arithmetic operators in Python](https://flexiple.com/python/arithmetic-operators-in-python)
+
+## Code editors
+
+[A guide to using terminal (command-line)](https://towardsdatascience.com/a-quick-guide-to-using-command-line-terminal-96815b97b955)
+
+[IDLE documentation and instructions](https://docs.python.org/3/library/idle.html)
+
+[Python Scripts vs. Jupyter Notebooks](https://learnpython.com/blog/python-scripts-vs-jupyter-notebooks/)
