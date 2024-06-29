@@ -14,6 +14,8 @@
 
 [pexels](https://www.pexels.com/uk-ua/) - безкоштовні стокові фото та відео від талановитих авторів
 
+[logo](https://logo.com/) - створення лого
+
 ====
 
 [Як додати ефект свічення (тінь) для SVG при наведенні](https://denis-creative.com/kak-dobavit-ten-dlya-svg-pri-navedenii/)
