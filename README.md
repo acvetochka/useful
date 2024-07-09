@@ -98,6 +98,8 @@ Jenkins
 - [k2d](https://docs.k2d.io/)
 
 - [Шпаргалка по Markdown](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#file-markdown-md)
+  
+- [Markdown editor](https://pandao.github.io/editor.md/en.html)
 
 - [Google courses](https://learning.google/intl/uk_ua/work/)
   
