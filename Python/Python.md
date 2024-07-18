@@ -36,5 +36,16 @@
 
 [Python Scripts vs. Jupyter Notebooks](https://learnpython.com/blog/python-scripts-vs-jupyter-notebooks/)
 
+### Colab
+
+[Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb)
+
+[Overview of Colaboratory Features](https://colab.research.google.com/notebooks/basic_features_overview.ipynb) - містить огляд функцій Colab із прикладами. 
+
+[Snippets: Importing libraries](https://colab.research.google.com/notebooks/snippets/importing_libraries.ipynb) - керівництво для встановлення та використання бібліотек Python у Colab. 
+
+[Using Google Colab with GitHub](https://colab.research.google.com/github/googlecolab/colabtools/blob/main/notebooks/colab-github-demo.ipynb)
+містить інструкції щодо збереження та завантаження блокнотів Colab у GitHub.  
+
 
 
