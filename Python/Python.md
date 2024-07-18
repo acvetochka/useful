@@ -34,7 +34,23 @@
 
 [IDLE documentation and instructions](https://docs.python.org/3/library/idle.html)
 
+[Python IDLE](https://realpython.com/python-idle/)
+
 [Python Scripts vs. Jupyter Notebooks](https://learnpython.com/blog/python-scripts-vs-jupyter-notebooks/)
+
+[PyCharm](https://www.jetbrains.com/pycharm/)
+
+[PyDev](https://www.pydev.org/download.html)
+
+[VSCode Tipps and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
+
+### Jupyter 
+
+[Jupyter](https://docs.jupyter.org/en/latest/start/index.html)
+
+[Jupyter Notebook](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
+
+[Jypyter Blog](https://blog.jupyter.org/)
 
 ### Colab
 
@@ -46,6 +62,10 @@
 
 [Using Google Colab with GitHub](https://colab.research.google.com/github/googlecolab/colabtools/blob/main/notebooks/colab-github-demo.ipynb)
 містить інструкції щодо збереження та завантаження блокнотів Colab у GitHub.  
+
+[Colabs Tipps](https://amitness.com/posts/google-colab-tips)
+
+
 
 
 
