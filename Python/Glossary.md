@@ -42,6 +42,7 @@ Syntax: The rules for how each statements are constructed in both human and comp
 
 Variables: These are used to temporarily store changeable values in programming code
 
+
 Built-in functions: Functions that exist within Python and can be called directly
 
 Comments: Notes to yourself and/or other programmers to make the purpose of the code clear
@@ -52,6 +53,26 @@ Explicit conversion: This occurs when code is written to manually convert one da
 
 Expression: A combination of numbers, symbols, or other values that produce a result when evaluated
 
+
+Break: A way to exit out of a loop before the loop's condition is false
+
+Control statements: Programming constructs that direct the flow of execution of a program by allowing you to make decisions, repeat actions, or choose between different code paths based on specific conditions.
+
+For loop: This executes a block of code for a specified number of iterations or over a collection of items.
+
+Infinite loop: A sequence that is missing a method for exiting the loop, causing the loop to run forever
+
+Iterators: Variables that allow you to loop through a collection one item at a time
+
+Loop: A sequence that makes the computer do repetitive tasks 
+
+Programming: The process of writing a program to behave in different ways 
+
+Pass: A placeholder statement which is used when the syntax requires a statement, but you don't want to execute any code or command
+
+Recursion: The repeated application of the same procedure to a smaller problem
+
+While loop: This is used when a segment of code needs to execute repeatedly while a condition is true
 Implicit conversion: This occurs when the Python interpreter automatically converts one data type to another
 
 Logical operators: Operators used to combine or manipulate boolean values (True or False) to create complex conditions for decision-making. 
