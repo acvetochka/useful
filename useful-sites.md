@@ -9,7 +9,7 @@
 - [mockups-design](https://mockups-design.com/)
 - [deck.gallery](https://www.deck.gallery/) - beautifully designed decks, slides, keynotes, guidelines
 - [tableau](https://www.tableau.com/) 
-- [Toolfolio](https://toolfolio.io/) - Toolfolio - це найкорисніші штуки в одному місці. Корисні нейронки, тонна безкоштовних аналогів популярних програм і бібліотеки плагінів для ваших улюблених сервісів - від Figma до Framer.
+- [Toolfolio](https://toolfolio.io/) - це найкорисніші штуки в одному місці. Корисні нейронки, тонна безкоштовних аналогів популярних програм і бібліотеки плагінів для ваших улюблених сервісів - від Figma до Framer.
 
 Link: https://toolfolio.io/
 ## Websites to Practice Your Frontend Skills
