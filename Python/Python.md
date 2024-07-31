@@ -6,6 +6,8 @@
 
 [The Python Language Reference](https://docs.python.org/3/reference/index.html) - documentation
 
+[PEP 8](https://peps.python.org/pep-0008/) - Style Guide for Python Code
+
 
 ## Practice
 [Online Console Python](https://www.python.org/shell/)
