@@ -8,6 +8,8 @@
 
 [PEP 8](https://peps.python.org/pep-0008/) - Style Guide for Python Code
 
+[The Python Standard Library](https://docs.python.org/3/library/)
+
 
 ## Practice
 [Online Console Python](https://www.python.org/shell/)
