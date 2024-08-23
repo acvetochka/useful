@@ -9,3 +9,7 @@
 
 - [The Cat API](https://thecatapi.com/)
 - [Pixabay](https://pixabay.com/api/docs/)
+
+## GEO API
+
+- [Geopify](https://apidocs.geoapify.com/)
