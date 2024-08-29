@@ -30,3 +30,7 @@
 `dictionary.clear()` - Видаляє всі елементи зі словника.
 
 `dictionary.copy()` - Створює копію словника.
+
+
+[Словники Python](https://www.w3schools.com/python/python_dictionaries.asp) - Підручник з інтерактивними блоками коду для практики використання методів та операцій зі словниками  
+[Типи відображення - dict](https://docs.python.org/3/library/stdtypes.html#mapping-types-dict) - Офіційна документація python.org для методів словників
