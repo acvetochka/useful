@@ -110,6 +110,15 @@ mv = memoryview(data)
 n = None
 ```
 
+# Типи ітерабельних даних
+| Feature by Data Structure |	Dictionary |	Set	| List |	String |	Tuple |
+| --------------------------| -------------| ------ | ----- | ------- | -------- |
+| Definition |	Stores key:value pairs |	An unordered collection of unique elements |	A sequential, mutable collection of any data type |	A sequential, immutable collection of textual data |	A sequential, immutable collection of any data type |
+| Representation |	{ 'a':[42], 'b':[23,6,1] } |	{'^2', 'mc', ' equal', 'E'} |	[ 'a','b', 3, 4 ] |	“call me ishmael” |	( 'commander','lambda') |
+| How to create? |	x = {}, x = dict()	| x = set()	| x = [], x = list() |	x = (), x = str() |	x = (‘a’,’b’,), x=tuple() |
+| Is structure mutable and allow duplicate elements? |	immutable keys but mutable and duplicate values	| mutable but unique elements only |	mutable and allows duplicate elements| immutable but allows duplicate elements|	immutable but allows duplicate elements |
+| Is the structure iterable? |	no, it is unordered and random |	no, it is unordered and unique |	yes, and with numeric index assignment |yes, but with a sequence of textual data |	yes, and with numeric index assignment |
+
 # Визначення типів змінних
 У Python типи змінних автоматично визначаються на основі значень, які їм присвоюються. Однак, Python також підтримує анотацію типів, яка дозволяє вказувати типи змінних, параметрів функцій і значень, які функції повертають. Це корисно для документування коду та для статичної перевірки типів за допомогою інструментів типу mypy.
 
