@@ -17,7 +17,7 @@ print(honeycrisp.color)
 - `__str__` керує тим, як ваш об'єкт буде перетворено у рядкове представлення для виводу
 
 ```python
-  class Apple:
+class Apple:
     def __init__(self, color, flavor):
         self.color = color
         self.flavor = flavor
@@ -31,20 +31,43 @@ print(honeycrisp)
 # prints "an apple which is red and sweet"
 ```
 
+- Метод `__repr__` повертає більш насичене інформацією, або офіційне, рядкове представлення об’єкта.
+
+```python
+class Ocean:
+    def __init__(self, sea_creature_name, sea_creature_age):
+        self.name = sea_creature_name
+        self.age = sea_creature_age
+    
+    def __str__(self):
+        return f'The creature type is {self.name} and the age is {self.age}'
+
+    def __repr__(self):
+        return f'Ocean(\'{self.name}\', {self.age})'
+
+c = Ocean('Jellyfish', 5)
+
+print(str(c))
+print(repr(c))
+
+# prints str- The creature type is Jellyfish and the age is 5
+# prints repr- Ocean('Jellyfish', 5)
+```
+
 - `__len__` повертає довжину об'єкта або колекції.
 
 ```python
-  class FruitSalad:
+class FruitSalad:
     def __init__(self, size, fruits):
         self.size = size
         self.fruits = fruits
 
     def __len__(self):
         return len(self.fruits)
-  my_salad = FruitSalad('large', ['apple', 'banana', 'cherry'])
+my_salad = FruitSalad('large', ['apple', 'banana', 'cherry'])
 
-  print(len(my_salad))
-  # print "3"
+print(len(my_salad))
+# print "3"
 ```
 
 - `__contains__` перевіряє, чи містить об'єкт елемент.
@@ -65,7 +88,7 @@ print ('ami' in obj1)   ----> False
 - `__eq__` перевіряє, чи є два об'єкти рівними.
 
 ```python
-  class Person:
+class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
