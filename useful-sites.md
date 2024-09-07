@@ -10,8 +10,8 @@
 - [deck.gallery](https://www.deck.gallery/) - beautifully designed decks, slides, keynotes, guidelines
 - [tableau](https://www.tableau.com/) 
 - [Toolfolio](https://toolfolio.io/) - це найкорисніші штуки в одному місці. Корисні нейронки, тонна безкоштовних аналогів популярних програм і бібліотеки плагінів для ваших улюблених сервісів - від Figma до Framer.
+- [Cheatography](https://cheatography.com/#google_vignette) - 6000 шпаргалок на будь-який смак. Від кодингу до кулінарії — все під одним дахом
 
-Link: https://toolfolio.io/
 ## Websites to Practice Your Frontend Skills
 
 - [Frontend Mentor](https://www.frontendmentor.io/)
