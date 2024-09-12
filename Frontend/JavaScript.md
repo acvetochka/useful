@@ -36,13 +36,16 @@ console.log(str2.concat(', ', str1));
 ### endsWith
 
 ```javaScript
-const sentence = 'The quick brown fox jumps over the lazy dog.';
-let index = 5;
-console.log(`An index of ${index} returns the character ${sentence.at(index)}`);
-// Expected output: "An index of 5 returns the character u"
-index = -4;
-console.log(`An index of ${index} returns the character ${sentence.at(index)}`);
-// Expected output: "An index of -4 returns the character d" |
+const str1 = 'Cats are the best!';
+console.log(str1.endsWith('best!'));
+// Expected output: true
+
+console.log(str1.endsWith('best', 17));
+// Expected output: true
+
+const str2 = 'Is this a question?';
+console.log(str2.endsWith('question'));
+// Expected output: false
 ```
 
 ### includes 
