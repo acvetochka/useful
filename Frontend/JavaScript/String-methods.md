@@ -9,6 +9,7 @@
 | includes | This method lets you determine whether or not a string includes another string. | `searchString` - A string to be searched for within str. Cannot be a regex.  <br>  `position` (optional) The position within the string at which to begin searching for searchString. (Defaults to 0.) | `true` if the search string is found anywhere within the given string, including when searchString is an empty string; otherwise, `false`. | string.includes(searchString, position*)<br> [includes](https://github.com/acvetochka/useful-links/blob/main/Frontend/JavaScript.md#includes) |
 | indexOf | The indexOf() method of String values searches this string and returns the index of the first occurrence of the specified substring. | `searchString` Substring to search for. <br> `position`(optional) The method returns the index of the first occurrence of the specified substring at a position greater than or equal to position, which defaults to 0 | The index of the first occurrence of searchString found, or -1 if not found. | string.indexOf(searchString, position*)<br> [indexOf](https://github.com/acvetochka/useful-links/blob/main/Frontend/JavaScript.md#indexOf)  |
 | lastIndexOf | searches this string and returns the index of the last occurrence of the specified substring | `searchString` Substring to search for.  <br> `position` (optional) The method returns the index of the last occurrence of the specified substring at a position less than or equal to position, which defaults to +Infinity | The index of the last occurrence of searchString found, or -1 if not found. | string.lastIndexOf(searchString, position) <br> [lastIndexOf](https://github.com/acvetochka/useful/blob/main/Frontend/JavaScript/String-methods.md#lastindexof) |
+| localeCompare | The localeCompare() method of String values returns a number indicating whether this string comes before, or after, or is the same as the given string in sort order. | `compareString` The string against which the referenceStr is compared. <br> `locales` (Optional) - A string with a BCP 47 language tag, or an array of such strings. <br> `options` (Optional) - An object adjusting the output format. | A negative number if referenceStr occurs before compareString; positive if the referenceStr occurs after compareString; 0 if they are equivalent. | localeCompare(compareString, locales, options) <br> [localeCompare](https://github.com/acvetochka/useful/blob/main/Frontend/JavaScript/String-methods.md#localeCompare) |
 
 ## Examples
 ### at
@@ -90,5 +91,16 @@ console.log(
   `Index of the last ${searchTerm} is ${paragraph.lastIndexOf(searchTerm)}`,
 );
 // Expected output: "Index of the last "dog" is 38"
+```
+
+### localeCompare
+```javaScript
+const a = 'réservé'; // With accents, lowercase
+const b = 'RESERVE'; // No accents, uppercase
+
+console.log(a.localeCompare(b));
+// Expected output: 1
+console.log(a.localeCompare(b, 'en', { sensitivity: 'base' }));
+// Expected output: 0
 ```
 
