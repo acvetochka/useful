@@ -10,21 +10,21 @@
    
    2.2. [Отримання інформації про файли](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#22-%D0%BE%D1%82%D1%80%D0%B8%D0%BC%D0%B0%D0%BD%D0%BD%D1%8F-%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D1%97-%D0%BF%D1%80%D0%BE-%D1%84%D0%B0%D0%B9%D0%BB%D0%B8)
    
-   2.3. [Навігація по файловій системі]()
+   2.3. [Навігація по файловій системі](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#23-%D0%BD%D0%B0%D0%B2%D1%96%D0%B3%D0%B0%D1%86%D1%96%D1%8F-%D0%BF%D0%BE-%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%96%D0%B9-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%96)
    
-   2.4. [Запуск зовнішніх команд]()
+   2.4. [Запуск зовнішніх команд](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#24-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA-%D0%B7%D0%BE%D0%B2%D0%BD%D1%96%D1%88%D0%BD%D1%96%D1%85-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4)
    
-   2.5. [Маніпуляція змінними середовища]()
+   2.5. [Маніпуляція змінними середовища](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#25-%D0%BC%D0%B0%D0%BD%D1%96%D0%BF%D1%83%D0%BB%D1%8F%D1%86%D1%96%D1%8F-%D0%B7%D0%BC%D1%96%D0%BD%D0%BD%D0%B8%D0%BC%D0%B8-%D1%81%D0%B5%D1%80%D0%B5%D0%B4%D0%BE%D0%B2%D0%B8%D1%89%D0%B0)
    
-3. [Приклади використання]()
+3. [Приклади використання](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#3-%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%B8-%D0%B2%D0%B8%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F)
 
-   3.1. [Отримати список всіх файлів у директорії]()
+   3.1. [Отримати список всіх файлів у директорії](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#31-%D0%BE%D1%82%D1%80%D0%B8%D0%BC%D0%B0%D1%82%D0%B8-%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D0%B2%D1%81%D1%96%D1%85-%D1%84%D0%B0%D0%B9%D0%BB%D1%96%D0%B2-%D1%83-%D0%B4%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D1%96%D1%97)
    
-   3.2. [Створення нового каталогу та запис файлу в нього]()
+   3.2. [Створення нового каталогу та запис файлу в нього](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#32-%D1%81%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3%D1%83-%D1%82%D0%B0-%D0%B7%D0%B0%D0%BF%D0%B8%D1%81-%D1%84%D0%B0%D0%B9%D0%BB%D1%83-%D0%B2-%D0%BD%D1%8C%D0%BE%D0%B3%D0%BE)
    
-   3.3. [Отримання абсолютного шляху до файлу]()
+   3.3. [Отримання абсолютного шляху до файлу](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#33-%D0%BE%D1%82%D1%80%D0%B8%D0%BC%D0%B0%D0%BD%D0%BD%D1%8F-%D0%B0%D0%B1%D1%81%D0%BE%D0%BB%D1%8E%D1%82%D0%BD%D0%BE%D0%B3%D0%BE-%D1%88%D0%BB%D1%8F%D1%85%D1%83-%D0%B4%D0%BE-%D1%84%D0%B0%D0%B9%D0%BB%D1%83)
    
-   3.4. [Перевірка існування та видалення файлу]()
+   3.4. [Перевірка існування та видалення файлу](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#34-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D1%96%D1%80%D0%BA%D0%B0-%D1%96%D1%81%D0%BD%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D1%82%D0%B0-%D0%B2%D0%B8%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D1%84%D0%B0%D0%B9%D0%BB%D1%83)
    
 ## 1. Імпорт модуля os
 Для використання функцій модуля спочатку потрібно його імпортувати:
