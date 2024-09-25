@@ -3,6 +3,30 @@
 
 Модуль csv у Python використовується для зручної роботи з файлами у форматі CSV (Comma Separated Values), які містять табличні дані. Модуль дозволяє легко читати з CSV файлів, записувати в них, а також працювати з даними як з рядками та стовпцями.
 
+## Зміст
+
+1. [Імпорт модуля csv](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#1-%D1%96%D0%BC%D0%BF%D0%BE%D1%80%D1%82-%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F-csv)
+2. [Основні функції модуля csv](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#2-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%96-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D1%96%D1%97-%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F-csv)
+   
+   2.1. [Читання з CSV файлів](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#21-%D1%87%D0%B8%D1%82%D0%B0%D0%BD%D0%BD%D1%8F-%D0%B7-csv-%D1%84%D0%B0%D0%B9%D0%BB%D1%96%D0%B2)
+   
+   2.2. [Читання з CSV файлів з заголовками](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#22-%D1%87%D0%B8%D1%82%D0%B0%D0%BD%D0%BD%D1%8F-%D0%B7-csv-%D1%84%D0%B0%D0%B9%D0%BB%D1%96%D0%B2-%D0%B7-%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0%D0%BC%D0%B8)
+   
+   2.3. [Запис у CSV файли](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#23-%D0%B7%D0%B0%D0%BF%D0%B8%D1%81-%D1%83-csv-%D1%84%D0%B0%D0%B9%D0%BB%D0%B8)
+   
+   2.4. [Запис у CSV файли зі словниками](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#24-%D0%B7%D0%B0%D0%BF%D0%B8%D1%81-%D1%83-csv-%D1%84%D0%B0%D0%B9%D0%BB%D0%B8-%D0%B7%D1%96-%D1%81%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC%D0%B8)
+
+3. [Налаштування CSV](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#3-%D0%BD%D0%B0%D0%BB%D0%B0%D1%88%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-csv)
+4. [Обробка спеціальних випадків](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#4-%D0%BE%D0%B1%D1%80%D0%BE%D0%B1%D0%BA%D0%B0-%D1%81%D0%BF%D0%B5%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D1%85-%D0%B2%D0%B8%D0%BF%D0%B0%D0%B4%D0%BA%D1%96%D0%B2)
+5. [Приклади використання](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#5-%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%B8-%D0%B2%D0%B8%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F)
+   
+   5.1. [Читання CSV файлу з користувацькими налаштуваннями](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#51-%D1%87%D0%B8%D1%82%D0%B0%D0%BD%D0%BD%D1%8F-csv-%D1%84%D0%B0%D0%B9%D0%BB%D1%83-%D0%B7-%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%86%D1%8C%D0%BA%D0%B8%D0%BC%D0%B8-%D0%BD%D0%B0%D0%BB%D0%B0%D1%88%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%D0%BC%D0%B8)
+   
+   5.2. [Запис у CSV файл з кількома рядками](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#52-%D0%B7%D0%B0%D0%BF%D0%B8%D1%81-%D1%83-csv-%D1%84%D0%B0%D0%B9%D0%BB-%D0%B7-%D0%BA%D1%96%D0%BB%D1%8C%D0%BA%D0%BE%D0%BC%D0%B0-%D1%80%D1%8F%D0%B4%D0%BA%D0%B0%D0%BC%D0%B8)
+
+   5.3. [Читання та запис зі словниками](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#53-%D1%87%D0%B8%D1%82%D0%B0%D0%BD%D0%BD%D1%8F-%D1%82%D0%B0-%D0%B7%D0%B0%D0%BF%D0%B8%D1%81-%D0%B7%D1%96-%D1%81%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC%D0%B8)
+   
+   
 ## 1. Імпорт модуля csv
 Для використання функцій модуля спочатку його потрібно імпортувати:
 ```python
@@ -148,5 +172,5 @@ with open("output.csv", "w", newline='') as file:
     ])
 ```
 
-## 6. Висновок
+## Висновок
 Модуль csv є простим і потужним інструментом для роботи з табличними даними у форматі CSV. Він дозволяє легко читати, обробляти та записувати дані як у вигляді рядків, так і у вигляді словників, що робить його дуже зручним для обробки даних у форматі CSV.
