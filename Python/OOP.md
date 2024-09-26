@@ -105,7 +105,106 @@ print(x==z)
 ```
 
 - `__ne__(self, other)` - Визначає поведінку оператора нерівності!=
+```python
+class Person:
+    def __init__(self, age):
+        self.age = age
+
+    def __ne__(self, other):
+        return self.age != other.age
+
+
+alice = Person(18)
+bob = Person(19)
+carl = Person(18)
+
+print(alice != bob)
+# True
+
+print(alice != carl)
+# False
+```
+
 - `__lt__(self, other)` - Визначає поведінку оператора менше ніж<
+
+```python
+class GFG: 
+    def __init__(self, Marks): 
+        self.Marks = Marks 
+    def __lt__(self, marks): 
+          return self.Marks < marks.Marks 
+  
+student1_marks = GFG(90) 
+student2_marks = GFG(88) 
+  
+print(student1_marks < student2_marks)
+# False
+
+print(student2_marks < student1_marks)
+# True
+```
+
 - `__gt__(self, other)` - Визначає поведінку оператора більшого>
+
+```python
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def __gt__(self, other):
+        if self.age > other.age:
+            return True
+        else:
+            return False
+        
+if __name__ == "__main__":
+    simone = Person('Simone', 20)
+    karl = Person('Karl', 33)
+    anna = Person('Anna', 55)
+    print(f'Compare people: {karl > simone}')  # True
+    print(f'Compare people: {simone > anna}')  # False
+```
+
 - `__le__(self, other)` - Визначає поведінку оператора менше або рівно<=
+
+```python
+class Person:
+    def __init__(self, age):
+        self.age = age
+    def __le__(self, other):
+        return self.age <= other.age
+alice = Person(18)
+bob = Person(17)
+carl = Person(18)
+print(alice <= bob)
+# False
+print(alice <= carl)
+# True
+print(bob <= alice)
+# True
+```
+
 - `__ge__(self, other)` - Визначає поведінку оператора «більше або рівно».>=
+
+```python
+class Person:
+    def __init__(self, age):
+        self.age = age
+
+    def __ge__(self, other):
+        return self.age >= other.age
+
+alice = Person(18)
+bob = Person(17)
+carl = Person(18)
+
+print(alice >= bob)
+# True
+
+print(alice >= carl)
+# True
+
+print(bob >= alice)
+# False
+```
