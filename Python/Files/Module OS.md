@@ -2,7 +2,7 @@
 
 Модуль os в Python надає інтерфейси для роботи з операційною системою, дозволяючи виконувати різноманітні дії з файлами, каталогами та іншими системними операціями.
 
-## 
+## Зміст
 1. [Імпорт модуля os](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#1-%D1%96%D0%BC%D0%BF%D0%BE%D1%80%D1%82-%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F-os)
 2. [Основні функції модуля os](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#2-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%96-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D1%96%D1%97-%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F-os)
 
@@ -32,6 +32,9 @@
 ```python
 import os
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#module-os)
+
 ## 2. Основні функції модуля os
 ### 2.1. Робота з файлами та каталогами
 Створення, перейменування, видалення файлів і директорій:
@@ -73,6 +76,8 @@ if os.path.isfile("file.txt"):
 if os.path.isdir("my_folder"):
     print("Це каталог")
 ```
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#module-os)
+
 ### 2.2. Отримання інформації про файли
 - os.path.getsize(path) — повертає розмір файлу в байтах.
 ```python
@@ -92,6 +97,9 @@ print(os.path.basename("/user/docs/file.txt"))  # Виведе "file.txt"
 ```python
 print(os.path.dirname("/user/docs/file.txt"))  # Виведе "/user/docs"
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#module-os)
+
 ### 2.3. Навігація по файловій системі
 - os.getcwd() — повертає поточний робочий каталог.
 ```python
@@ -102,11 +110,17 @@ print(f"Поточний каталог: {current_directory}")
 ```python
 os.chdir("/new/directory")  # Змінює робочий каталог на "new_directory"
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#module-os)
+
 ### 2.4. Запуск зовнішніх команд
 - os.system(command) — виконує зовнішню команду операційної системи.
 ```python
 os.system("ls -l")  # Виконає команду "ls -l" у терміналі Linux або Mac
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#module-os)
+
 ### 2.5. Маніпуляція змінними середовища
 - os.getenv(key) — отримує значення змінної середовища.
 ```python
@@ -117,6 +131,9 @@ print(f"Домашня директорія: {home_dir}")
 ```python
 os.environ["MY_VAR"] = "1234"
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#module-os)
+
 ## 3. Приклади використання
 ### 3.1. Отримати список всіх файлів у директорії
 ```python
@@ -127,6 +144,9 @@ files = os.listdir(".")
 for file in files:
     print(file)
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#module-os)
+
 ### 3.2. Створення нового каталогу та запис файлу в нього
 ```python
 import os
@@ -138,7 +158,10 @@ if not os.path.exists("new_folder"):
 # Запис файлу в новий каталог
 with open("new_folder/new_file.txt", "w") as f:
     f.write("Hello, world!")
-```  
+```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#module-os)
+
 ### 3.3. Отримання абсолютного шляху до файлу
 ```python
 import os
@@ -147,6 +170,9 @@ relative_path = "my_file.txt"
 absolute_path = os.path.abspath(relative_path)
 print(f"Абсолютний шлях: {absolute_path}")
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#module-os)
+
 ### 3.4. Перевірка існування та видалення файлу
 ```python
 import os
@@ -157,6 +183,8 @@ if os.path.exists("old_file.txt"):
 else:
     print("Файл не існує")
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md#module-os)
     
 ## Висновок
 
