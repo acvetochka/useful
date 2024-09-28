@@ -33,6 +33,9 @@
 import csv
 ```
 
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
+
 ## 2. Основні функції модуля csv
 ### 2.1. Читання з CSV файлів
 Для читання CSV файлів використовується клас csv.reader.
@@ -51,6 +54,8 @@ with open("data.csv", newline='') as file:
 
 Результат: кожен рядок файлу буде виведено у вигляді списку значень.
 
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 ### 2.2. Читання з CSV файлів з заголовками
 Якщо файл CSV містить заголовки (назви стовпців), зручніше використовувати клас csv.DictReader, який перетворює кожен рядок у словник, де ключі — це заголовки стовпців.
 
@@ -65,6 +70,8 @@ with open("data.csv", newline='') as file:
 ```
 
 Результат: кожен рядок файлу буде виведено як словник, де ключі відповідають назвам стовпців, а значення — елементам рядка.
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ### 2.3. Запис у CSV файли
 Для запису у CSV файли використовується клас csv.writer.
@@ -85,6 +92,8 @@ with open("output.csv", "w", newline='') as file:
 
 - writer.writerows(): записує відразу кілька рядків (список списків).
 
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 ### 2.4. Запис у CSV файли зі словниками
 Якщо дані представлені у вигляді словників, зручно використовувати клас csv.DictWriter, який дозволяє записувати дані у вигляді словників.
 
@@ -103,6 +112,8 @@ with open("output.csv", "w", newline='') as file:
 - writer.writeheader(): записує заголовки стовпців.
 - writer.writerow(): записує один рядок даних у вигляді словника.
 
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 ## 3. Налаштування CSV
 Модуль csv підтримує налаштування різних параметрів при читанні та записі файлів, наприклад:
 
@@ -120,10 +131,14 @@ with open("data.csv", newline='') as file:
 - delimiter=';': використовується крапка з комою як дільник між значеннями.
 - quotechar='"': використовується подвійна лапка для обрамлення значень.
 
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 ## 4. Обробка спеціальних випадків
 Пропуск порожніх рядків: можна використовувати параметр skipinitialspace=True, щоб ігнорувати початкові пропуски.
 
 Обробка значень з комами: значення, які містять коми, зазвичай обрамляються у лапки, щоб уникнути плутанини з дільником.
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ## 5. Приклади використання
 ### 5.1. Читання CSV файлу з користувацькими налаштуваннями
@@ -135,6 +150,8 @@ with open("data.csv", newline='') as file:
     for row in reader:
         print(row)
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ### 5.2. Запис у CSV файл з кількома рядками
 ```python
@@ -150,6 +167,8 @@ with open("output.csv", "w", newline='') as file:
     writer = csv.writer(file)
     writer.writerows(data)
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ### 5.3. Читання та запис зі словниками
 ```python
@@ -171,6 +190,8 @@ with open("output.csv", "w", newline='') as file:
         {"Name": "Bob", "Age": 25, "City": "Los Angeles"}
     ])
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ## Висновок
 Модуль csv є простим і потужним інструментом для роботи з табличними даними у форматі CSV. Він дозволяє легко читати, обробляти та записувати дані як у вигляді рядків, так і у вигляді словників, що робить його дуже зручним для обробки даних у форматі CSV.
