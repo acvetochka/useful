@@ -130,3 +130,19 @@ coverage report -m
 - Полегшення внесення змін у код (рефакторинг) з упевненістю, що основні функції працюють коректно.
   
 Тестування в Python — важливий процес, який допомагає забезпечити надійність та ефективність програмного забезпечення.
+
+## Корисні посилання
+
+Перейдіть за наступними посиланнями для отримання додаткової інформації:
+
+[Monitoring distributed systems](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/)
+
+[Testing reliability](https://landing.google.com/sre/sre-book/chapters/testing-reliability/)
+
+[Perfomance testing](https://testing.googleblog.com/2007/10/performance-testing.html)
+
+[Smoke testing](https://www.guru99.com/smoke-testing.html)
+
+[Exploratory testing](https://www.guru99.com/exploratory-testing.html)
+
+[Test first is fun](https://testing.googleblog.com/2008/09/test-first-is-fun_08.html)
