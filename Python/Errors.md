@@ -1,48 +1,48 @@
 # ERRORS - Конспект по типам помилок і способам їх вирішення
 
-[Типи помилок]()
+[Типи помилок](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#%D1%82%D0%B8%D0%BF%D0%B8-%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BE%D0%BA)
 
-   - [1. Синтаксичні помилки (Syntax Errors)]()
+   - [1. Синтаксичні помилки (Syntax Errors)](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#1-%D1%81%D0%B8%D0%BD%D1%82%D0%B0%D0%BA%D1%81%D0%B8%D1%87%D0%BD%D1%96-%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B8-syntax-errors)
 
-   - [2. Помилки під час виконання (Runtime Errors)]()
+   - [2. Помилки під час виконання (Runtime Errors)](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#2-%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B8-%D0%BF%D1%96%D0%B4-%D1%87%D0%B0%D1%81-%D0%B2%D0%B8%D0%BA%D0%BE%D0%BD%D0%B0%D0%BD%D0%BD%D1%8F-runtime-errors)
 
-   - [3. Логічні помилки (Logical Errors)]()
+   - [3. Логічні помилки (Logical Errors)](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#3-%D0%BB%D0%BE%D0%B3%D1%96%D1%87%D0%BD%D1%96-%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B8-logical-errors)
 
-   - [4. Індексаційні помилки (Index Errors)]()
+   - [4. Індексаційні помилки (Index Errors)](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#4-%D1%96%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B0%D1%86%D1%96%D0%B9%D0%BD%D1%96-%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B8-index-errors)
 
-   - [5. Типові помилки (Type Errors)]()
+   - [5. Типові помилки (Type Errors)](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#5-%D1%82%D0%B8%D0%BF%D0%BE%D0%B2%D1%96-%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B8-type-errors)
    
-   - [6. Помилки з файлами (File Errors)]()
+   - [6. Помилки з файлами (File Errors)](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#6-%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B8-%D0%B7-%D1%84%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC%D0%B8-file-errors)
 
-   - [7. Помилки імпорту (Import Errors)]()
+   - [7. Помилки імпорту (Import Errors)](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#7-%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B8-%D1%96%D0%BC%D0%BF%D0%BE%D1%80%D1%82%D1%83-import-errors)
 
-   - [8. Помилки доступу до змінних (Name Errors)]()
+   - [8. Помилки доступу до змінних (Name Errors)](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#8-%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B8-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D1%83-%D0%B4%D0%BE-%D0%B7%D0%BC%D1%96%D0%BD%D0%BD%D0%B8%D1%85-name-errors)
 
-   - [9. Помилки пам'яті (Memory Errors)]()
+   - [9. Помилки пам'яті (Memory Errors)](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#9-%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B8-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%96-memory-errors)
 
-[Загальні стратегії вирішення помилок]()
+[Загальні стратегії вирішення помилок](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#%D0%B7%D0%B0%D0%B3%D0%B0%D0%BB%D1%8C%D0%BD%D1%96-%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D1%96%D1%97-%D0%B2%D0%B8%D1%80%D1%96%D1%88%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BE%D0%BA)
 
-[Вбудовані винятки]()
+[Вбудовані винятки](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#%D0%B2%D0%B1%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D1%96-%D0%B2%D0%B8%D0%BD%D1%8F%D1%82%D0%BA%D0%B8)
 
-   - [1. ValueError]()
+   - [1. ValueError](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#1-valueerror)
 
-   - [2. OSError]()
+   - [2. OSError](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#2-oserror)
 
-   - [3. TypeError]()
+   - [3. TypeError](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#3-typeerror)
 
-   - [4. KeyError]()
+   - [4. KeyError](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#4-keyerror)
 
-   - [5. IndexError]()
+   - [5. IndexError](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#5-indexerror)
 
-   - [6. FileNotFoundError]()
+   - [6. FileNotFoundError](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#6-filenotfounderror)
 
-   - [7. AttributeError]()
+   - [7. AttributeError](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#7-attributeerror)
 
-   - [8. ZeroDivisionError]()
+   - [8. ZeroDivisionError](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#8-zerodivisionerror)
 
-   - [9. NameError]()
+   - [9. NameError](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#9-nameerror)
 
-   - [Як обробляти помилки]()
+   - [Як обробляти помилки](https://github.com/acvetochka/useful/blob/main/Python/Errors.md#%D1%8F%D0%BA-%D0%BE%D0%B1%D1%80%D0%BE%D0%B1%D0%BB%D1%8F%D1%82%D0%B8-%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B8)
 
 ## Типи помилок
 У процесі програмування зустрічаються різні типи помилок. Розуміння цих помилок і вміння їх вирішувати є ключовими навичками для ефективного написання коду.
@@ -244,6 +244,7 @@ Python має багатий набір вбудованих винятків д
 
 ### 1. ValueError
 Опис:
+
 - Виникає, коли функція отримує аргумент правильного типу, але з некоректним значенням.
 - Наприклад, ви намагаєтеся перетворити рядок, який не є числом, на число.
 
@@ -258,7 +259,6 @@ except ValueError as e:
 Вивід:
 
 ```csharp
-Копіювати код
 Помилка значення: invalid literal for int() with base 10: 'abc'
 ```
 
