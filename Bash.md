@@ -1,5 +1,33 @@
 # Конспект по Bash скриптам
 
+## Зміст
+[1. Що таке Bash скрипт](https://github.com/acvetochka/useful/blob/main/Bash.md#1-%D1%89%D0%BE-%D1%82%D0%B0%D0%BA%D0%B5-bash-%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82)
+
+[2. Створення та виконання Bash скриптів](https://github.com/acvetochka/useful/blob/main/Bash.md#2-%D1%81%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F-%D1%82%D0%B0-%D0%B2%D0%B8%D0%BA%D0%BE%D0%BD%D0%B0%D0%BD%D0%BD%D1%8F-bash-%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D1%96%D0%B2)
+
+[3. Змінні](https://github.com/acvetochka/useful/blob/main/Bash.md#3-%D0%B7%D0%BC%D1%96%D0%BD%D0%BD%D1%96)
+
+[4. Основні команди](https://github.com/acvetochka/useful/blob/main/Bash.md#4-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%96-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B8)
+
+[5. Цикли](https://github.com/acvetochka/useful/blob/main/Bash.md#5-%D1%86%D0%B8%D0%BA%D0%BB%D0%B8)
+
+[6. Умовні оператори](https://github.com/acvetochka/useful/blob/main/Bash.md#6-%D1%83%D0%BC%D0%BE%D0%B2%D0%BD%D1%96-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8)
+
+[7. Функції](https://github.com/acvetochka/useful/blob/main/Bash.md#7-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D1%96%D1%97)
+
+[8. Редирекція та канали](https://github.com/acvetochka/useful/blob/main/Bash.md#8-%D1%80%D0%B5%D0%B4%D0%B8%D1%80%D0%B5%D0%BA%D1%86%D1%96%D1%8F-%D1%82%D0%B0-%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8)
+
+[9. Корисні команди Bash](https://github.com/acvetochka/useful/blob/main/Bash.md#9-%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D0%BD%D1%96-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B8-bash)
+
+[10. Коментарі](https://github.com/acvetochka/useful/blob/main/Bash.md#10-%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D1%96)
+
+[11. Режими налагодження](https://github.com/acvetochka/useful/blob/main/Bash.md#11-%D1%80%D0%B5%D0%B6%D0%B8%D0%BC%D0%B8-%D0%BD%D0%B0%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F)
+
+[12. Обробка помилок](https://github.com/acvetochka/useful/blob/main/Bash.md#12-%D0%BE%D0%B1%D1%80%D0%BE%D0%B1%D0%BA%D0%B0-%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BE%D0%BA)
+
+[13. Корисні оператори](https://github.com/acvetochka/useful/blob/main/Bash.md#13-%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D0%BD%D1%96-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8)
+
+
 ## 1. Що таке Bash скрипт
 Bash скрипт — це текстовий файл, який містить послідовність команд, що виконуються оболонкою Bash у Linux/Unix системах. Сценарії використовуються для автоматизації задач, керування системою та написання програм.
 
