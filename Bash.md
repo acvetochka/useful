@@ -31,6 +31,8 @@
 ## 1. Що таке Bash скрипт
 Bash скрипт — це текстовий файл, який містить послідовність команд, що виконуються оболонкою Bash у Linux/Unix системах. Сценарії використовуються для автоматизації задач, керування системою та написання програм.
 
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Bash.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 ## 2. Створення та виконання Bash скриптів
 Створення скрипта: Використовуйте будь-який текстовий редактор (наприклад, nano, vim):
 ```bash
@@ -50,6 +52,8 @@ chmod +x script.sh
 ./script.sh
 ```
 
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Bash.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 ## 3. Змінні
 Оголошення змінних:
 
@@ -68,6 +72,8 @@ echo $my_var
 ```bash
 $1, $2, ...  # доступ до аргументів
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Bash.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ## 4. Основні команди
 - Ехо для виведення:
@@ -92,6 +98,8 @@ mv oldname.txt newname.txt
 ```bash
 cp file.txt /destination/
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Bash.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ## 5. Цикли
 - `for`:
@@ -124,6 +132,8 @@ until [ condition ]; do
   # команди
 done
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Bash.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ## 6. Умовні оператори
 - if-else:
@@ -276,6 +286,8 @@ if [ -n "$str" ]; then
 fi
 ```
 
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Bash.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 ## 7. Функції
 Функції в Bash використовуються для організації коду в блоки, які можна викликати кілька разів.
 
@@ -293,6 +305,8 @@ greet() {
 }
 greet "World"  # Виведе "Hello, World!"
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Bash.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ## 8. Редирекція та канали
 - Перенаправлення виводу:
@@ -321,6 +335,8 @@ command 2> errors.log
 ```bash
 command1 | command2
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Bash.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ## 9. Корисні команди Bash
 `grep` — пошук по тексту:
@@ -415,6 +431,8 @@ find /home/user/documents -name "file.txt"
 find /path -type f -name "file.txt"
 ```
 
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Bash.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 ## 10. Коментарі
 
 - Однорядкові коментарі:
@@ -422,11 +440,15 @@ find /path -type f -name "file.txt"
 # Це коментар
 ```
 
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Bash.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 ## 11. Режими налагодження
 Режим налагодження скрипта (виводить всі команди перед їх виконанням):
 ```bash
 bash -x script.sh
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Bash.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ## 12. Обробка помилок
 Команда trap використовується для виконання певних дій при виникненні помилки або сигналу:
@@ -434,11 +456,16 @@ bash -x script.sh
 trap 'echo "An error occurred."' ERR
 ```
 
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Bash.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 ## 13. Корисні оператори
 `&&` — виконує другу команду, якщо перша успішна:
 ```bash
 command1 && command2
 ```
+
+[Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/Bash.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 
 `||` — виконує другу команду, якщо перша не вдалася:
 ```bash
