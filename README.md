@@ -104,3 +104,7 @@ Jenkins
 - [Google courses](https://learning.google/intl/uk_ua/work/)
   
 - [Cloud Platforms glossary](https://solutionsreview.com/cloud-platforms/glossary/#theletterA)
+
+
+I am editing the README file. Adding some more details about the project description.
+
