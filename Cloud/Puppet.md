@@ -330,3 +330,91 @@ include webserver
 
 Ці конструкції дозволяють будувати гнучкі маніфести Puppet для управління конфігураціями систем.
 
+## Лялькові модулі
+Лялькові модулі (Puppet modules) - це самостійні блоки, що містять ресурси та визначення, які виконують певні функції або налаштування.
+
+### Структура лялькового модуля
+Ось основні компоненти структури лялькового модуля:
+
+- Назва модуля:
+
+  Ім'я модуля зазвичай пишеться в нижньому регістрі. Наприклад, для модуля, який керує установкою Nginx, ім'я може бути nginx.
+
+- Основна директорія модуля:
+
+  Кожен модуль містить свою власну директорію з іменем модуля.
+```bash
+/etc/puppetlabs/code/environments/production/modules/nginx/
+```
+
+- Файл init.pp:
+
+  Цей файл є основним файлом модуля. Він містить визначення класу, яке виконує основну функціональність модуля. Наприклад:
+```puppet
+class nginx {
+    package { 'nginx':
+        ensure => installed,
+    }
+
+    service { 'nginx':
+        ensure => running,
+        enable => true,
+    }
+
+    file { '/etc/nginx/nginx.conf':
+        source => 'puppet:///modules/nginx/nginx.conf',
+        notify => Service['nginx'],
+    }
+}
+```
+
+- Файл metadata.json:
+
+   Цей файл містить метадані про модуль, такі як його версія, автор, залежності та інші деталі. Наприклад:
+```json
+{
+    "name": "nginx",
+    "version": "1.0.0",
+    "author": "Your Name",
+    "license": "Apache-2.0",
+    "dependencies": [],
+    "summary": "A Puppet module for managing Nginx."
+}
+```
+
+- Директорії manifests/:
+
+  Ця директорія містить файли з визначеннями класів, ресурсів або певних функцій. Додаткові файли можуть бути створені для організації коду.
+```bash
+/etc/puppetlabs/code/environments/production/modules/nginx/manifests/
+```
+
+- Директорії files/:
+
+  Ця директорія містить статичні файли, такі як конфігураційні файли, які можуть бути використані у вашому модулі.
+```bash
+/etc/puppetlabs/code/environments/production/modules/nginx/files/
+```
+
+- Директорії templates/:
+
+  Ця директорія містить шаблони (зазвичай в форматі ERB), які використовуються для генерації конфігураційних файлів на основі значень змінних. Наприклад:
+```bash
+/etc/puppetlabs/code/environments/production/modules/nginx/templates/
+```
+
+- Директорії tests/ (необов'язково):
+
+  Ця директорія може містити файли для тестування модуля, що дозволяє забезпечити його правильність перед використанням.
+
+## Приклад структури модуля Nginx
+```csharp
+nginx/
+├── manifests/
+│   └── init.pp
+├── files/
+│   └── nginx.conf
+├── templates/
+│   └── nginx.conf.erb
+└── metadata.json
+```
