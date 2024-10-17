@@ -6,87 +6,164 @@
 - `ls` — переглянути вміст каталогу.
   - `ls -l` — показати вміст каталогу у форматі довгого списку (права доступу, власник, розмір, дата модифікації, ім'я файлу):
 
-   ```bash
-   $ ls -l
-   # Вивід:
-   -rw-r--r-- 1 user group  4096 Oct 15 12:00 file.txt
-   drwxr-xr-x 2 user group  4096 Oct 15 12:00 dir/
-   ```
+     ```bash
+     $ ls -l
+     # Вивід:
+     -rw-r--r-- 1 user group  4096 Oct 15 12:00 file.txt
+     drwxr-xr-x 2 user group  4096 Oct 15 12:00 dir/
+     ```
   - `ls -a` — показати всі файли, включаючи приховані (ті, що починаються з крапки):
 
-   ```bash
-   $ ls -a
-   # Вивід:
-   .  ..  .bashrc  file.txt  dir/
-   ```
+     ```bash
+     $ ls -a
+     # Вивід:
+     .  ..  .bashrc  file.txt  dir/
+     ```
 
    - `ls -lh` — показати розміри файлів у зручному для читання форматі (KB, MB):
 
-   ```bash
-  $ ls -lh
-  # Вивід:
-  -rw-r--r-- 1 user group 4.0K Oct 15 12:00 file.txt
-   ```
+     ```bash
+     $ ls -lh
+     # Вивід:
+     -rw-r--r-- 1 user group 4.0K Oct 15 12:00 file.txt
+     ```
 
   - `ls -R` — рекурсивно показати всі файли в поточному каталозі та підкаталогах:
 
-  ```bash
-  $ ls -R
-  ```
+    ```bash
+    $ ls -R
+    ```
   
 - `cd <каталог>` — змінити поточний каталог.
 - `mkdir <каталог>` — створити новий каталог.
 - `rmdir <каталог>` — видалити порожній каталог.
 - `touch <файл>` — створити новий файл.
+- `find` — пошук файлів
+  - `find /path/ -name "file.txt"` — знайти файл з іменем file.txt у каталозі /path/:
+  
+    ```bash
+    $ find /home/user/ -name "file.txt"
+    ```
+  
+  - `find /path/ -type f -size +10M` — знайти файли розміром більше 10 МБ:
+  
+    ```bash
+    $ find /home/user/ -type f -size +10M
+    ```
+  
+  - `find /path/ -mtime -7` — знайти файли, змінені за останні 7 днів:
+  
+    ```bash
+    $ find /home/user/ -mtime -7
+    ```
+  
+  - `find /path/ -exec rm {} \;` — знайти файли і виконати команду (в даному випадку — видалити їх):
+  
+    ```bash
+    $ find /home/user/temp/ -name "*.tmp" -exec rm {} \;
+    ```
+  
 - `cp <файл> <шлях>` — копіювати файл.
   - `cp file.txt /path/to/destination/` — копіювати файл у зазначене місце:
 
-  ```bash
-  $ cp file.txt /home/user/docs/
-  ```
+    ```bash
+    $ cp file.txt /home/user/docs/
+    ```
 
   - `cp -r dir/ /path/to/destination/` — рекурсивно копіювати каталог із вмістом:
 
-  ```bash
-  $ cp -r dir/ /home/user/docs/
-  ```
+    ```bash
+    $ cp -r dir/ /home/user/docs/
+    ```
 
   - `cp -i file.txt /path/` — запитати підтвердження перед перезаписом існуючих файлів:
 
-  ```bash
-  $ cp -i file.txt /home/user/docs/
-  ```
+    ```bash
+    $ cp -i file.txt /home/user/docs/
+    ```
 
   - `cp -v file.txt /path/` — показати інформацію про кожен файл під час копіювання:
-  ```bash
-  $ cp -v file.txt /home/user/docs/
-  ```
+    ```bash
+    $ cp -v file.txt /home/user/docs/
+    ```
 
 - `mv <файл> <шлях>` — перемістити або перейменувати файл.
+  - `mv file.txt /path/` — перемістити файл до іншого каталогу:
+
+    ```bash
+    $ mv file.txt /home/user/docs/
+    ```
+  
+  - `mv file.txt newfile.txt` — перейменувати файл:
+  
+    ```bash
+    $ mv file.txt newfile.txt
+    ```
+  
+  - `mv -i file.txt /path/` — запитати підтвердження перед перезаписом:
+  
+    ```bash
+    $ mv -i file.txt /home/user/docs/
+    ```
+  
+  - `mv -v file.txt /path/` — показати інформацію про кожен файл під час переміщення:
+  
+    ```bash
+    $ mv -v file.txt /home/user/docs/
+    ```
+
 - `rm <файл>` — видалити файл.
+  
   - `rm file.txt` — видалити файл:
 
-  ```bash
-  $ rm file.txt
-  ```
+    ```bash
+    $ rm file.txt
+    ```
   
   - `rm -r dir/` — рекурсивно видалити каталог і його вміст:
-  
-  ```bash
-  $ rm -r dir/
-  ```
+    
+    ```bash
+    $ rm -r dir/
+    ```
   
   - `rm -i file.txt` — запитати підтвердження перед видаленням файлу:
   
-  ```bash
-  $ rm -i file.txt
-  ```
+    ```bash
+    $ rm -i file.txt
+    ```
 
   - `rm -f file.txt` — примусово видалити файл без запиту підтвердження (навіть якщо немає прав доступу):
+    
+    ```bash
+    $ rm -f file.txt
+    ```
   
-  ```bash
-  $ rm -f file.txt
-  ```
+- `grep` — пошук тексту в файлах
+  - `grep "pattern" file.txt` — знайти рядки, які містять pattern у файлі:
+
+    ```bash
+    $ grep "hello" file.txt
+    ```
+
+  - `grep -i "pattern" file.txt` — виконати пошук без врахування регістру:
+  
+    ```bash
+    $ grep -i "hello" file.txt
+    ```
+  
+  - `grep -r "pattern" /path/` — рекурсивно шукати шаблон у файлах каталогу:
+  
+    ```bash
+    $ grep -r "error" /var/log/
+    ```
+  
+  - `grep -v "pattern" file.txt` — показати всі рядки, які не містять pattern:
+    
+    ```bash
+    $ grep -v "hello" file.txt
+    ```
+
+  Докладніше про grep за [посиланням](https://github.com/acvetochka/useful/blob/main/Python/Regex.md#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B8-%D0%B2%D0%B8%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F-grep)
 
 ### 2. Перегляд та обробка файлів:
 - `cat <файл>` — перегляд вмісту файлу.
@@ -102,7 +179,49 @@
 - `passwd <ім'я>` — змінити пароль користувача.
 - `usermod <опції> <користувач>` — змінити параметри користувача.
 - `chown <власник>:<група> <файл>` — змінити власника та групу файлу.
+
+  - `chown user file.txt` — змінити власника файлу:
+
+    ```bash
+    $ chown user file.txt
+    ```
+  
+  - `chown user:group file.txt` — змінити власника і групу файлу:
+  
+    ```bash
+    $ chown user:group file.txt
+    ```
+  
+  - `chown -R user:group dir/` — рекурсивно змінити власника і групу для всіх файлів у каталозі:
+  
+    ```bash
+    $ chown -R user:group dir/
+    ```
+
 - `chmod <права> <файл>` — змінити права доступу до файлу.
+  - `chmod 755 file.txt` — встановити права на файл: власник має читання, запис і виконання, група та інші — тільки читання і виконання:
+
+    ```bash
+    $ chmod 755 file.txt
+    ```
+  
+  - `chmod -R 644 dir/` — рекурсивно змінити права для всіх файлів у каталозі: власник має читання і запис, група та інші — тільки читання:
+  
+    ```bash
+    $ chmod -R 644 dir/
+    ```
+  
+  - `chmod u+x file.sh` — додати право на виконання для власника:
+  
+    ```bash
+    $ chmod u+x file.sh
+    ```
+  
+  - `chmod g-w file.txt` — забрати право на запис для групи:
+  
+    ```bash
+    $ chmod g-w file.txt
+    ```
 
 **Права доступу:**
 - `r` (читання), `w` (запис), `x` (виконання).
@@ -136,8 +255,28 @@
 - `tail -f /var/log/syslog` — постійне стеження за системними логами.
 
 ### 8. Робота з архівами:
-- `tar -cvf <архів.tar> <каталог>` — створити архів.
+- `tar -cvf <архів.tar> <каталог>` — створити архів з каталогу.
+  
+    ```bash
+    $ tar -cvf archive.tar /home/user/docs/
+    ```
+  
 - `tar -xvf <архів.tar>` — розпакувати архів.
+    ```bash
+    $ tar -xvf archive.tar
+    ```
+- `tar -czvf <archive.tar> <каталог>` — створити стиснутий архів:
+  
+    ```bash
+    $ tar -czvf archive.tar.gz /home/user/docs/
+    ```
+  
+- tar -xzvf <archive.tar> — розпакувати стиснутий архів:
+  
+    ```bash
+    $ tar -xzvf archive.tar.gz
+    ```
+  
 - `gzip <файл>` — стиснути файл.
 - `gunzip <файл.gz>` — розпакувати стиснутий файл.
 
