@@ -7,7 +7,7 @@
   - `ls -l` — показати вміст каталогу у форматі довгого списку (права доступу, власник, розмір, дата модифікації, ім'я файлу):
 
      ```bash
-     $ ls -l
+      ls -l
      # Вивід:
      -rw-r--r-- 1 user group  4096 Oct 15 12:00 file.txt
      drwxr-xr-x 2 user group  4096 Oct 15 12:00 dir/
@@ -15,7 +15,7 @@
   - `ls -a` — показати всі файли, включаючи приховані (ті, що починаються з крапки):
 
      ```bash
-     $ ls -a
+      ls -a
      # Вивід:
      .  ..  .bashrc  file.txt  dir/
      ```
@@ -23,7 +23,7 @@
    - `ls -lh` — показати розміри файлів у зручному для читання форматі (KB, MB):
 
      ```bash
-     $ ls -lh
+      ls -lh
      # Вивід:
      -rw-r--r-- 1 user group 4.0K Oct 15 12:00 file.txt
      ```
@@ -31,7 +31,7 @@
   - `ls -R` — рекурсивно показати всі файли в поточному каталозі та підкаталогах:
 
     ```bash
-    $ ls -R
+     ls -R
     ```
   
 - `cd <каталог>` — змінити поточний каталог.
@@ -42,74 +42,74 @@
   - `find /path/ -name "file.txt"` — знайти файл з іменем file.txt у каталозі /path/:
   
     ```bash
-    $ find /home/user/ -name "file.txt"
+     find /home/user/ -name "file.txt"
     ```
   
   - `find /path/ -type f -size +10M` — знайти файли розміром більше 10 МБ:
   
     ```bash
-    $ find /home/user/ -type f -size +10M
+     find /home/user/ -type f -size +10M
     ```
   
   - `find /path/ -mtime -7` — знайти файли, змінені за останні 7 днів:
   
     ```bash
-    $ find /home/user/ -mtime -7
+     find /home/user/ -mtime -7
     ```
   
   - `find /path/ -exec rm {} \;` — знайти файли і виконати команду (в даному випадку — видалити їх):
   
     ```bash
-    $ find /home/user/temp/ -name "*.tmp" -exec rm {} \;
+     find /home/user/temp/ -name "*.tmp" -exec rm {} \;
     ```
   
 - `cp <файл> <шлях>` — копіювати файл.
   - `cp file.txt /path/to/destination/` — копіювати файл у зазначене місце:
 
     ```bash
-    $ cp file.txt /home/user/docs/
+     cp file.txt /home/user/docs/
     ```
 
   - `cp -r dir/ /path/to/destination/` — рекурсивно копіювати каталог із вмістом:
 
     ```bash
-    $ cp -r dir/ /home/user/docs/
+     cp -r dir/ /home/user/docs/
     ```
 
   - `cp -i file.txt /path/` — запитати підтвердження перед перезаписом існуючих файлів:
 
     ```bash
-    $ cp -i file.txt /home/user/docs/
+     cp -i file.txt /home/user/docs/
     ```
 
   - `cp -v file.txt /path/` — показати інформацію про кожен файл під час копіювання:
     ```bash
-    $ cp -v file.txt /home/user/docs/
+     cp -v file.txt /home/user/docs/
     ```
 
 - `mv <файл> <шлях>` — перемістити або перейменувати файл.
   - `mv file.txt /path/` — перемістити файл до іншого каталогу:
 
     ```bash
-    $ mv file.txt /home/user/docs/
+     mv file.txt /home/user/docs/
     ```
   
   - `mv file.txt newfile.txt` — перейменувати файл:
   
     ```bash
-    $ mv file.txt newfile.txt
+     mv file.txt newfile.txt
     ```
   
   - `mv -i file.txt /path/` — запитати підтвердження перед перезаписом:
   
     ```bash
-    $ mv -i file.txt /home/user/docs/
+     mv -i file.txt /home/user/docs/
     ```
   
   - `mv -v file.txt /path/` — показати інформацію про кожен файл під час переміщення:
   
     ```bash
-    $ mv -v file.txt /home/user/docs/
+     mv -v file.txt /home/user/docs/
     ```
 
 - `rm <файл>` — видалити файл.
@@ -117,50 +117,50 @@
   - `rm file.txt` — видалити файл:
 
     ```bash
-    $ rm file.txt
+     rm file.txt
     ```
   
   - `rm -r dir/` — рекурсивно видалити каталог і його вміст:
     
     ```bash
-    $ rm -r dir/
+     rm -r dir/
     ```
   
   - `rm -i file.txt` — запитати підтвердження перед видаленням файлу:
   
     ```bash
-    $ rm -i file.txt
+     rm -i file.txt
     ```
 
   - `rm -f file.txt` — примусово видалити файл без запиту підтвердження (навіть якщо немає прав доступу):
     
     ```bash
-    $ rm -f file.txt
+     rm -f file.txt
     ```
   
 - `grep` — пошук тексту в файлах
   - `grep "pattern" file.txt` — знайти рядки, які містять pattern у файлі:
 
     ```bash
-    $ grep "hello" file.txt
+     grep "hello" file.txt
     ```
 
   - `grep -i "pattern" file.txt` — виконати пошук без врахування регістру:
   
     ```bash
-    $ grep -i "hello" file.txt
+     grep -i "hello" file.txt
     ```
   
   - `grep -r "pattern" /path/` — рекурсивно шукати шаблон у файлах каталогу:
   
     ```bash
-    $ grep -r "error" /var/log/
+     grep -r "error" /var/log/
     ```
   
   - `grep -v "pattern" file.txt` — показати всі рядки, які не містять pattern:
     
     ```bash
-    $ grep -v "hello" file.txt
+     grep -v "hello" file.txt
     ```
 
   Докладніше про grep за [посиланням](https://github.com/acvetochka/useful/blob/main/Python/Regex.md#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B8-%D0%B2%D0%B8%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F-grep)
@@ -183,44 +183,44 @@
   - `chown user file.txt` — змінити власника файлу:
 
     ```bash
-    $ chown user file.txt
+     chown user file.txt
     ```
   
   - `chown user:group file.txt` — змінити власника і групу файлу:
   
     ```bash
-    $ chown user:group file.txt
+     chown user:group file.txt
     ```
   
   - `chown -R user:group dir/` — рекурсивно змінити власника і групу для всіх файлів у каталозі:
   
     ```bash
-    $ chown -R user:group dir/
+     chown -R user:group dir/
     ```
 
 - `chmod <права> <файл>` — змінити права доступу до файлу.
   - `chmod 755 file.txt` — встановити права на файл: власник має читання, запис і виконання, група та інші — тільки читання і виконання:
 
     ```bash
-    $ chmod 755 file.txt
+     chmod 755 file.txt
     ```
   
   - `chmod -R 644 dir/` — рекурсивно змінити права для всіх файлів у каталозі: власник має читання і запис, група та інші — тільки читання:
   
     ```bash
-    $ chmod -R 644 dir/
+     chmod -R 644 dir/
     ```
   
   - `chmod u+x file.sh` — додати право на виконання для власника:
   
     ```bash
-    $ chmod u+x file.sh
+     chmod u+x file.sh
     ```
   
   - `chmod g-w file.txt` — забрати право на запис для групи:
   
     ```bash
-    $ chmod g-w file.txt
+     chmod g-w file.txt
     ```
 
     <details>
@@ -268,7 +268,7 @@
     це можна зробити наступним чином:
     
       ```bash
-      $ chmod 754 файл.txt
+       chmod 754 file.txt
       ```
     
     Пояснення цифр:
@@ -282,7 +282,7 @@
     1. `chmod 777` — усі мають повний доступ (читання, запис і виконання) до файлу або директорії:
     
         ```bash
-        $ chmod 777 файл.txt
+         chmod 777 file.txt
         ```
       
     - 7 (rwx) для власника.
@@ -292,7 +292,7 @@
     2. `chmod 644` — власник має права читати і записувати, група і інші можуть лише читати:
     
         ```bash
-        $ chmod 644 файл.txt
+         chmod 644 file.txt
         ```
       
     - 6 (rw-) для власника.
@@ -302,7 +302,7 @@
     3. `chmod 755` — власник має повний доступ, група і інші можуть лише читати і виконувати:
     
         ```bash
-        $ chmod 755 скрипт.sh
+         chmod 755 script.sh
         ```
       
     - 7 (rwx) для власника.
@@ -354,23 +354,23 @@
 - `tar -cvf <архів.tar> <каталог>` — створити архів з каталогу.
   
     ```bash
-    $ tar -cvf archive.tar /home/user/docs/
+     tar -cvf archive.tar /home/user/docs/
     ```
   
 - `tar -xvf <архів.tar>` — розпакувати архів.
     ```bash
-    $ tar -xvf archive.tar
+     tar -xvf archive.tar
     ```
 - `tar -czvf <archive.tar> <каталог>` — створити стиснутий архів:
   
     ```bash
-    $ tar -czvf archive.tar.gz /home/user/docs/
+     tar -czvf archive.tar.gz /home/user/docs/
     ```
   
 - tar -xzvf <archive.tar> — розпакувати стиснутий архів:
   
     ```bash
-    $ tar -xzvf archive.tar.gz
+     tar -xzvf archive.tar.gz
     ```
   
 - `gzip <файл>` — стиснути файл.
@@ -381,14 +381,14 @@
 - `systemctl status <служба>` — перевірити статус служби:
 
   ```bash
-  $ systemctl status apache2
+   systemctl status apache2
   ```
   Ця команда показує інформацію про поточний статус служби, включаючи її активність, PID і журнали.
 
 - `systemctl start <служба>` — запустити службу:
 
   ```bash
-  $ systemctl start apache2
+   systemctl start apache2
   ```
 
   Використовується для запуску служби, якщо вона не працює.
@@ -396,7 +396,7 @@
 - `systemctl stop <служба>` — зупинити службу:
 
   ``` bash
-  $ systemctl stop apache2
+   systemctl stop apache2
   ```
 
   Зупиняє поточну роботу служби.
@@ -404,7 +404,7 @@
 - `systemctl restart <служба>` — перезапустити службу:
 
   ```bash
-  $ systemctl restart apache2
+   systemctl restart apache2
   ```
 
   Перезапуск служби використовується для перезавантаження конфігурацій або після внесення змін до служби.
@@ -412,7 +412,7 @@
 - `systemctl enable <служба>` — активувати службу при завантаженні системи:
 
   ```bash
-  $ systemctl enable apache2
+   systemctl enable apache2
   ```
 
   Встановлює службу для автоматичного запуску при кожному завантаженні системи.
@@ -420,7 +420,7 @@
 - `systemctl disable <служба>` — вимкнути автозапуск служби:
 
   ```bash
-  $ systemctl disable apache2
+   systemctl disable apache2
   ```
 
   Відключає службу від автоматичного запуску при завантаженні системи.
@@ -428,7 +428,7 @@
 - `systemctl reload <служба>` — перезавантажити конфігурацію служби:
 
   ```bash
-  $ systemctl reload apache2
+   systemctl reload apache2
   ```
 
   Використовується для перезавантаження конфігурації служби без її повного перезапуску.
@@ -436,7 +436,7 @@
 - `systemctl is-enabled <служба>` — перевірити, чи активовано службу для автозапуску:
 
   ```bash
-  $ systemctl is-enabled apache2
+   systemctl is-enabled apache2
   ```
 
   Ця команда виведе, чи служба включена для автозапуску.
@@ -444,7 +444,7 @@
 - `systemctl list-units --type=service` — показати список усіх активних служб:
 
   ```bash
-  $ systemctl list-units --type=service
+   systemctl list-units --type=service
   ```
 
   Ця команда показує список усіх активних служб на системі.
@@ -452,7 +452,7 @@
 - `journalctl -u <служба>` — переглянути журнал для конкретної служби:
 
   ```bash
-  $ journalctl -u apache2
+   journalctl -u apache2
   ```
 
   Показує детальний лог служби з її помилками, повідомленнями та іншою інформацією.
@@ -463,28 +463,28 @@
 
 - `service <служба> status` — перевірити статус служби.
   ```bash
-  $ service apache2 status
+   service apache2 status
   ```
   
 - `service <служба> start` — запустити службу.
 
   ```bash
-  $ service apache2 start
+   service apache2 start
   ```
   
 - `service <служба> stop` — зупинити службу.
   ```bash
-  $ service apache2 stop
+   service apache2 stop
   ```
 
 - `service <служба> restart` — перезапустити службу.
   ```bash
-  $ service apache2 restart
+   service apache2 restart
   ```
   
 - `update-rc.d <служба> defaults` — активувати службу для автозапуску при завантаженні системи.
   ```bash
-  $ update-rc.d apache2 defaults
+   update-rc.d apache2 defaults
   ```
 
 ### 3. Upstart (була заміною SysVinit у деяких версіях Ubuntu, зараз переважно замінена на systemd)
@@ -492,21 +492,21 @@
 **Основні команди:**
 - `status <служба>` — перевірити статус служби.
   ```bash
-  $ status apache2
+   status apache2
   ```
 - `start <служба>` — запустити службу.
   ```bash
-  $ start apache2
+   start apache2
   ```
   
 - `stop <служба>` — зупинити службу.
   ```bash
-  $ stop apache2
+   stop apache2
   ```
   
 - `restart <служба>` — перезапустити службу.
   ```bash
-  $ restart apache2
+   restart apache2
   ```
   
 - `initctl reload-configuration` — перезавантажити конфігурацію Upstart для нових служб.
@@ -521,22 +521,22 @@
 - `rc-service <служба> start` — запустити службу.
   
   ```bash
-  $ rc-service apache2 start
+   rc-service apache2 start
   ```
 - `rc-service <служба> stop` — зупинити службу.
   
   ```bash
-  $ rc-service apache2 stop
+   rc-service apache2 stop
   ```
 - `rc-service <служба> restart` — перезапустити службу.
   
   ```bash
-  $ rc-service apache2 restart
+   rc-service apache2 restart
   ```
 - `rc-update add <служба>` — активувати службу для автозапуску.
   
   ```bash
-  $ rc-update add apache2
+   rc-update add apache2
   ```
 
 6. runit (легка та швидка система ініціалізації, використовується в таких дистрибутивах, як Void Linux)
@@ -544,22 +544,22 @@
 - `sv status <служба>` — перевірити статус служби.
   
   ```bash
-  $ sv status apache2
+   sv status apache2
   ```
 - `sv start <служба>` — запустити службу.
   
   ```bash
-  $ sv start apache2
+   sv start apache2
   ```
 - `sv stop <служба>` — зупинити службу.
   
   ```bash
-  $ sv stop apache2
+   sv stop apache2
   ```
 - `sv restart <служба>` — перезапустити службу.
   
   ```bash
-  $ sv restart apache2
+   sv restart apache2
   ```
 
   **Підсумок:**
