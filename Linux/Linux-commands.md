@@ -1,5 +1,24 @@
 # Команди Linux
 
+## Зміст
+
+- [Основні команди Linux](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%96-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B8-linux)
+  1. [Навігація по файловій системі](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#1-%D0%BD%D0%B0%D0%B2%D1%96%D0%B3%D0%B0%D1%86%D1%96%D1%8F-%D0%BF%D0%BE-%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%96%D0%B9-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%96)
+  2. [Перегляд та обробка файлів](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#2-%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D0%BB%D1%8F%D0%B4-%D1%82%D0%B0-%D0%BE%D0%B1%D1%80%D0%BE%D0%B1%D0%BA%D0%B0-%D1%84%D0%B0%D0%B9%D0%BB%D1%96%D0%B2)
+  3. [Користувачі та права доступу](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#3-%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%87%D1%96-%D1%82%D0%B0-%D0%BF%D1%80%D0%B0%D0%B2%D0%B0-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D1%83)
+  4. [Процеси](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#4-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%B8)
+  5. [Мережеві команди](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#5-%D0%BC%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D1%96-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B8)
+  6. [Управління пакетами](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#6-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%96%D0%BD%D0%BD%D1%8F-%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%D0%B0%D0%BC%D0%B8)
+  7. [Журнали та логи](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#7-%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B8-%D1%82%D0%B0-%D0%BB%D0%BE%D0%B3%D0%B8)
+  8. [Робота з архівами](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#8-%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B0-%D0%B7-%D0%B0%D1%80%D1%85%D1%96%D0%B2%D0%B0%D0%BC%D0%B8)
+- [Управління службами та демонами](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%96%D0%BD%D0%BD%D1%8F-%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D0%B0%D0%BC%D0%B8-%D1%82%D0%B0-%D0%B4%D0%B5%D0%BC%D0%BE%D0%BD%D0%B0%D0%BC%D0%B8)
+  1. [systemd](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#1-systemd--%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D1%96%D0%BD%D1%96%D1%86%D1%96%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%97-%D1%83-%D0%B1%D0%B0%D0%B3%D0%B0%D1%82%D1%8C%D0%BE%D1%85-%D1%81%D1%83%D1%87%D0%B0%D1%81%D0%BD%D0%B8%D1%85-%D0%B4%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D0%B0%D1%85-linux-%D0%BD%D0%B0%D0%B9%D1%81%D1%83%D1%87%D0%B0%D1%81%D0%BD%D1%96%D1%88%D0%B0-%D1%96-%D0%BF%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D0%B0-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D1%96%D0%BD%D1%96%D1%86%D1%96%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%97-%D0%B2-%D0%B1%D1%96%D0%BB%D1%8C%D1%88%D0%BE%D1%81%D1%82%D1%96-%D0%B4%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D1%96%D0%B2-%D1%8F%D0%BA-%D0%BE%D1%82-ubuntu-fedora-centos)
+  2. [SysVinit](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#2-sysvinit-%D1%81%D1%82%D0%B0%D1%80%D1%96%D1%88%D0%B0-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D1%96%D0%BD%D1%96%D1%86%D1%96%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%97-%D0%B2%D0%B8%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D1%83%D1%94%D1%82%D1%8C%D1%81%D1%8F-%D0%B2-%D1%82%D0%B0%D0%BA%D0%B8%D1%85-%D0%B4%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D0%B0%D1%85-%D1%8F%D0%BA-debian-centos-%D0%B4%D0%BE-%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4%D1%83-%D0%BD%D0%B0-systemd)
+  3. [Upstart](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#3-upstart-%D0%B1%D1%83%D0%BB%D0%B0-%D0%B7%D0%B0%D0%BC%D1%96%D0%BD%D0%BE%D1%8E-sysvinit-%D1%83-%D0%B4%D0%B5%D1%8F%D0%BA%D0%B8%D1%85-%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%D1%85-ubuntu-%D0%B7%D0%B0%D1%80%D0%B0%D0%B7-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%B0%D0%B6%D0%BD%D0%BE-%D0%B7%D0%B0%D0%BC%D1%96%D0%BD%D0%B5%D0%BD%D0%B0-%D0%BD%D0%B0-systemd)
+  4. [OpenRC](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#4-openrc-%D0%B2%D0%B8%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D1%83%D1%94%D1%82%D1%8C%D1%81%D1%8F-%D0%B2-%D0%B4%D0%B5%D1%8F%D0%BA%D0%B8%D1%85-%D0%B4%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D0%B0%D1%85-%D1%82%D0%B0%D0%BA%D0%B8%D1%85-%D1%8F%D0%BA-gentoo-alpine-linux)
+  5. [runit]
+- [Bash-скрипти](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#bash-%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B8)
+
 ## Основні команди Linux
 ### 1. Навігація по файловій системі:
 - `pwd` — показати поточний каталог.
@@ -778,7 +797,8 @@
    rc-update add apache2
   ```
 
-6. runit (легка та швидка система ініціалізації, використовується в таких дистрибутивах, як Void Linux)
+### 5. runit (легка та швидка система ініціалізації, використовується в таких дистрибутивах, як Void Linux)
+   
 **Основні команди:**
 - `sv status <служба>` — перевірити статус служби.
   
