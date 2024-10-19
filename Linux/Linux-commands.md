@@ -16,7 +16,7 @@
   2. [SysVinit](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#2-sysvinit-%D1%81%D1%82%D0%B0%D1%80%D1%96%D1%88%D0%B0-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D1%96%D0%BD%D1%96%D1%86%D1%96%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%97-%D0%B2%D0%B8%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D1%83%D1%94%D1%82%D1%8C%D1%81%D1%8F-%D0%B2-%D1%82%D0%B0%D0%BA%D0%B8%D1%85-%D0%B4%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D0%B0%D1%85-%D1%8F%D0%BA-debian-centos-%D0%B4%D0%BE-%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4%D1%83-%D0%BD%D0%B0-systemd)
   3. [Upstart](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#3-upstart-%D0%B1%D1%83%D0%BB%D0%B0-%D0%B7%D0%B0%D0%BC%D1%96%D0%BD%D0%BE%D1%8E-sysvinit-%D1%83-%D0%B4%D0%B5%D1%8F%D0%BA%D0%B8%D1%85-%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%D1%85-ubuntu-%D0%B7%D0%B0%D1%80%D0%B0%D0%B7-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%B0%D0%B6%D0%BD%D0%BE-%D0%B7%D0%B0%D0%BC%D1%96%D0%BD%D0%B5%D0%BD%D0%B0-%D0%BD%D0%B0-systemd)
   4. [OpenRC](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#4-openrc-%D0%B2%D0%B8%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D1%83%D1%94%D1%82%D1%8C%D1%81%D1%8F-%D0%B2-%D0%B4%D0%B5%D1%8F%D0%BA%D0%B8%D1%85-%D0%B4%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D0%B0%D1%85-%D1%82%D0%B0%D0%BA%D0%B8%D1%85-%D1%8F%D0%BA-gentoo-alpine-linux)
-  5. [runit]
+  5. [runit](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#5-runit-%D0%BB%D0%B5%D0%B3%D0%BA%D0%B0-%D1%82%D0%B0-%D1%88%D0%B2%D0%B8%D0%B4%D0%BA%D0%B0-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D1%96%D0%BD%D1%96%D1%86%D1%96%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%97-%D0%B2%D0%B8%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D1%83%D1%94%D1%82%D1%8C%D1%81%D1%8F-%D0%B2-%D1%82%D0%B0%D0%BA%D0%B8%D1%85-%D0%B4%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D0%B0%D1%85-%D1%8F%D0%BA-void-linux)
 - [Bash-скрипти](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#bash-%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B8)
 
 ## Основні команди Linux
@@ -55,6 +55,9 @@
     ```bash
      ls -R
     ```
+
+    [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+    
   </details>
   
 - `cd <каталог>` — змінити поточний каталог.
@@ -88,6 +91,8 @@
     ```bash
      find /home/user/temp/ -name "*.tmp" -exec rm {} \;
     ```
+
+    [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
   </details>
   
 - `cp <файл> <шлях>` — копіювати файл.
@@ -117,6 +122,8 @@
     ```bash
      cp -v file.txt /home/user/docs/
     ```
+
+    [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
   </details>
 
 - `mv <файл> <шлях>` — перемістити або перейменувати файл.
@@ -147,6 +154,8 @@
     ```bash
      mv -v file.txt /home/user/docs/
     ```
+
+    [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
   </details>
 
 - `rm <файл>` — видалити файл.
@@ -177,6 +186,8 @@
     ```bash
      rm -f file.txt
     ```
+
+    [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
   </details>
   
 - `grep` — пошук тексту в файлах
@@ -212,12 +223,16 @@
 
   </details>
 
+  [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 ### 2. Перегляд та обробка файлів:
 - `cat <файл>` — перегляд вмісту файлу.
 - `less <файл>` — посторінковий перегляд файлу.
 - `head <файл>` — показати початкові рядки файлу.
 - `tail <файл>` — показати останні рядки файлу.
 - `nano <файл>` або `vim <файл>` — редагування файлів у текстових редакторах.
+
+  [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ### 3. Користувачі та права доступу:
 - `whoami` — показати ім’я поточного користувача.
@@ -247,6 +262,8 @@
     ```bash
      chown -R user:group dir/
     ```
+
+    [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
   </details>
 
 - `chmod <права> <файл>` — змінити права доступу до файлу.
@@ -378,6 +395,8 @@
     Таким чином, цифрове значення прав є зручним і точним способом налаштування доступу до файлів у Linux.
     </details>
   </details>
+
+  [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ### 4. Процеси:
 - `ps` — показати активні процеси.
@@ -581,17 +600,23 @@
       ```bash
       ps -u user1 -o pid,%cpu,%mem,cmd
       ```
+
+  [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
   
   </details>
 - `top` — моніторинг процесів у реальному часі.
 - `kill <PID>` — завершити процес за ідентифікатором (PID).
 - `bg` / `fg` — перевести процес у фоновий/передній режим.
 
+  [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 ### 5. Мережеві команди:
 - `ifconfig` — налаштування мережевих інтерфейсів.
 - `ping <адреса>` — перевірка доступності вузла.
 - `netstat` — перегляд мережевих з'єднань.
 - `ssh <користувач>@<хост>` — підключення до віддаленого сервера через SSH.
+
+  [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ### 6. Управління пакетами:
 - Debian-based (Ubuntu, Debian):
@@ -602,11 +627,15 @@
   - `yum update` — оновити пакети.
   - `yum install <пакет>` — встановити пакет.
   - `yum remove <пакет>` — видалити пакет.
+ 
+  [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ### 7. Журнали та логи:
 - `dmesg` — перегляд системних повідомлень.
 - `journalctl` — перегляд логів systemd.
 - `tail -f /var/log/syslog` — постійне стеження за системними логами.
+
+  [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ### 8. Робота з архівами:
 - `tar -cvf <архів.tar> <каталог>` — створити архів з каталогу.
@@ -625,14 +654,16 @@
      tar -czvf archive.tar.gz /home/user/docs/
     ```
   
-- tar -xzvf <archive.tar> — розпакувати стиснутий архів:
+- `tar -xzvf <archive.tar>` — розпакувати стиснутий архів:
   
     ```bash
      tar -xzvf archive.tar.gz
     ```
-  
+ 
 - `gzip <файл>` — стиснути файл.
 - `gunzip <файл.gz>` — розпакувати стиснутий файл.
+
+  [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ## Управління службами та демонами
 ### 1. systemd — основна система ініціалізації у багатьох сучасних дистрибутивах Linux (найсучасніша і популярна система ініціалізації в більшості дистрибутивів, як-от Ubuntu, Fedora, CentOS):
@@ -715,6 +746,8 @@
 
   Показує детальний лог служби з її помилками, повідомленнями та іншою інформацією.
 
+  [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 ### 2. SysVinit (старіша система ініціалізації, використовується в таких дистрибутивах, як Debian, CentOS, до переходу на systemd)
 
 **Основні команди:**
@@ -745,6 +778,8 @@
    update-rc.d apache2 defaults
   ```
 
+  [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 ### 3. Upstart (була заміною SysVinit у деяких версіях Ubuntu, зараз переважно замінена на systemd)
 
 **Основні команди:**
@@ -768,6 +803,8 @@
   ```
   
 - `initctl reload-configuration` — перезавантажити конфігурацію Upstart для нових служб.
+
+  [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
   
 ### 4. OpenRC (використовується в деяких дистрибутивах, таких як Gentoo, Alpine Linux)
    
@@ -797,6 +834,8 @@
    rc-update add apache2
   ```
 
+  [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 ### 5. runit (легка та швидка система ініціалізації, використовується в таких дистрибутивах, як Void Linux)
    
 **Основні команди:**
@@ -821,6 +860,8 @@
    sv restart apache2
   ```
 
+  [Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
   **Підсумок:**
   systemd є найпопулярнішою системою ініціалізації на сьогодні, і більшість сучасних дистрибутивів використовують саме її.
   Інші системи, такі як SysVinit, Upstart, OpenRC, runit, продовжують використовуватись в деяких спеціалізованих дистрибутивах або старих версіях систем.
@@ -844,3 +885,5 @@ echo "Привіт, світ!"
 - Функції: створюються для повторного використання коду.
 
 Докладніше про Bash за [посиланням](https://github.com/acvetochka/useful/blob/main/Bash.md)
+
+[Повернутися до зміcту](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
