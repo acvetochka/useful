@@ -1,101 +1,102 @@
 # Команда wget
 
-1. Завантаження одного файлу
+## 1. Завантаження одного файлу
 
 Якщо все, що потрібно, це завантаження одного файлу, нам підійде наступна конструкція:
 
 ```powershell
-$ wget https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.3.1/nagios-4.3.1.tar.gz?r=&ts=1489637334&use_mirror=excellmedia
+wget https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.3.1/nagios-4.3.1.tar.gz?r=&ts=1489637334&use_mirror=excellmedia
 ```
 Після введення такої команди розпочнеться завантаження Nagios Core. У ході цього процесу можна буде бачити дані про завантаження, наприклад, відомості про те, який обсяг даних вже завантажено, поточну швидкість і те, скільки часу залишилося до кінця завантаження.
 
-2. Завантаження файлу та збереження його з новим ім'ям
+## 2. Завантаження файлу та збереження його з новим ім'ям
 
 Якщо ми хочемо зберегти завантажений файл під ім'ям, яке відрізняється від його вихідного імені, нам знадобиться команда wgetз параметром -O:
 
 ```powershell
-$ wget -O nagios_latest https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.3.1/nagios-4.3.1.tar.gz?r=&ts=1489637334&use_mirror=excellmedia
+wget -O nagios_latest https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.3.1/nagios-4.3.1.tar.gz?r=&ts=1489637334&use_mirror=excellmedia
 ```
 При такому підході завантажений файл буде збережено під назвою nagios_latest.
 
-3. Обмеження швидкості завантаження файлів
+## 3. Обмеження швидкості завантаження файлів
 
 При необхідності швидкість завантаження файлів wgetможна обмежити. В результаті ця операція не займатиме весь доступний канал передачі даних і не вплине на інші процеси, пов'язані з мережею. Зробити це можна, використовуючи параметр --limit-rateі вказавши обмеження швидкості, виражене в байтах (у вигляді звичайного числа), кілобайтах (додавши після числа K) або мегабайтах ( M) в секунду:
 ```powershell
-$ wget ––limit-rate=500K https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.3.1/nagios-4.3.1.tar.gz?r=&ts=1489637334&use_mirror=excellmedia
+wget ––limit-rate=500K https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.3.1/nagios-4.3.1.tar.gz?r=&ts=1489637334&use_mirror=excellmedia
 ```
 Тут встановлено обмеження швидкості завантаження, що дорівнює 500 Кб/с.
 
-4. Завершення перерваного завантаження
+## 4. Завершення перерваного завантаження
 
 Якщо під час завантаження файлів цю операцію було перервано, можна відновити завантаження за допомогою -cкоманди wget:
 ```powershell
-$ wget –c https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.3.1/nagios-4.3.1.tar.gz?r=&ts=1489637334&use_mirror=excellmedia
+wget –c https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.3.1/nagios-4.3.1.tar.gz?r=&ts=1489637334&use_mirror=excellmedia
 ```
 Якщо цей параметр не використовувати, завантаження недокачаного файлу почнеться спочатку.
 
-5. Фонове завантаження файлу
+## 5. Фонове завантаження файлу
 
 Якщо ви завантажуєте файл величезного розміру і хочете виконувати цю операцію на тлі, зробити це можна за допомогою параметра -b:
 
 ```powershell
-$ wget –b https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.3.1/nagios-4.3.1.tar.gz?r=&ts=1489637334&use_mirror=excellmedia
+wget –b https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.3.1/nagios-4.3.1.tar.gz?r=&ts=1489637334&use_mirror=excellmedia
 ```
-6. Завантаження кількох файлів
+
+## 6. Завантаження кількох файлів
 
 Якщо є список URL-файлів, які потрібно завантажити, але вам не хочеться вручну запускати завантаження цих файлів, можна використовувати параметр -I. Однак, перед тим, як розпочинати завантаження, потрібно створити файл, який містить усі адреси. Наприклад, зробити це можна такою командою:
 ```powershell
-$ vi url.txt
+vi url.txt
 ```
 У цей файл потрібно помістити адреси по одній у кожному рядку. Далі, залишилося лише запустити wget, передавши цій утиліті щойно створений файл зі списком завантажень:
 ```powershell
-$ wget –I url.txt
+wget –I url.txt
 ```
 Виконання цієї команди призведе до чергового завантаження всіх файлів зі списку.
 
-7. Збільшення загальної кількості спроб завантаження файлу
+## 7. Збільшення загальної кількості спроб завантаження файлу
 
 Для того, щоб настроїти кількість повторних спроб завантаження файлу, можна використовувати параметр --tries:
 ```powershell
-$ wget ––tries=100 https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.3.1/nagios-4.3.1.tar.gz?r=&ts=1489637334&use_mirror=excellmedia
+wget ––tries=100 https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.3.1/nagios-4.3.1.tar.gz?r=&ts=1489637334&use_mirror=excellmedia
 ```
-8. Завантаження файлів із FTP-сервера
+## 8. Завантаження файлів із FTP-сервера
 
 Команда завантаження файлу з анонімного FTP-сервера за допомогою wgetвиглядає так:
 ```powershell
-$ wget FTP-URL
+wget FTP-URL
 ```
 Якщо для доступу до файлу потрібні ім'я користувача та пароль, то команда набуде такого вигляду:
 ```powershell
-$ wget –-ftp-user=dan ––ftp-password=********* FTP-URL
+wget –-ftp-user=dan ––ftp-password=********* FTP-URL
 ```
-9. Створення локальної копії веб-сайту
+## 9. Створення локальної копії веб-сайту
 
 Якщо потрібно завантажити вміст цілого веб-сайту, можна зробити це, скориставшись параметром --mirror:
 ```powershell
-$ wget --mirror -p --convert-links -P /home/dan xyz.com
+wget --mirror -p --convert-links -P /home/dan xyz.com
 ```
 Зверніть увагу на додаткові параметри командного рядка:
 
--p: Завантаження всіх файлів, необхідних для коректного відображення HTML-сторінок.
---convert-links: посилання в документах будуть перетворені для локального перегляду сайту.
--P /home/dan: матеріали будуть збережені в папці /home/dan.
+`-p`: Завантаження всіх файлів, необхідних для коректного відображення HTML-сторінок.
+`--convert-links`: посилання в документах будуть перетворені для локального перегляду сайту.
+`-P /home/dan`: матеріали будуть збережені в папці /home/dan.
 
-10. Завантаження із сайту тільки файлів певного типу
+## 10. Завантаження із сайту тільки файлів певного типу
 
 Для того, щоб завантажити з сайту тільки файли певного типу, можна скористатися параметрами -r -A:
 ```powershell
-$ wget -r -A.txt Website_url
+wget -r -A.txt Website_url
 ```
-11. Пропуск файлів певного типу
+## 11. Пропуск файлів певного типу
 
 Якщо ви бажаєте скопіювати цілий веб-сайт, але при цьому вам не потрібні файли певного типу, відключити їх завантаження можна за допомогою параметра --reject:
 ```powershell
-$ wget --reject=png Website_url
+wget --reject=png Website_url
 ```
-12. Завантаження з використанням власного .log-файлу
+## 12. Завантаження з використанням власного .log-файлу
 
 Для того, щоб завантажити файл і використовувати власний .log-файл, скористайтеся параметром -oі вкажіть ім'я файлу журналу:
 ```powershell
-$ wget -o wgetfile.log https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.3.1/nagios-4.3.1.tar.gz?r=&ts=1489637334&use_mirror=excellmedia
+wget -o wgetfile.log https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.3.1/nagios-4.3.1.tar.gz?r=&ts=1489637334&use_mirror=excellmedia
 ```
