@@ -4,23 +4,23 @@ SQL (Structured Query Language) – це мова для управління д
 ## Зміст 
 
 + [Категорії операторів SQL](#категорії-операторів-sql) 
-+ [1. Оператори для вибірки даних](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#1-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%B2%D0%B8%D0%B1%D1%96%D1%80%D0%BA%D0%B8-%D0%B4%D0%B0%D0%BD%D0%B8%D1%85) - SELECT, DISTINCT, WHERE
-+ [2. Оператори для сортування](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#2-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%81%D0%BE%D1%80%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F) - ORDER BY
-+ [3. Оператори для агрегації даних](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#3-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%B0%D0%B3%D1%80%D0%B5%D0%B3%D0%B0%D1%86%D1%96%D1%97-%D0%B4%D0%B0%D0%BD%D0%B8%D1%85) - COUNT, SUM, AVG, MIN і MAX
-+ [4. Групування результатів](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#4-%D0%B3%D1%80%D1%83%D0%BF%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%96%D0%B2) - GROUP BY, HAVING
-+ [5. З’єднання таблиць](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#5-%D0%B7%D1%94%D0%B4%D0%BD%D0%B0%D0%BD%D0%BD%D1%8F-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8C-join) -  (JOIN) - INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN
-+ [6. Оператори підзапитів](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#6-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%BF%D1%96%D0%B4%D0%B7%D0%B0%D0%BF%D0%B8%D1%82%D1%96%D0%B2) - EXISTS, IN
-+ [7. Оператори зміни даних](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#7-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%B7%D0%BC%D1%96%D0%BD%D0%B8-%D0%B4%D0%B0%D0%BD%D0%B8%D1%85) - INSERT INTO, UPDATE, DELETE
-+ [8. Спеціальні оператори](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#8-%D1%81%D0%BF%D0%B5%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D1%96-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8) - LIKE, BETWEEN, IS NULL, IS NOT NULL
-+ [9. Об’єднання результатів](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#9-%D0%BE%D0%B1%D1%94%D0%B4%D0%BD%D0%B0%D0%BD%D0%BD%D1%8F-%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%96%D0%B2) - UNION, UNION ALL
-+ [10. Оператори для роботи з рядками](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#10-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8-%D0%B7-%D1%80%D1%8F%D0%B4%D0%BA%D0%B0%D0%BC%D0%B8) - CONCAT, LENGTH / CHAR_LENGTH, UPPER / LOWER, SUBSTRING / SUBSTR, TRIM, REPLACE, POSITION / INSTR, LEFT / RIGHT, LPAD / RPAD, FORMAT
-+ [11. Оператори для об'єднання множин](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#11-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%BE%D0%B1%D1%94%D0%B4%D0%BD%D0%B0%D0%BD%D0%BD%D1%8F-%D0%BC%D0%BD%D0%BE%D0%B6%D0%B8%D0%BD) - INTERSECT, EXCEPT / MINUS
-+ [12. Оператори для умов у запитах](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#12-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%83%D0%BC%D0%BE%D0%B2-%D1%83-%D0%B7%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D1%85) - CASE, COALESCE, NULLIF
-+ [13. Інші корисні оператори](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#13-%D1%96%D0%BD%D1%88%D1%96-%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D0%BD%D1%96-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8) - IS DISTINCT FROM, ROW_NUMBER()
-+ [14. Оператори керування доступом](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#14-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%BA%D0%B5%D1%80%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BE%D0%BC---dcl-data-control-language) - `DCL` (Data Control Language) - GRANT, REVOKE
-+ [15. Оператори для роботи з транзакціями](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#15-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8-%D0%B7-%D1%82%D1%80%D0%B0%D0%BD%D0%B7%D0%B0%D0%BA%D1%86%D1%96%D1%8F%D0%BC%D0%B8---tcl-transaction-control-language) - TCL (Transaction Control Language) - BEGIN TRANSACTION, COMMIT, ROLLBACK, SAVEPOINT, ROLLBACK TO SAVEPOINT, SET TRANSACTION, LOCK TABLE
-+ [Інші особливості SQL](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#16-%D1%96%D0%BD%D1%88%D1%96-%D0%BE%D1%81%D0%BE%D0%B1%D0%BB%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%96-sql)
-+ [Тонкощі роботи з SQL](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D1%82%D0%BE%D0%BD%D0%BA%D0%BE%D1%89%D1%96-%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8-%D0%B7-sql)
++ [1. Оператори для вибірки даних](#1-оператори-для-вибірки-даних) - SELECT, DISTINCT, WHERE
++ [2. Оператори для сортування](#2-оператори-для-сортування) - ORDER BY
++ [3. Оператори для агрегації даних](#3-оператори-для-агрегації-даних) - COUNT, SUM, AVG, MIN і MAX
++ [4. Групування результатів](#4-групування-результатів) - GROUP BY, HAVING
++ [5. З’єднання таблиць (JOIN)](#5-зєднання-таблиць-join) - INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN
++ [6. Оператори підзапитів](#6-оператори-підзапитів) - EXISTS, IN
++ [7. Оператори зміни даних](#7-оператори-зміни-даних) - INSERT INTO, UPDATE, DELETE
++ [8. Спеціальні оператори](#8-спеціальні-оператори) - LIKE, BETWEEN, IS NULL, IS NOT NULL
++ [9. Об’єднання результатів](#9-обєднання-результатів) - UNION, UNION ALL
++ [10. Оператори для роботи з рядками](#10-оператори-для-роботи-з-рядками) - CONCAT, LENGTH / CHAR_LENGTH, UPPER / LOWER, SUBSTRING / SUBSTR, TRIM, REPLACE, POSITION / INSTR, LEFT / RIGHT, LPAD / RPAD, FORMAT
++ [11. Оператори для об'єднання множин](#11-оператори-для-обєднання-множин) - INTERSECT, EXCEPT / MINUS
++ [12. Оператори для умов у запитах](#12-оператори-для-умов-у-запитах) - CASE, COALESCE, NULLIF
++ [13. Інші корисні оператори](#13-інші-корисні-оператори) - IS DISTINCT FROM, ROW_NUMBER()
++ [14. Оператори керування доступом - DCL (Data Control Language)](#14-оператори-керування-доступом---dcl-data-control-language) - GRANT, REVOKE
++ [15. Оператори для роботи з транзакціями - TCL (Transaction Control Language)](#15-оператори-для-роботи-з-транзакціями---tcl-transaction-control-language)- BEGIN TRANSACTION, COMMIT, ROLLBACK, SAVEPOINT, ROLLBACK TO SAVEPOINT, SET TRANSACTION, LOCK TABLE
++ [Інші особливості SQL](#інші-особливості-sql)
++ [Тонкощі роботи з SQL](#тонкощі-роботи-з-sql)
 
 
 
@@ -63,7 +63,7 @@ SQL (Structured Query Language) – це мова для управління д
   - SAVEPOINT (встановлення проміжної точки в транзакції),
   - ROLLBACK TO SAVEPOINT (відкат до проміжної точки).
  
-  [Докладніше про оператори TCL](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#15-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8-%D0%B7-%D1%82%D1%80%D0%B0%D0%BD%D0%B7%D0%B0%D0%BA%D1%86%D1%96%D1%8F%D0%BC%D0%B8---tcl-transaction-control-language)
+  [Докладніше про оператори TCL](#15-оператори-для-роботи-з-транзакціями---tcl-transaction-control-language)
 
 - `DCL` (Data Control Language) – мова контролю доступу
 
@@ -73,7 +73,7 @@ SQL (Structured Query Language) – це мова для управління д
   - GRANT (надання прав доступу),
   - REVOKE (відкликання прав доступу).
  
-  [Докладніше  про оператори DCL](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#14-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%BA%D0%B5%D1%80%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BE%D0%BC---dcl-data-control-language)
+  [Докладніше  про оператори DCL](#14-оператори-керування-доступом---dcl-data-control-language)
 
 - `DQL` (Data Query Language) – мова запитів даних
 
@@ -82,7 +82,7 @@ SQL (Structured Query Language) – це мова для управління д
   Основна команда:
   - SELECT – вибірка даних із бази даних. Це фактично єдина команда, яка часто розглядається як частина DQL, хоча її також відносять до DML.
 
-  [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+  [Повернутися до змісту](#зміст)
 
 ## 1. Оператори для вибірки даних
 - `SELECT` – вибір даних із таблиці.
@@ -101,7 +101,7 @@ SQL (Structured Query Language) – це мова для управління д
   SELECT * FROM table_name WHERE condition;
   ```
 
-  [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+  [Повернутися до змісту](#зміст)
 
 ## 2. Оператори для сортування
 
@@ -132,8 +132,7 @@ SQL (Structured Query Language) – це мова для управління д
   SELECT MIN(column), MAX(column) FROM table_name;
   ```
 
-   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
-
+   [Повернутися до змісту](#зміст)
 
 ## 4. Групування результатів
 - `GROUP BY` – групування записів за колонкою.
@@ -146,9 +145,8 @@ SQL (Structured Query Language) – це мова для управління д
   SELECT column1, COUNT(*) FROM table_name GROUP BY column1 HAVING COUNT(*) > 1;
   ```
 
-   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
-
-
+   [Повернутися до змісту](#зміст)
+  
 ## 5. З’єднання таблиць (JOIN)
 - `INNER JOIN` – повертає записи з обох таблиць, що мають спільні значення.
   ```sql
@@ -170,7 +168,7 @@ SQL (Structured Query Language) – це мова для управління д
   SELECT columns FROM table1 FULL OUTER JOIN table2 ON table1.id = table2.id;
   ```
 
-   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+   [Повернутися до змісту](#зміст)
 
 
 ## 6. Оператори підзапитів
@@ -184,7 +182,7 @@ SQL (Structured Query Language) – це мова для управління д
   SELECT * FROM table_name WHERE column IN (SELECT column FROM table_name2);
   ```
 
-   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+   [Повернутися до змісту](#зміст)
 
 
 ## 7. Оператори зміни даних
@@ -203,7 +201,7 @@ SQL (Structured Query Language) – це мова для управління д
   DELETE FROM table_name WHERE condition;
   ```
 
-   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+  [Повернутися до змісту](#зміст)
 
 
 ## 8. Спеціальні оператори
@@ -222,7 +220,7 @@ SQL (Structured Query Language) – це мова для управління д
   SELECT * FROM table_name WHERE column IS NULL;
   ```
 
-   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+  [Повернутися до змісту](#зміст)
 
 
 ## 9. Об’єднання результатів
@@ -236,7 +234,7 @@ SQL (Structured Query Language) – це мова для управління д
   SELECT column FROM table1 UNION ALL SELECT column FROM table2;
   ```
 
-   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+   [Повернутися до змісту](#зміст)
 
 
 ## 10. Оператори для роботи з рядками
@@ -320,7 +318,7 @@ SQL (Structured Query Language) – це мова для управління д
   -- Повертає 12345.68 як відформатоване значення з двома десятковими знаками.
   ```
 
-   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+   [Повернутися до змісту](#зміст)
 
 
 ##  11. Оператори для об'єднання множин
@@ -340,7 +338,7 @@ SQL (Structured Query Language) – це мова для управління д
   SELECT column FROM table2;
   ```
 
-   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+   [Повернутися до змісту](#зміст)
 
 
 ## 12. Оператори для умов у запитах
@@ -368,7 +366,7 @@ SQL (Structured Query Language) – це мова для управління д
   SELECT NULLIF(column1, column2) AS result FROM table_name;
   ```
 
-   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+   [Повернутися до змісту](#зміст)
 
 
 ## 13. Інші корисні оператори
@@ -385,10 +383,10 @@ SQL (Structured Query Language) – це мова для управління д
   SELECT column, ROW_NUMBER() OVER (ORDER BY column) AS row_num FROM table_name
   ```
 
-   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+   [Повернутися до змісту](#зміст)
 
 
-## 14. Оператори керування доступом - `DCL` (Data Control Language)
+## 14. Оператори керування доступом - DCL (Data Control Language)
 - `GRANT` – надає права користувачам на певні операції (SELECT, INSERT тощо) або об'єкти (таблиці, бази даних).
 
   ```sql
@@ -401,7 +399,7 @@ SQL (Structured Query Language) – це мова для управління д
   REVOKE INSERT ON table_name FROM user_name;
   ```
 
-   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+   [Повернутися до змісту](#зміст)
 
 
 ## 15. Оператори для роботи з транзакціями - TCL (Transaction Control Language) 
@@ -445,7 +443,7 @@ SQL (Structured Query Language) – це мова для управління д
   LOCK TABLE table_name IN ACCESS EXCLUSIVE MODE;
   ```
 
-   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+   [Повернутися до змісту](#зміст)
 
   
 ## Інші особливості SQL
@@ -460,7 +458,7 @@ SQL (Structured Query Language) – це мова для управління д
   REVOKE SELECT ON table_name FROM user;
   ```
 
-   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+   [Повернутися до змісту](#зміст)
 
 
 ## Тонкощі роботи з SQL
@@ -469,5 +467,5 @@ SQL (Structured Query Language) – це мова для управління д
 - Індекси: значно покращують швидкість запитів, але можуть сповільнити операції вставки та оновлення.
 - Оператор `EXISTS`: ефективний для перевірки існування записів, особливо в підзапитах.
 
- [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+ [Повернутися до змісту](#зміст)
 
