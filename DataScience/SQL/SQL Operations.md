@@ -82,6 +82,7 @@ SQL (Structured Query Language) – це мова для управління д
   Основна команда:
   - SELECT – вибірка даних із бази даних. Це фактично єдина команда, яка часто розглядається як частина DQL, хоча її також відносять до DML.
 
+  [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ## 1. Оператори для вибірки даних
 - `SELECT` – вибір даних із таблиці.
@@ -99,6 +100,8 @@ SQL (Structured Query Language) – це мова для управління д
   ```sql
   SELECT * FROM table_name WHERE condition;
   ```
+
+  [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
 
 ## 2. Оператори для сортування
 
@@ -129,6 +132,9 @@ SQL (Structured Query Language) – це мова для управління д
   SELECT MIN(column), MAX(column) FROM table_name;
   ```
 
+   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
+
 ## 4. Групування результатів
 - `GROUP BY` – групування записів за колонкою.
   ```sql
@@ -139,6 +145,9 @@ SQL (Structured Query Language) – це мова для управління д
   ```sql
   SELECT column1, COUNT(*) FROM table_name GROUP BY column1 HAVING COUNT(*) > 1;
   ```
+
+   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 
 ## 5. З’єднання таблиць (JOIN)
 - `INNER JOIN` – повертає записи з обох таблиць, що мають спільні значення.
@@ -161,6 +170,9 @@ SQL (Structured Query Language) – це мова для управління д
   SELECT columns FROM table1 FULL OUTER JOIN table2 ON table1.id = table2.id;
   ```
 
+   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
+
 ## 6. Оператори підзапитів
 - `EXISTS` – перевіряє, чи повертає підзапит будь-який результат.
   ```sql
@@ -171,6 +183,9 @@ SQL (Structured Query Language) – це мова для управління д
   ```sql
   SELECT * FROM table_name WHERE column IN (SELECT column FROM table_name2);
   ```
+
+   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 
 ## 7. Оператори зміни даних
 - `INSERT INTO` – додавання записів.
@@ -188,6 +203,9 @@ SQL (Structured Query Language) – це мова для управління д
   DELETE FROM table_name WHERE condition;
   ```
 
+   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
+
 ## 8. Спеціальні оператори
 - `LIKE` – пошук за шаблоном (% і _ для масок).
   ```sql
@@ -204,6 +222,9 @@ SQL (Structured Query Language) – це мова для управління д
   SELECT * FROM table_name WHERE column IS NULL;
   ```
 
+   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
+
 ## 9. Об’єднання результатів
 - `UNION` – об’єднання результатів двох запитів.
   ```sql
@@ -214,6 +235,9 @@ SQL (Structured Query Language) – це мова для управління д
   ```sql
   SELECT column FROM table1 UNION ALL SELECT column FROM table2;
   ```
+
+   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 
 ## 10. Оператори для роботи з рядками
 
@@ -296,6 +320,9 @@ SQL (Structured Query Language) – це мова для управління д
   -- Повертає 12345.68 як відформатоване значення з двома десятковими знаками.
   ```
 
+   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
+
 ##  11. Оператори для об'єднання множин
 - `INTERSECT` – повертає спільні рядки, які є в обох множинах результатів двох запитів. Доступний у деяких СУБД (не підтримується, наприклад, у MySQL).
 
@@ -312,6 +339,9 @@ SQL (Structured Query Language) – це мова для управління д
   EXCEPT
   SELECT column FROM table2;
   ```
+
+   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 
 ## 12. Оператори для умов у запитах
 - `CASE` – оператор умовного вибору, який працює подібно до оператора if-else.
@@ -338,6 +368,9 @@ SQL (Structured Query Language) – це мова для управління д
   SELECT NULLIF(column1, column2) AS result FROM table_name;
   ```
 
+   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
+
 ## 13. Інші корисні оператори
 - `IS DISTINCT FROM` – порівнює значення, враховуючи NULL, що дозволяє визначити, чи відрізняються два значення (навіть якщо одне з них NULL).
 
@@ -352,6 +385,9 @@ SQL (Structured Query Language) – це мова для управління д
   SELECT column, ROW_NUMBER() OVER (ORDER BY column) AS row_num FROM table_name
   ```
 
+   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
+
 ## 14. Оператори керування доступом - `DCL` (Data Control Language)
 - `GRANT` – надає права користувачам на певні операції (SELECT, INSERT тощо) або об'єкти (таблиці, бази даних).
 
@@ -364,6 +400,9 @@ SQL (Structured Query Language) – це мова для управління д
   ```sql
   REVOKE INSERT ON table_name FROM user_name;
   ```
+
+   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
 
 ## 15. Оператори для роботи з транзакціями - TCL (Transaction Control Language) 
 
@@ -405,7 +444,9 @@ SQL (Structured Query Language) – це мова для управління д
   ```sql
   LOCK TABLE table_name IN ACCESS EXCLUSIVE MODE;
   ```
-  
+
+   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
   
 ## Інші особливості SQL
 - Індекси – для оптимізації пошуку.
@@ -419,8 +460,14 @@ SQL (Structured Query Language) – це мова для управління д
   REVOKE SELECT ON table_name FROM user;
   ```
 
+   [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
+
 ## Тонкощі роботи з SQL
 - `HAVING` проти `WHERE`: HAVING використовується для фільтрації результатів після групування, тоді як WHERE – перед групуванням.
 - Вкладені запити: дозволяють виконувати складні запити, проте можуть впливати на продуктивність.
 - Індекси: значно покращують швидкість запитів, але можуть сповільнити операції вставки та оновлення.
 - Оператор `EXISTS`: ефективний для перевірки існування записів, особливо в підзапитах.
+
+ [Повернутися до змісту](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%B7%D0%BC%D1%96%D1%81%D1%82)
+
