@@ -1,8 +1,8 @@
 # Оператори SQL
 SQL (Structured Query Language) – це мова для управління даними в реляційних базах даних. Вона надає можливість створювати, модифікувати та запитувати дані в структурованих таблицях.
 
-Зміст 
-https://github.com/acvetochka/useful/blob/main/DataScience/SQL/DDL.md#1-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%96-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-ddl
+## Зміст 
+
 + [Категорії операторів SQL](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D1%96%D1%97-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%96%D0%B2-sql) 
 + [1. Оператори для вибірки даних](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#1-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%B2%D0%B8%D0%B1%D1%96%D1%80%D0%BA%D0%B8-%D0%B4%D0%B0%D0%BD%D0%B8%D1%85) - SELECT, DISTINCT, WHERE
 + [2. Оператори для сортування](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md#2-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%81%D0%BE%D1%80%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F) - ORDER BY
