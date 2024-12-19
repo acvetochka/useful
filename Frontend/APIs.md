@@ -1,5 +1,7 @@
 # APIs
 
+[Free Public APIs](https://www.freepublicapis.com/) -  A collection of Free Public APIs for Students and Developers. 
+
 ## API Movies
 
 - [TMBD API](https://developer.themoviedb.org/docs/getting-started)
