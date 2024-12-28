@@ -1,1 +1,5 @@
-[Component-party](https://component-party.dev/)-порівняння синтаксу  React, Svelte, Vue 
+[Component-party](https://component-party.dev/) - порівняння синтаксу  React, Svelte, Vue 
+
+[DevChallenges](https://devchallenges.io/) - платформа, де можна вирішувати реальні завдання веб-розробки з підготовленими дизайнами. Відмінний спосіб освоїти роботу з інтерфейсами, версткою та JavaScript.
+
+[CSS Battle](cssbattle.dev) - інтерактивна платформа, де розробники змагаються у вирішенні завдань мінімізувати CSS-код, створюючи візуальні елементи з найменшою кількістю символів.
