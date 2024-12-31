@@ -15,6 +15,7 @@
 | [react-dropzone](https://react-dropzone.js.org/) | відкладене завантаження файлів за допомогою Drag and Drop  |
 | [react-cropper](https://www.npmjs.com/package/react-cropper) | зміна розміру та обрізка зображень |
 | [react-pdf](https://react-pdf.org/) | відображення pdf-файлів у веб-додатках |
+| [response-print-pdf](https://github.com/OnedocLabs/react-print-pdf) | створення PDF-файлів за допомогою React та TypeScript |
 | [react-google-maps](https://visgl.github.io/react-google-maps/) | інтерграція з google maps для роботи з картами |
 | [react-media](https://www.npmjs.com/package/react-media) | управління відображенням компонентів на основі розміру екрану |
 | [recharts](https://recharts.org/en-US/) | Бібліотека складених діаграм, побудована на компонентах React |
