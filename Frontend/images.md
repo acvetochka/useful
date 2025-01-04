@@ -20,6 +20,8 @@
 
 [Як додати ефект свічення (тінь) для SVG при наведенні](https://denis-creative.com/kak-dobavit-ten-dlya-svg-pri-navedenii/)
 
+[Final2x](https://github.com/Tohrusky/Final2x) – потужний інструмент, що дозволяє збільшувати роздільну здатність зображень до довільних розмірів без шкоди для якості з використанням декількох моделей ШІ
+
 [Accordion Image Gallery with HTML & CSS (Free Code)](https://foolishdeveloper.com/accordion-image-gallery-html-css/)
 
 [Circle Animation CSS & HTML (Step by Step)](https://foolishdeveloper.com/circle-animation-css/)
