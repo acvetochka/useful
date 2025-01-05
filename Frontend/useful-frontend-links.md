@@ -49,3 +49,20 @@
 Топові рекомендації по тестуванню JavaScript та Node.js
 
 
+💎Добірка ресурсів з корисними шпаргалками для фронтенд-розробника:
+
+• [htmlcheatsheet](https://htmlcheatsheet.com/)
+
+• [cssreference](https://cssreference.io/)
+
+• [reactcheatsheet](https://reactcheatsheet.com/)
+
+• [БЕМ](https://9elements.com/bem-cheat-sheet/)
+
+• [Flexbox](https://flexbox.malven.co/)
+
+• [Grid](https://grid.malven.co/)
+
+• [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
+
+
