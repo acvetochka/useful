@@ -16,6 +16,8 @@
 
 [logo](https://logo.com/) - створення лого
 
+[svgl.app](https://svgl.app/) -  десятки іконок з різними варіантами експорту та налаштування.
+
 ====
 
 [Як додати ефект свічення (тінь) для SVG при наведенні](https://denis-creative.com/kak-dobavit-ten-dlya-svg-pri-navedenii/)
