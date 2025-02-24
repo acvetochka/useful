@@ -111,7 +111,88 @@ docker --version
   docker build -t my_image .
   ```
 
-## 4. Робота з мережами
+
+## 4. Dockerfile
+
+Dockerfile (Створення власного образу)
+
+`Dockerfile` – це текстовий файл, що містить інструкції для створення образу Docker.
+
+Основні команди Dockerfile:
+
+`FROM` – задає базовий образ:
+
+  ```Dockerfile
+  FROM ubuntu:latest
+  ```
+
+`RUN` – виконує команди під час побудови образу:
+
+  ```Dockerfile
+  RUN apt update && apt install -y curl
+  ```
+
+`COPY`– копіює файли з локальної системи в контейнер:
+
+  ```Dockerfile
+  COPY index.html /var/www/html/
+  ```
+
+`ADD` – копіює файли, підтримує архіви:
+
+  ```Dockerfile
+  ADD app.tar.gz /app/
+  ```
+
+`WORKDIR` – змінює робочу директорію:
+
+  ```Dockerfile
+  WORKDIR /app
+  ```
+
+`CMD` – задає команду, що виконується під час запуску контейнера:
+
+  ```Dockerfile
+  CMD ["nginx", "-g", "daemon off;"]
+  ```
+
+`ENTRYPOINT` – задає основний процес контейнера:
+
+  ```Dockerfile
+  ENTRYPOINT ["python", "app.py"]
+  ```
+
+`EXPOSE` – відкриває порт:
+
+  ```Dockerfile
+  EXPOSE 80
+  ```
+
+`ENV` – задає змінні середовища:
+
+  ```Dockerfile
+  ENV APP_ENV=production
+  ```
+
+Приклад Dockerfile для Node.js:
+
+  ```Dockerfile
+  FROM node:16
+  WORKDIR /app
+  COPY package.json .
+  RUN npm install
+  COPY . .
+  EXPOSE 3000
+  CMD ["node", "server.js"]
+  ```
+
+Створення образу з Dockerfile:
+
+  ```shell
+  docker build -t my_image .
+  ```
+
+## 5. Робота з мережами
 
 Переглянути мережі Docker:
 
@@ -131,7 +212,7 @@ docker --version
   docker network connect my_network my_container
   ```
 
-## 5. Docker Volumes (Збереження даних)
+## 6. Docker Volumes (Збереження даних)
 
 Створити том:
 
@@ -145,7 +226,7 @@ docker --version
   docker run -d -v my_volume:/data nginx
   ```
 
-## 6. Docker Compose (оркестрація контейнерів)
+## 7. Docker Compose (оркестрація контейнерів)
 
 Docker Compose дозволяє запускати декілька контейнерів одночасно за допомогою docker-compose.yml.
 
@@ -176,7 +257,7 @@ Docker Compose дозволяє запускати декілька контей
   docker-compose down
   ```
 
-## 7. Моніторинг та налагодження
+## 8. Моніторинг та налагодження
 
 Переглянути логи контейнера:
 
@@ -196,7 +277,7 @@ Docker Compose дозволяє запускати декілька контей
   docker stats
   ```
 
-## 8. Оптимізація образів
+## 9. Оптимізація образів
 
 - Використовуйте мінімальні базові образи (alpine, slim)
 
@@ -214,7 +295,7 @@ Docker Compose дозволяє запускати декілька контей
   *.log
   ```
 
-## 9. Висновки
+## Висновки
 
 Docker – це потужний інструмент для контейнеризації додатків, що спрощує розгортання, масштабування та тестування. Він забезпечує ізольоване середовище для роботи, покращує портативність програм та зменшує залежності від хост-системи.
 
