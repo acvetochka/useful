@@ -238,3 +238,5 @@ OpenAlternative – велика база даних опенсорсних ал
 - Маршрутизація, тестування та розробка інтерфейсів.
 - Мобільні додатки з React Native.
 
+
+[devQuizzes](https://quizzes.madza.dev/?trk=feed-detail_main-feed-card-text) - це 500 питань, розбитих на 20 категорій, включаючи такі теми, як Git, CSS, JavaScript, React та інші питання з Frontend.
