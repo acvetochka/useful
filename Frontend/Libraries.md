@@ -49,7 +49,7 @@
 - [woah](https://www.joerezendes.com/projects/Woah.css/)
 - [Aceternity UI](https://ui.aceternity.com/)
 
-##Other
+## Other
 
 - [Shepherd JS](https://www.shepherdjs.dev/) - це бібліотека JS, призначена для створення інтерактивних покрокових турів та посібників на веб-сторінках.
  Вона підтримує інтеграцію з різними фреймворками, такими як React, Ember, Angular, Vue.js, а також може використовуватись із чистим JavaScript.
