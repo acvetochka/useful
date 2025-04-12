@@ -10,6 +10,7 @@
 | indexOf | The indexOf() method of String values searches this string and returns the index of the first occurrence of the specified substring. | `searchString` Substring to search for. <br> `position`(optional) The method returns the index of the first occurrence of the specified substring at a position greater than or equal to position, which defaults to 0 | The index of the first occurrence of searchString found, or -1 if not found. | string.indexOf(searchString, position*)<br> [indexOf](https://github.com/acvetochka/useful-links/blob/main/Frontend/JavaScript.md#indexOf)  |
 | lastIndexOf | searches this string and returns the index of the last occurrence of the specified substring | `searchString` Substring to search for.  <br> `position` (optional) The method returns the index of the last occurrence of the specified substring at a position less than or equal to position, which defaults to +Infinity | The index of the last occurrence of searchString found, or -1 if not found. | string.lastIndexOf(searchString, position) <br> [lastIndexOf](https://github.com/acvetochka/useful/blob/main/Frontend/JavaScript/String-methods.md#lastindexof) |
 | localeCompare | The localeCompare() method of String values returns a number indicating whether this string comes before, or after, or is the same as the given string in sort order. | `compareString` The string against which the referenceStr is compared. <br> `locales` (Optional) - A string with a BCP 47 language tag, or an array of such strings. <br> `options` (Optional) - An object adjusting the output format. | A negative number if referenceStr occurs before compareString; positive if the referenceStr occurs after compareString; 0 if they are equivalent. | localeCompare(compareString, locales, options) <br> [localeCompare](https://github.com/acvetochka/useful/blob/main/Frontend/JavaScript/String-methods.md#localeCompare) |
+| match |The match() method of String values retrieves the result of matching this string against a regular expression. | `regexp` A regular expression object, or any object that has a Symbol.match method. | An Array whose contents depend on the presence or absence of the global (g) flag, or null if no matches are found. | match(regexp) <br> [match](https://github.com/acvetochka/useful/blob/main/Frontend/JavaScript/String-methods.md#match) |
 
 ## Examples
 ### at
@@ -104,3 +105,19 @@ console.log(a.localeCompare(b, 'en', { sensitivity: 'base' }));
 // Expected output: 0
 ```
 
+### match
+```javaScript
+const str = "For more information, see Chapter 3.4.5.1";
+const re = /see (chapter \d+(\.\d)*)/i;
+const found = str.match(re);
+
+console.log(found);
+// [
+//   'see Chapter 3.4.5.1',
+//   'Chapter 3.4.5.1',
+//   '.1',
+//   index: 22,
+//   input: 'For more information, see Chapter 3.4.5.1',
+//   groups: undefined
+// ]
+```
