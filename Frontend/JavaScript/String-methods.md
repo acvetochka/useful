@@ -27,6 +27,8 @@ console.log(`An index of ${index} returns the character ${sentence.at(index)}`);
 // Expected output: "An index of -4 returns the character d"
 ```
 
+[Back to Menu](#Menu)
+
 ## concat
 
 | Name | Description | Accepts | Return | Syntax |
@@ -44,6 +46,8 @@ console.log(str1.concat(' ', str2));
 console.log(str2.concat(', ', str1));
 // Expected output: "World, Hello"
 ```
+
+[Back to Menu](#Menu)
 
 ## endsWith
 
@@ -65,6 +69,8 @@ console.log(str2.endsWith('question'));
 // Expected output: false
 ```
 
+[Back to Menu](#Menu)
+
 ## includes
 
 | Name | Description | Accepts | Return | Syntax |
@@ -82,6 +88,8 @@ console.log(
 );
 // Expected output: "The word "fox" is in the sentence"
 ```
+
+[Back to Menu](#Menu)
 
 ## indexOf
 
@@ -108,6 +116,8 @@ console.log(
 // Expected output: "The index of the second "dog" is 38"
 ```
 
+[Back to Menu](#Menu)
+
 ## lastIndexOf
 
 | Name | Description | Accepts | Return | Syntax |
@@ -126,6 +136,8 @@ console.log(
 // Expected output: "Index of the last "dog" is 38"
 ```
 
+[Back to Menu](#Menu)
+
 ## localeCompare
 
 | Name | Description | Accepts | Return | Syntax |
@@ -142,6 +154,8 @@ console.log(a.localeCompare(b));
 console.log(a.localeCompare(b, 'en', { sensitivity: 'base' }));
 // Expected output: 0
 ```
+
+[Back to Menu](#Menu)
 
 ## match
 
@@ -165,3 +179,5 @@ console.log(found);
 //   groups: undefined
 // ]
 ```
+
+[Back to Menu](#Menu)
