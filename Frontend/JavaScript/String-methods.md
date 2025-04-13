@@ -1,5 +1,27 @@
-
 # String methods
+
+## Menu
+1. [at](#at)
+
+## at
+
+| Name | Description | Accepts | Return | Syntax |
+| ---- | ----------- | ------- | ------ | ------- |
+| at   | The at() method is used to find the character at the specified index, allows for positive and negative integers. Negative integers count back from the last string character.  | `index` The index (position) of the string character to be returned. | a new String consisting of the single UTF-16 code unit located at the specified offset | string.at(index) |
+
+**Example**
+```javaScript
+const sentence = 'The quick brown fox jumps over the lazy dog.';
+let index = 5;
+console.log(`An index of ${index} returns the character ${sentence.at(index)}`);
+// Expected output: "An index of 5 returns the character u"
+index = -4;
+console.log(`An index of ${index} returns the character ${sentence.at(index)}`);
+// Expected output: "An index of -4 returns the character d"
+```
+
+## concat
+
 
 | Name | Description | Accepts | Return | Example |
 | ---- | ----------- | ------- | ------ | ------- |
