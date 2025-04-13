@@ -9,12 +9,15 @@
 - [lastIndexOf](#lastIndexOf)
 - [localeCompare](#localeCompare)
 - [match](#match)
+- [matchAll](#matchAll)
+- [padEnd](#padEnd)
+- [padStart](#padStart)
 
 ## at
 
 | Name | Description | Accepts | Return | Syntax |
 | ---- | ----------- | ------- | ------ | ------- |
-| at   | The at() method is used to find the character at the specified index, allows for positive and negative integers. Negative integers count back from the last string character.  | `index` The index (position) of the string character to be returned. | a new String consisting of the single UTF-16 code unit located at the specified offset | string.at(index) |
+| at   | The at() method is used to find the character at the specified index, allows for positive and negative integers. Negative integers count back from the last string character.  | `index` The index (position) of the string character to be returned. | a new `String` consisting of the single UTF-16 code unit located at the specified offset | string.at(index) |
 
 **Example**
 ```javaScript
@@ -33,7 +36,7 @@ console.log(`An index of ${index} returns the character ${sentence.at(index)}`);
 
 | Name | Description | Accepts | Return | Syntax |
 | ---- | ----------- | ------- | ------ | ------- |
-| concat | The concat() function concatenates the string arguments to the calling string and returns a new string. | `str1`, `…`, `strN` One or more strings to concatenate to str| A new string containing the combined text of the strings provided. | concat(str1, str2) |
+| concat | The concat() function concatenates the string arguments to the calling string and returns a new string. | `str1`, `…`, `strN` One or more strings to concatenate to str| A new `string` containing the combined text of the strings provided. | concat(str1, str2) |
 
 **Example**
 ```javaScript
@@ -95,7 +98,7 @@ console.log(
 
 | Name | Description | Accepts | Return | Syntax |
 | ---- | ----------- | ------- | ------ | ------- |
-| indexOf | The indexOf() method of String values searches this string and returns the index of the first occurrence of the specified substring. | `searchString` Substring to search for. <br> `position`(optional) The method returns the index of the first occurrence of the specified substring at a position greater than or equal to position, which defaults to 0 | The index of the first occurrence of searchString found, or -1 if not found. | string.indexOf(searchString, position*) |
+| indexOf | The indexOf() method of String values searches this string and returns the index of the first occurrence of the specified substring. | `searchString` Substring to search for. <br> `position`(optional) The method returns the index of the first occurrence of the specified substring at a position greater than or equal to position, which defaults to 0 | The `index of the first occurrence` of searchString found, or `-1` if not found. | string.indexOf(searchString, position*) |
 
 **Example**
 ```javaScript
@@ -122,7 +125,7 @@ console.log(
 
 | Name | Description | Accepts | Return | Syntax |
 | ---- | ----------- | ------- | ------ | ------- |
-| lastIndexOf | searches this string and returns the index of the last occurrence of the specified substring | `searchString` Substring to search for.  <br> `position` (optional) The method returns the index of the last occurrence of the specified substring at a position less than or equal to position, which defaults to +Infinity | The index of the last occurrence of searchString found, or -1 if not found. | string.lastIndexOf(searchString, position)|
+| lastIndexOf | searches this string and returns the index of the last occurrence of the specified substring | `searchString` Substring to search for.  <br> `position` (optional) The method returns the index of the last occurrence of the specified substring at a position less than or equal to position, which defaults to +Infinity | The `index of the last occurrence` of searchString found, or `-1` if not found. | string.lastIndexOf(searchString, position)|
 
 **Example**
 ```javaScript
@@ -142,7 +145,7 @@ console.log(
 
 | Name | Description | Accepts | Return | Syntax |
 | ---- | ----------- | ------- | ------ | ------- |
-| localeCompare | The localeCompare() method of String values returns a number indicating whether this string comes before, or after, or is the same as the given string in sort order. | `compareString` The string against which the referenceStr is compared. <br> `locales` (Optional) - A string with a BCP 47 language tag, or an array of such strings. <br> `options` (Optional) - An object adjusting the output format. | A negative number if referenceStr occurs before compareString; positive if the referenceStr occurs after compareString; 0 if they are equivalent. | localeCompare(compareString, locales, options) |
+| localeCompare | The localeCompare() method of String values returns a number indicating whether this string comes before, or after, or is the same as the given string in sort order. | `compareString` The string against which the referenceStr is compared. <br> `locales` (Optional) - A string with a BCP 47 language tag, or an array of such strings. <br> `options` (Optional) - An object adjusting the output format. | A `negative number` if referenceStr occurs before compareString; `positive` if the referenceStr occurs after compareString; 0 if they are equivalent. | localeCompare(compareString, locales, options) |
 
 **Example**
 ```javaScript
@@ -161,7 +164,7 @@ console.log(a.localeCompare(b, 'en', { sensitivity: 'base' }));
 
 | Name | Description | Accepts | Return | Syntax |
 | ---- | ----------- | ------- | ------ | ------- |
-| match |The match() method of String values retrieves the result of matching this string against a regular expression. | `regexp` A regular expression object, or any object that has a Symbol.match method. | An Array whose contents depend on the presence or absence of the global (g) flag, or null if no matches are found. | match(regexp)|
+| match |The match() method of String values retrieves the result of matching this string against a regular expression. | `regexp` - A regular expression object, or any object that has a Symbol.match method. | An `Array` whose contents depend on the presence or absence of the global (g) flag, or `null` if no matches are found. | match(regexp)|
 
 **Example**
 ```javaScript
@@ -178,6 +181,72 @@ console.log(found);
 //   input: 'For more information, see Chapter 3.4.5.1',
 //   groups: undefined
 // ]
+```
+
+[Back to Menu](#Menu)
+
+## matchAll
+
+| Name | Description | Accepts | Return | Syntax |
+| ---- | ----------- | ------- | ------ | ------- |
+| matchAll | The matchAll() method of String values returns an iterator of all results matching this string against a regular expression, including capturing groups. | `regexp` - A regular expression object, or any object that has a Symbol.matchAll method. | An `iterable iterator object` (which is not restartable) of matches or an empty iterator if no matches are found. Each value yielded by the iterator is an array with the same shape as the return value of RegExp.prototype.exec(). | matchAll(regexp) |
+
+
+**Example** 
+```javaScript
+const regexp = /t(e)(st(\d?))/g;
+const str = "test1test2";
+
+const array = [...str.matchAll(regexp)];
+
+console.log(array[0]);
+// Expected output: Array ["test1", "e", "st1", "1"]
+
+console.log(array[1]);
+// Expected output: Array ["test2", "e", "st2", "2"]
+```
+
+[Back to Menu](#Menu)
+
+## padEnd
+
+| Name | Description | Accepts | Return | Syntax |
+| ---- | ----------- | ------- | ------ | ------- |
+| padEnd | The padEnd() method of String values pads this string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of this string. | `targetLength` - The length of the resulting string once the current str has been padded. If the value is less than or equal to str.length, the current string will be returned as-is. <br> `padString` (Optional) - The string to pad the current str with. If padString is too long to stay within targetLength, it will be truncated: for left-to-right languages the left-most part and for right-to-left languages the right-most will be applied. The default value for this parameter is " " (U+0020).| A `String` of the specified targetLength with the padString applied at the end of the current str. | padEnd(targetLength) <br> padEnd(targetLength, padString) |
+
+**Example** 
+```javaScript
+const str1 = "Breaded Mushrooms";
+
+console.log(str1.padEnd(25, "."));
+// Expected output: "Breaded Mushrooms........"
+const str2 = "200";
+
+console.log(str2.padEnd(5));
+// Expected output: "200  "
+```
+
+[Back to Menu](#Menu)
+
+## padStart
+
+| Name | Description | Accepts | Return | Syntax |
+| ---- | ----------- | ------- | ------ | ------- |
+| padStart | The padStart() method of String values pads this string with another string (multiple times, if needed) until the resulting string reaches the given length. The padding is applied from the start of this string. | `targetLength` - The length of the resulting string once the current str has been padded. If the value is less than or equal to str.length, then str is returned as-is. <br> `padString` (Optional) - The string to pad the current str with. If padString is too long to stay within the targetLength, it will be truncated from the end. The default value is the unicode "space" character (U+0020). | A `String` of the specified targetLength with padString applied from the start. | padStart(targetLength) <br> padStart(targetLength, padString) |
+
+**Example** 
+```javaScript
+const str1 = "5";
+
+console.log(str1.padStart(2, "0"));
+// Expected output: "05"
+
+const fullNumber = "2034399002125581";
+const last4Digits = fullNumber.slice(-4);
+const maskedNumber = last4Digits.padStart(fullNumber.length, "*");
+
+console.log(maskedNumber);
+// Expected output: "************5581"
 ```
 
 [Back to Menu](#Menu)
