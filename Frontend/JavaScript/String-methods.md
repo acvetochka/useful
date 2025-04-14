@@ -12,6 +12,9 @@
 - [matchAll](#matchAll)
 - [padEnd](#padEnd)
 - [padStart](#padStart)
+- [repeat](#repeat)
+- [replace](#replace)
+- [replaceAll](#replaceAll)
 
 ## at
 
@@ -247,6 +250,63 @@ const maskedNumber = last4Digits.padStart(fullNumber.length, "*");
 
 console.log(maskedNumber);
 // Expected output: "************5581"
+```
+
+[Back to Menu](#Menu)
+
+## repeat
+
+| Name | Description | Accepts | Return | Syntax |
+| ---- | ----------- | ------- | ------ | ------- |
+| repeat |  The repeat() method of String values constructs and returns a new string which contains the specified number of copies of this string, concatenated together. | `count` - An integer between 0 and +Infinity, indicating the number of times to repeat the string. | A new `string` containing the specified number of copies of the given string. | repeat(count) |
+
+**Example**
+```javaScript
+const mood = "Happy! ";
+
+console.log(`I feel ${mood.repeat(3)}`);
+// Expected output: "I feel Happy! Happy! Happy! "
+```
+
+[Back to Menu](#Menu)
+
+## replace
+
+| Name | Description | Accepts | Return | Syntax |
+| ---- | ----------- | ------- | ------ | ------- |
+| replace | The replace() method of String values returns a new string with one, some, or all matches of a pattern replaced by a replacement.  | `pattern` - Can be a string or an object with a Symbol.replace method — the typical example being a regular expression. <br> `replacement` -Can be a string or a function. | A new `string`, with one, some, or all matches of the pattern replaced by the specified replacement. | replace(pattern, replacement) |
+
+**Example**
+```javaScript 
+const paragraph = "I think Ruth's dog is cuter than your dog!";
+
+console.log(paragraph.replace("Ruth's", "my"));
+// Expected output: "I think my dog is cuter than your dog!"
+
+const regex = /Dog/i;
+console.log(paragraph.replace(regex, "ferret"));
+// Expected output: "I think Ruth's ferret is cuter than your dog!" 
+```
+
+[Back to Menu](#Menu)
+
+## replaceAll
+
+| Name | Description | Accepts | Return | Syntax |
+| ---- | ----------- | ------- | ------ | ------- |
+| replaceAll | The replaceAll() method of String values returns a new string with all matches of a pattern replaced by a replacement. | `pattern`- Can be a string or an object with a Symbol.replace method — the typical example being a regular expression. If pattern is a regex, then it must have the global (g) flag set, or a TypeError is thrown. <br> `replacement` - Can be a string or a function. | A new `string`, with all matches of a pattern replaced by a replacement. | replaceAll(pattern, replacement) |
+
+**Example**
+```javaScript
+const paragraph = "I think Ruth's dog is cuter than your dog!";
+
+console.log(paragraph.replaceAll("dog", "monkey"));
+// Expected output: "I think Ruth's monkey is cuter than your monkey!"
+
+// Global flag required when calling replaceAll with regex
+const regex = /Dog/gi;
+console.log(paragraph.replaceAll(regex, "ferret"));
+// Expected output: "I think Ruth's ferret is cuter than your ferret!"
 ```
 
 [Back to Menu](#Menu)
