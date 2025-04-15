@@ -15,6 +15,9 @@
 - [repeat](#repeat)
 - [replace](#replace)
 - [replaceAll](#replaceAll)
+- [search](#search)
+- [slice](#slice)
+- [split](#split)
 
 ## at
 
@@ -307,6 +310,78 @@ console.log(paragraph.replaceAll("dog", "monkey"));
 const regex = /Dog/gi;
 console.log(paragraph.replaceAll(regex, "ferret"));
 // Expected output: "I think Ruth's ferret is cuter than your ferret!"
+```
+
+[Back to Menu](#Menu)
+
+## search
+
+| Name | Description | Accepts | Return | Syntax |
+| ---- | ----------- | ------- | ------ | ------- |
+| search | The search() method of String values executes a search for a match between a regular expression and this string, returning the index of the first match in the string. | `regexp`- A regular expression object, or any object that has a Symbol.search method. | The `index of the first match` between the regular expression and the given string, or `-1` if no match was found. | search(regexp) |
+
+**Example**
+```javaScript
+const paragraph = "I think Ruth's dog is cuter than your dog!";
+
+// Anything not a word character, whitespace or apostrophe
+const regex = /[^\w\s']/g;
+
+console.log(paragraph.search(regex));
+// Expected output: 41
+
+console.log(paragraph[paragraph.search(regex)]);
+// Expected output: "!"
+```
+
+[Back to Menu](#Menu)
+
+## slice
+
+| Name | Description | Accepts | Return | Syntax |
+| ---- | ----------- | ------- | ------ | ------- |
+| slice | The slice() method of String values extracts a section of this string and returns it as a new string, without modifying the original string. | `indexStart` - The index of the first character to include in the returned substring. <br> `indexEnd` (Optional) - The index of the first character to exclude from the returned substring. | A new `string` containing the extracted section of the string. | slice(indexStart) <br> slice(indexStart, indexEnd) |
+
+**Example**
+```javaScript
+const str = "The quick brown fox jumps over the lazy dog.";
+
+console.log(str.slice(31));
+// Expected output: "the lazy dog."
+
+console.log(str.slice(4, 19));
+// Expected output: "quick brown fox"
+
+console.log(str.slice(-4));
+// Expected output: "dog."
+
+console.log(str.slice(-9, -5));
+// Expected output: "lazy"
+```
+
+[Back to Menu](#Menu)
+
+## split
+
+| Name | Description | Accepts | Return | Syntax |
+| ---- | ----------- | ------- | ------ | ------- |
+| split | The split() method of String values takes a pattern and divides this string into an ordered list of substrings by searching for the pattern, puts these substrings into an array, and returns the array. |`separator` - The pattern describing where each split should occur. Can be undefined, a string, or an object with a Symbol.split method — the typical example being a regular expression. <br> `limit` (Optional) - A non-negative integer specifying a limit on the number of substrings to be included in the array. If provided, splits the string at each occurrence of the specified separator, but stops when limit entries have been placed in the array. Any leftover text is not included in the array at all. | If separator is a string, an `Array of strings` is returned, split at each point where the separator occurs in the given string. <br> If separator is a regex, the returned `Array` also contains the captured groups for each separator match. <br> If separator has a custom [Symbol.split]() method, its return value is directly returned. | split(separator) <br> split(separator, limit) |
+
+**Example**
+```javaScript
+const str = "The quick brown fox jumps over the lazy dog.";
+
+const words = str.split(" ");
+console.log(words[3]);
+// Expected output: "fox"
+
+const chars = str.split("");
+console.log(chars[8]);
+// Expected output: "k"
+
+const strCopy = str.split();
+console.log(strCopy);
+// Expected output: Array ["The quick brown fox jumps over the lazy dog."]
 ```
 
 [Back to Menu](#Menu)
