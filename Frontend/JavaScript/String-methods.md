@@ -19,6 +19,7 @@
 - [slice](#slice)
 - [split](#split)
 - [startsWith](#startsWith)
+- [substring](#substring)
 
 ## at
 
@@ -405,5 +406,23 @@ console.log(str1.startsWith("Sat", 3));
 ```
 
 [Back to Menu](#Menu)
+
+
+## substring
+
+| Name | Description | Accepts | Return | Syntax |
+| ---- | ----------- | ------- | ------ | ------- |
+| substring | The substring() method of String values returns the part of this string from the start index up to and excluding the end index, or to the end of the string if no end index is supplied. | `indexStart` - The index of the first character to include in the returned substring. <br> `indexEnd` (Optional) - The index of the first character to exclude from the returned substring. | A new `string` containing the specified part of the given string. | substring(indexStart) <br> substring(indexStart, indexEnd) |
+
+**Example**
+```javaScript
+const str = "Mozilla";
+
+console.log(str.substring(1, 3));
+// Expected output: "oz"
+
+console.log(str.substring(2));
+// Expected output: "zilla"
+```
 
 
