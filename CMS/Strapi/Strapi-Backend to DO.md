@@ -26,7 +26,7 @@ jobs:
           username: ${{ secrets.DO_USER }}
           key: ${{ secrets.DO_SSH_KEY }}
           script: |
-            cd ~/handmade-shop/backend
+            cd ~/<project-name>/backend
             git pull origin main
             npm install
             npm run build
@@ -47,13 +47,13 @@ jobs:
 1) Клонування репозиторію:
 
     ```bash
-    git clone https://github.com/acvetochka/handmade-shop.git
+    git clone https://github.com/<user-name>/<project-name>.git
     ```
 
 2) Перехід до папки бекенду:
 
     ```bash
-    cd handmade-shop/backend
+    cd <project-name>/backend
     ```
 
 3) Встановлення залежностей:
