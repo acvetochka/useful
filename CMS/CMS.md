@@ -1,5 +1,19 @@
 # CMS
 
+# Menu
+1. [CMS: Що це таке?](https://github.com/acvetochka/useful/blob/main/CMS/CMS.md#-cms-%D1%89%D0%BE-%D1%86%D0%B5-%D1%82%D0%B0%D0%BA%D0%B5)
+2. [Основні функції CMS](https://github.com/acvetochka/useful/blob/main/CMS/CMS.md#-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%96-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D1%96%D1%97-cms)
+3. [Типи CMS](https://github.com/acvetochka/useful/blob/main/CMS/CMS.md#-%D1%82%D0%B8%D0%BF%D0%B8-cms)
+4. [Різниця між типами CMS](https://github.com/acvetochka/useful/blob/main/CMS/CMS.md#-%D1%80%D1%96%D0%B7%D0%BD%D0%B8%D1%86%D1%8F-%D0%BC%D1%96%D0%B6-%D1%82%D0%B8%D0%BF%D0%B0%D0%BC%D0%B8-cms)
+5. [eCommerce CMS](https://github.com/acvetochka/useful/blob/main/CMS/CMS.md#-ecommerce-cms)
+   - [Типи eCommerce CMS](https://github.com/acvetochka/useful/blob/main/CMS/CMS.md#%D1%82%D0%B8%D0%BF%D0%B8-ecommerce-cms)
+6. [Загальна таблиця CMS: традиційні та headless](https://github.com/acvetochka/useful/blob/main/CMS/CMS.md#-%D0%B7%D0%B0%D0%B3%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8F-cms-%D1%82%D1%80%D0%B0%D0%B4%D0%B8%D1%86%D1%96%D0%B9%D0%BD%D1%96-%D1%82%D0%B0-headless)
+7. [Headless CMS (API-first, JAMstack-підхід)](https://github.com/acvetochka/useful/blob/main/CMS/CMS.md#-headless-cms-api-first-jamstack-%D0%BF%D1%96%D0%B4%D1%85%D1%96%D0%B4)
+8. [Яку CMS обрати — за потребами](https://github.com/acvetochka/useful/blob/main/CMS/CMS.md#-%D1%8F%D0%BA%D1%83-cms-%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D0%B8--%D0%B7%D0%B0-%D0%BF%D0%BE%D1%82%D1%80%D0%B5%D0%B1%D0%B0%D0%BC%D0%B8)
+9. [Технологічна відповідність](https://github.com/acvetochka/useful/blob/main/CMS/CMS.md#%EF%B8%8F-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%87%D0%BD%D0%B0-%D0%B2%D1%96%D0%B4%D0%BF%D0%BE%D0%B2%D1%96%D0%B4%D0%BD%D1%96%D1%81%D1%82%D1%8C)
+10. [Актуальність CMS у 2025 році?](https://github.com/acvetochka/useful/blob/main/CMS/CMS.md#%D0%B0%D0%BA%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%96%D1%81%D1%82%D1%8C-cms-%D1%83-2025-%D1%80%D0%BE%D1%86%D1%96)
+    
+
 ## 📚 CMS: Що це таке?
 `CMS (Content Management System)` — це система керування контентом, яка дозволяє створювати, редагувати, публікувати та керувати вебсайтами без необхідності програмування (або з мінімальним знанням коду).
 
