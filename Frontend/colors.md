@@ -10,3 +10,5 @@
 
 [palettemaker](https://palettemaker.com) - Create unique color schemes with AI and see them
 come to life on real design examples
+
+[Picular](https://picular.co/) - пошук кольорів на основі ключових слів
