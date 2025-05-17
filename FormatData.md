@@ -1,6 +1,35 @@
 # Format Data
 Формати даних
 
+## Menu
+
+[1. YAML (YAML Ain't Markup Language)](#1-yaml-yaml-aint-markup-language)
+
+[2. Markdown](#2-markdown)
+
+[3. JSON (JavaScript Object Notation)](#3-json-javascript-object-notation)
+
+[4. XML (eXtensible Markup Language)](#4-xml-extensible-markup-language)
+
+[5. CSV (Comma-Separated Values)](#5-csv-comma-separated-values)
+
+[6. TOML (Tom's Obvious, Minimal Language)](#6-toml-toms-obvious-minimal-language)
+
+[7. INI (Initialization File)](#7-ini-initialization-file)
+
+[8. Protobuf (Protocol Buffers)](#8-protobuf-protocol-buffers)
+
+[9. MessagePack](#9-messagepack)
+
+[10. BSON (Binary JSON)](#10-bson-binary-json)
+
+[11. Avro](#11-avro)
+
+[12. RTF (Rich Text Format)](#12-rtf-rich-text-format)
+
+[13. HDF5 (Hierarchical Data Format version 5)](#13-hdf5-hierarchical-data-format-version-5)
+
+
 ## 1. YAML (YAML Ain't Markup Language)
 - Опис: YAML — це формат серіалізації даних, який читається людиною. Він призначений для зберігання даних у структурованому вигляді, з використанням відступів для представлення вкладених структур.
 - Призначення: Використовується для налаштувань, обміну даними між мовами програмування, конфігураційних файлів, а також у таких інструментах, як Docker, Kubernetes та Ansible.
