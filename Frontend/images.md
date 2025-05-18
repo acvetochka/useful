@@ -1,22 +1,16 @@
 # Images 
 
-[iconsuck](https://iconduck.com/) - download svg, png
-
-[pngegg](https://www.pngegg.com/) - png
-
-[stickpng](https://www.stickpng.com/)
-
-[Fotor](https://www.fotor.com/) - fotoeditor
-
-[SVG Repo](https://www.svgrepo.com/) - велика колекція іконок
-
-[flaticon](https://www.flaticon.com/icons) - Найбільша база даних векторних іконок, доступних для завантаження: формати SVG, EPS, PSD і BASE 64.
-
-[pexels](https://www.pexels.com/uk-ua/) - безкоштовні стокові фото та відео від талановитих авторів
-
-[logo](https://logo.com/) - створення лого
-
-[svgl.app](https://svgl.app/) -  десятки іконок з різними варіантами експорту та налаштування.
+| Title/Link| Description |
+|---------- | ----------- |
+|[iconsuck](https://iconduck.com/) | download svg, png |
+|[pngegg](https://www.pngegg.com/) | png |
+|[stickpng](https://www.stickpng.com/)| |
+|[Fotor](https://www.fotor.com/) | fotoeditor |
+|[SVG Repo](https://www.svgrepo.com/) | велика колекція іконок|
+|[flaticon](https://www.flaticon.com/icons) | Найбільша база даних векторних іконок, доступних для завантаження: формати SVG, EPS, PSD і BASE 64.|
+|[pexels](https://www.pexels.com/uk-ua/) | безкоштовні стокові фото та відео від талановитих авторів|
+|[logo](https://logo.com/) |створення лого|
+|[svgl.app](https://svgl.app/) |десятки іконок з різними варіантами експорту та налаштування.|
 
 ====
 
