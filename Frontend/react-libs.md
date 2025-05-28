@@ -73,22 +73,17 @@
 
 ## 10 найкращих бібліотек для розробки React-додатків у 2025 році
 
-📊[Tremor](https://tremor.so/) - UI-бібліотека для створення дашбордів
+| Lib/link | Description |
+| -------- | ------------|
+| 📊[Tremor](https://tremor.so/) | UI-бібліотека для створення дашбордів |
+| 🗓️[Planby](https://github.com/karolkozer/planby) | компонент для таймлайнів та розкладів|
+| 🔄[React DnD](https://github.com/react-dnd/react-dnd/) | легкий і зручний Drag & Drop|
+| ✂️[Advanced Cropper](https://advanced-cropper.github.io/react-advanced-cropper/) | точне обрізання зображень |
+| 📐[React Resizable Panels](https://github.com/bvaughn/react-resizable-panels) | створення змінних панелей|
+| 💅[Tailwind CSS](https://tailwindcss.com/)| стилізація React-компонентів|
+| ⚡[TanStack Query](https://github.com/TanStack/query) | легке керування асинхронними даними|
+| 🌟[ShadCN UI](https://ui.shadcn.com/)  | сучасні UI-компоненти для Next.js |
+| ✨[Cursify](https://cursify.vercel.app/) | анімація курсору на новому рівні|
+| 🚀[Haiku](https://www.reacthaiku.dev/) | бібліотека з 39+ React-хуків |
 
-🗓️[Planby](https://github.com/karolkozer/planby) - компонент для таймлайнів та розкладів
 
-🔄[React DnD](https://github.com/react-dnd/react-dnd/) - легкий і зручний Drag & Drop
-
-✂️[Advanced Cropper](https://advanced-cropper.github.io/react-advanced-cropper/) - точне обрізання зображень
-
-📐[React Resizable Panels](https://github.com/bvaughn/react-resizable-panels) - створення змінних панелей
-
-💅[Tailwind CSS](https://tailwindcss.com/) - стилізація React-компонентів
-
-⚡[TanStack Query](https://github.com/TanStack/query) - легке керування асинхронними даними
-
-🌟[ShadCN UI](https://ui.shadcn.com/) - сучасні UI-компоненти для Next.js
-
-✨[Cursify](https://cursify.vercel.app/) - анімація курсору на новому рівні
-
-🚀[Haiku](https://www.reacthaiku.dev/) - бібліотека з 39+ React-хуків
