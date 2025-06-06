@@ -68,9 +68,9 @@ function BearCounter() {
   const bears = useBearStore((state) => state.bears)
   return <h1>{bears} ведмедів</h1>
 }
-tsx
-Копіювати
-Редагувати
+```
+
+```tsx
 // Controls.tsx
 import { useBearStore } from './store'
 
