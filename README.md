@@ -20,4 +20,10 @@
      - [Interaktiv platforms for SQL](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/Interaktiv%20platforms%20for%20SQL.md)
      - [SQL Operations](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/SQL%20Operations.md)
      - [Types and constraints](https://github.com/acvetochka/useful/blob/main/DataScience/SQL/Types%20and%20constraints.md)
+   - Visualisation
+     - [Data Preprocessing Tasks in Pandas](https://github.com/acvetochka/useful/blob/main/DataScience/Visualisation/Data%20Preprocessing%20Tasks%20in%20Pandas.md)
+     - [Maps, Waffles, WordCloud and Seaborn](https://github.com/acvetochka/useful/blob/main/DataScience/Visualisation/Maps%2C%20Waffles%2C%20WordCloud%20and%20Seaborn.md)
+     - [Plot Libraries](https://github.com/acvetochka/useful/blob/main/DataScience/Visualisation/Plot%20Libraries.md)
+     - [Plotly and Dash](https://github.com/acvetochka/useful/blob/main/DataScience/Visualisation/Plotly%20and%20Dash.md)
+     - [Plotting with Matplotlib](https://github.com/acvetochka/useful/blob/main/DataScience/Visualisation/Plotting%20with%20Matplotlib.md)
 
