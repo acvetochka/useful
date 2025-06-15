@@ -26,4 +26,9 @@
      - [Plot Libraries](https://github.com/acvetochka/useful/blob/main/DataScience/Visualisation/Plot%20Libraries.md)
      - [Plotly and Dash](https://github.com/acvetochka/useful/blob/main/DataScience/Visualisation/Plotly%20and%20Dash.md)
      - [Plotting with Matplotlib](https://github.com/acvetochka/useful/blob/main/DataScience/Visualisation/Plotting%20with%20Matplotlib.md)
+   - [DataAnalys with Python](https://github.com/acvetochka/useful/blob/main/DataScience/DataAnalys%20with%20Python.md)
+   - [Metodology and methods Data Science](https://github.com/acvetochka/useful/blob/main/DataScience/Metodology.md)
+   - [Multiclass prediction](https://github.com/acvetochka/useful/blob/main/DataScience/Multiclass%20prediction.md)
+   - [Regression Trees](https://github.com/acvetochka/useful/blob/main/DataScience/RegressionTrees.md)
+   - [Tools for Data Science](https://github.com/acvetochka/useful/blob/main/DataScience/Tools.md)
 
