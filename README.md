@@ -31,4 +31,8 @@
    - [Multiclass prediction](https://github.com/acvetochka/useful/blob/main/DataScience/Multiclass%20prediction.md)
    - [Regression Trees](https://github.com/acvetochka/useful/blob/main/DataScience/RegressionTrees.md)
    - [Tools for Data Science](https://github.com/acvetochka/useful/blob/main/DataScience/Tools.md)
+5. Design
+   - [3D for 3D Printer](https://github.com/acvetochka/useful/blob/main/Design/3D%20for%203D%20Printer.md)
+   - [Design](https://github.com/acvetochka/useful/blob/main/Design/Design.md)
+   - [Figma](https://github.com/acvetochka/useful/blob/main/Design/Figma.md)
 
