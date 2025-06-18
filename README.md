@@ -35,4 +35,7 @@
    - [3D for 3D Printer](https://github.com/acvetochka/useful/blob/main/Design/3D%20for%203D%20Printer.md)
    - [Design](https://github.com/acvetochka/useful/blob/main/Design/Design.md)
    - [Figma](https://github.com/acvetochka/useful/blob/main/Design/Figma.md)
-
+6. DevOps
+   - [DevOps](https://github.com/acvetochka/useful/blob/main/DevOps/DevOps.md)
+   - [Docker](https://github.com/acvetochka/useful/blob/main/DevOps/Docker.md)
+   - [Puppet](https://github.com/acvetochka/useful/blob/main/DevOps/Puppet.md)
