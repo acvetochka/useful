@@ -44,3 +44,8 @@
      - [ArgoCd](https://github.com/acvetochka/useful/blob/main/DevOps/Kubernetes/argocd.md)
      - [kubectl](https://github.com/acvetochka/useful/blob/main/DevOps/Kubernetes/kubectl.md)
      - [𝗣𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝘃𝗲 𝘁𝗼𝗼𝗹𝘀 𝗳𝗼𝗿 𝗸𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀](https://github.com/acvetochka/useful/blob/main/DevOps/Kubernetes/kubetools.md)
+7. Frontend
+   - JavaScript
+     - [js](https://github.com/acvetochka/useful/blob/main/Frontend/JavaScript/js.md)
+     - [Regexp](https://github.com/acvetochka/useful/blob/main/Frontend/JavaScript/Regexp.md)
+     - [String-methods](https://github.com/acvetochka/useful/blob/main/Frontend/JavaScript/String-methods.md)
