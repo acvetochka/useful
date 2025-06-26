@@ -31,297 +31,432 @@ Before diving into the commands, let's review some fundamental Docker concepts:
 - Docker Compose: A tool for defining and running multi-container Docker applications.
 
 ### 🏁 Beginner Commands
-1. Installation
+#### 1. Installation
 Check Docker Version
 ```
 docker --version
 ```
 Displays the installed version of Docker.
 
-2. Docker Images
-List Docker Images
-```
-docker images
-```
-Lists all Docker images on the local machine.
+#### 2. Docker Images
+   
+- List Docker Images
+  
+  ```
+  docker images
+  ```
+  Lists all Docker images on the local machine.
 
-Pull Docker Image
-```
-docker pull <image_name>
-```
-Pulls a Docker image from a registry (e.g., Docker Hub).
+- Pull Docker Image
 
-Remove Docker Image
-```
-docker rmi <image_name>
-```
-Removes a Docker image from the local machine.
+  ```
+  docker pull <image_name>
+  ```
+  Pulls a Docker image from a registry (e.g., Docker Hub).
 
-3. Docker Containers
-List Running Containers
-```
-docker ps
-```
-Lists all running Docker containers.
+- Remove Docker Image
 
-List All Containers
-```
-docker ps -a
-```
-Lists all Docker containers, including stopped ones.
+  ```
+  docker rmi <image_name>
+  ```
+  Removes a Docker image from the local machine.
 
-Run a Container
-```
-docker run -d --name <container_name> <image_name>
-```
-Runs a container from a Docker image in detached mode.
+#### 3. Docker Containers
+- List Running Containers
 
-Stop a Container
-```
-docker stop <container_name>
-```
-Stops a running Docker container.
+  ```
+  docker ps
+  ```
+  Lists all running Docker containers.
 
-Start a Container
-```
-docker start <container_name>
-```
-Starts a stopped Docker container.
+  - List All Containers
+    
+  ```
+  docker ps -a
+  ```
+  Lists all Docker containers, including stopped ones.
 
-Remove a Container
-```
-docker rm <container_name>
-```
-Removes a Docker container.
+- Run a Container
+  
+  ```
+  docker run -d --name <container_name> <image_name>
+  ```
+  Runs a container from a Docker image in detached mode.
 
-View Container Logs
-```
-docker logs <container_name>
-```
-Displays the logs of a Docker container.
+- Stop a Container
 
-4. Docker Networks
-List Docker Networks
-```
-docker network ls
-```
-Lists all Docker networks.
+  ```
+  docker stop <container_name>
+  ```
+  Stops a running Docker container.
 
-Create Docker Network
-```
-docker network create <network_name>
-```
-Creates a new Docker network.
+- Start a Container
 
-Connect Container to Network
-```
-docker network connect <network_name> <container_name>
-```
-Connects a container to a Docker network.
+  ```
+  docker start <container_name>
+  ```
+  Starts a stopped Docker container.
 
-Disconnect Container from Network
-```
-docker network disconnect <network_name> <container_name>
-```
-Disconnects a container from a Docker network.
+- Remove a Container
+
+  ```
+  docker rm <container_name>
+  ```
+  Removes a Docker container.
+
+- View Container Logs
+
+  ```
+  docker logs <container_name>
+  ```
+  Displays the logs of a Docker container.
+
+#### 4. Docker Networks
+
+- List Docker Networks
+
+  ```
+  docker network ls
+  ```
+  Lists all Docker networks.
+
+- Create Docker Network
+  
+  ```
+  docker network create <network_name>
+  ```
+  Creates a new Docker network.
+
+- Connect Container to Network
+
+  ```
+  docker network connect <network_name> <container_name>
+  ```
+  Connects a container to a Docker network.
+
+- Disconnect Container from Network
+
+  ```
+  docker network disconnect <network_name> <container_name>
+  ```
+  Disconnects a container from a Docker network.
 
 ### 🚀 Intermediate Commands
-1. Docker Volumes
-List Docker Volumes
-```docker volume ls```
-Lists all Docker volumes.
 
-Create Docker Volume
-```docker volume create <volume_name>```
-Creates a new Docker volume.
+#### 1. Docker Volumes
 
-Remove Docker Volume
-```docker volume rm <volume_name>```
-Removes a Docker volume.
+- List Docker Volumes
+  
+  ```
+  docker volume ls
+  ```
+  Lists all Docker volumes.
 
-Mount Volume to Container
-```
-docker run -d --name <container_name> -v <volume_name>:/path/in/container <image_name>
-```
-Mounts a Docker volume to a container.
+- Create Docker Volume
 
-2. Docker Compose
-Install Docker Compose
-```
-sudo curl -L "https://github.com/docker/compose/releases/download/<version>/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
-```
-Installs Docker Compose.
+  ```
+  docker volume create <volume_name>
+  ```
+  Creates a new Docker volume.
 
-Check Docker Compose Version
-```
-docker-compose --version
-```
-Displays the installed version of Docker Compose.
+- Remove Docker Volume
 
-Docker Compose File Example
-```
-version: '3'
-services:
-  web:
-    image: nginx
-    ports:
-      - "80:80"
-  db:
-    image: mysql
-    environment:
-      MYSQL_ROOT_PASSWORD: example
-```
-Defines a multi-container application using Docker Compose.
+  ```
+  docker volume rm <volume_name>
+  ```
+  Removes a Docker volume.
 
-Run Docker Compose
-```docker-compose up -d```
-Runs the Docker Compose application in detached mode.
+- Mount Volume to Container
 
-Stop Docker Compose
-```docker-compose down```
-Stops and removes the Docker Compose application.
+  ```
+  docker run -d --name <container_name> -v <volume_name>:/path/in/container <image_name>
+  ```
+  Mounts a Docker volume to a container.
 
-3. Dockerfile
-Dockerfile Example
-```
-# Use an official Python runtime as a parent image
-FROM python:3.8-slim
+#### 2. Docker Compose
 
-# Set the working directory in the container
-WORKDIR /app
+- Install Docker Compose
 
-# Copy the current directory contents into the container at /app
-COPY . /app
+  ```
+  sudo curl -L "https://github.com/docker/compose/releases/download/<version>/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  sudo chmod +x /usr/local/bin/docker-compose
+  ```
+  Installs Docker Compose.
 
-# Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+- Check Docker Compose Version
 
-# Make port 80 available to the world outside this container
-EXPOSE 80
+  ```
+  docker-compose --version
+  ```
+  Displays the installed version of Docker Compose.
 
-# Define environment variable
-ENV NAME World
+- Docker Compose File Example
+  ```
+  version: '3'
+  services:
+    web:
+      image: nginx
+      ports:
+        - "80:80"
+    db:
+      image: mysql
+      environment:
+        MYSQL_ROOT_PASSWORD: example
+  ```
+  Defines a multi-container application using Docker Compose.
 
-# Run app.py when the container launches
-CMD ["python", "app.py"]
-```
-Defines a Dockerfile for a Python application.
+- Run Docker Compose
 
-Build Docker Image
-```docker build -t <image_name> .```
-Builds a Docker image from a Dockerfile.
+  ```
+  docker-compose up -d
+  ```
+  
+  Runs the Docker Compose application in detached mode.
 
-4. Docker Swarm
-Initialize Docker Swarm
-```docker swarm init```
-Initializes a Docker Swarm.
+- Stop Docker Compose
+  
+  ```
+  docker-compose down
+  ```
+  
+  Stops and removes the Docker Compose application.
 
-List Swarm Nodes
-```docker node ls```
-Lists all nodes in the Docker Swarm.
+#### 3. Dockerfile
+   
+- Dockerfile Example
 
-Deploy Stack in Swarm
-```docker stack deploy -c <compose-file> <stack_name>```
-Deploys a stack in the Docker Swarm.
+  ```
+  # Use an official Python runtime as a parent image
+  FROM python:3.8-slim
+  
+  # Set the working directory in the container
+  WORKDIR /app
+  
+  # Copy the current directory contents into the container at /app
+  COPY . /app
+  
+  # Install any needed packages specified in requirements.txt
+  RUN pip install --no-cache-dir -r requirements.txt
+  
+  # Make port 80 available to the world outside this container
+  EXPOSE 80
+  
+  # Define environment variable
+  ENV NAME World
+  
+  # Run app.py when the container launches
+  CMD ["python", "app.py"]
+  ```
+  
+  Defines a Dockerfile for a Python application.
 
-Remove Stack from Swarm
-```docker stack rm <stack_name>```
-Removes a stack from the Docker Swarm.
+- Build Docker Image
 
-5. Docker Secrets
-Create Docker Secret
-```echo "my_secret_value" | docker secret create <secret_name>```
-Creates a new Docker secret.
+  ```
+  docker build -t <image_name> .
+  ```
+  
+  Builds a Docker image from a Dockerfile.
 
-List Docker Secrets
-```docker secret ls```
-Lists all Docker secrets.
+#### 4. Docker Swarm
+   
+- Initialize Docker Swarm
 
-Remove Docker Secret
-```docker secret rm <secret_name>```
-Removes a Docker secret.
+  ```
+  docker swarm init
+  ```
+  
+  Initializes a Docker Swarm.
+
+- List Swarm Nodes
+
+  ```
+  docker node ls
+  ```
+  
+  Lists all nodes in the Docker Swarm.
+
+- Deploy Stack in Swarm
+
+  ```
+  docker stack deploy -c <compose-file> <stack_name>
+  ```
+  
+  Deploys a stack in the Docker Swarm.
+
+- Remove Stack from Swarm
+
+  ```
+  docker stack rm <stack_name>
+  ```
+  
+  Removes a stack from the Docker Swarm.
+
+#### 5. Docker Secrets
+
+- Create Docker Secret
+
+  ```
+  echo "my_secret_value" | docker secret create <secret_name>
+  ```
+  Creates a new Docker secret.
+
+- List Docker Secrets
+
+  ```
+  docker secret ls
+  ```
+  Lists all Docker secrets.
+
+- Remove Docker Secret
+
+  ```
+  docker secret rm <secret_name>
+  ```
+  Removes a Docker secret.
 
 ### 🧠 Advanced Commands
-1. Docker Inspect
-Inspect Docker Container
-```docker inspect <container_name>```
-Displays detailed information about a Docker container.
 
-Inspect Docker Image
-```docker inspect <image_name>```
-Displays detailed information about a Docker image.
+#### 1. Docker Inspect
+   
+- Inspect Docker Container
 
-2. Docker Stats
-View Container Statistics
-```docker stats <container_name>```
-Displays real-time statistics for Docker containers.
+  ```
+  docker inspect <container_name>
+  ```
+  
+  Displays detailed information about a Docker container.
 
-3. Docker Events
-View Docker Events
-```docker events```
-Displays real-time events from the Docker server.
+  - Inspect Docker Image
+  
+  ```
+  docker inspect <image_name>
+  ```
+  Displays detailed information about a Docker image.
 
-4. Docker Export and Import
-Export Container
-```docker export <container_name> -o <file_name>.tar```
-Exports a Docker container to a tar file.
+#### 2. Docker Stats
 
-Import Container
-```docker import <file_name>.tar```
-Imports a container from a tar file.
+- View Container Statistics
 
-5. Docker Save and Load
-Save Docker Image
-```docker save -o <file_name>.tar <image_name>```
-Saves a Docker image to a tar file.
+  ```
+  docker stats <container_name>
+  ```
+  Displays real-time statistics for Docker containers.
 
-Load Docker Image
-```docker load -i <file_name>.tar```
-Loads a Docker image from a tar file.
+#### 3. Docker Events
 
-6. Docker Prune
-Remove Unused Data
-```docker system prune```
-Removes unused Docker data (images, containers, networks, volumes).
+- View Docker Events
 
-7. Docker Context
-List Docker Contexts
-```docker context ls```
-Lists all Docker contexts.
+  ``` 
+  docker events
+  ```
+  Displays real-time events from the Docker server.
 
-Create Docker Context
-```docker context create <context_name>```
-Creates a new Docker context.
+#### 4. Docker Export and Import
 
-Use Docker Context
-```docker context use <context_name>```
-Switches to a specific Docker context.
+- Export Container
+  
+  ```
+  docker export <container_name> -o <file_name>.tar
+  ```
+  Exports a Docker container to a tar file.
 
-8. Docker BuildKit
-Enable BuildKit
-```
-export DOCKER_BUILDKIT=1
-docker build -t <image_name> .
-```
-Enables Docker BuildKit for improved build performance.
+- Import Container
+
+  ```
+  docker import <file_name>.tar
+  ```
+  Imports a container from a tar file.
+
+#### 5. Docker Save and Load
+
+- Save Docker Image
+  
+  ```
+  docker save -o <file_name>.tar <image_name>
+  ```
+  Saves a Docker image to a tar file.
+
+- Load Docker Image
+  
+  ```
+  docker load -i <file_name>.tar
+  ```
+  Loads a Docker image from a tar file.
+
+#### 6. Docker Prune
+
+- Remove Unused Data
+  
+  ```
+  docker system prune
+  ```
+  Removes unused Docker data (images, containers, networks, volumes).
+
+#### 7. Docker Context
+
+- List Docker Contexts
+
+  ```
+  docker context ls
+  ```
+  Lists all Docker contexts.
+
+- Create Docker Context
+  
+  ```
+  docker context create <context_name>
+  ```
+  Creates a new Docker context.
+
+- Use Docker Context
+  
+  ```
+  docker context use <context_name>
+  ```
+  Switches to a specific Docker context.
+
+### 8. Docker BuildKit
+
+- Enable BuildKit
+- 
+  ```
+  export DOCKER_BUILDKIT=1
+  docker build -t <image_name> .
+  ```
+  Enables Docker BuildKit for improved build performance.
 
 ### 📊 Best Practices
 - Use Version Control
+  
 Store your Dockerfiles, Compose files, and other configurations in a version control system (e.g., Git) to track changes and collaborate with team members.
+
 - Keep Images Lightweight
+  
 Minimize the size of your Docker images by using multi-stage builds and removing unnecessary files and dependencies.
+
 - Use Tags
+
 Tag your Docker images with meaningful and version-specific tags to easily identify and manage them.
+
 - Secure Images and Containers
+
 Scan your Docker images for vulnerabilities and use security best practices to protect your containers.
+
 - Automate Builds and Deployments
+
 Integrate Docker with CI/CD pipelines to automate the building, testing, and deployment of your containerized applications.
+
 - Monitor and Log
+
 Continuously monitor your Docker containers and collect logs for troubleshooting and performance analysis.
+
 - Use Docker Compose for Multi-Container Applications
+
 Use Docker Compose to define and manage multi-container applications, making it easier to deploy and scale your services.
+
 - Regularly Prune Unused Resources
+
 Regularly prune unused images, containers, networks, and volumes to free up disk space and maintain a clean Docker environment.
 
 ### 🚀 Conclusion
