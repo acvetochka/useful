@@ -49,3 +49,7 @@
      - [js](https://github.com/acvetochka/useful/blob/main/Frontend/JavaScript/js.md)
      - [Regexp](https://github.com/acvetochka/useful/blob/main/Frontend/JavaScript/Regexp.md)
      - [String-methods](https://github.com/acvetochka/useful/blob/main/Frontend/JavaScript/String-methods.md)
+   - TypeScript
+     - [TypeScript в React](https://github.com/acvetochka/useful/blob/main/Frontend/TypeScript/TypeScript%20in%20React.md)
+     - [Types](https://github.com/acvetochka/useful/blob/main/Frontend/TypeScript/Types.md)
+     - [tsconfig](https://github.com/acvetochka/useful/blob/main/Frontend/TypeScript/tsconfig.md)
