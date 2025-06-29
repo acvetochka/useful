@@ -62,3 +62,10 @@
    - [React Libraries](https://github.com/acvetochka/useful/blob/main/Frontend/react-libs.md)
    - [Useful frontend links](https://github.com/acvetochka/useful/blob/main/Frontend/useful-frontend-links.md)
    - [Vue-libraries](https://github.com/acvetochka/useful/blob/main/Frontend/vue-libs.md)
+8. Languages
+   - [English](https://github.com/acvetochka/useful/blob/main/Languages/English.md)
+9. Linux
+   - [Linux-commands](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md)
+   - [Linux-structure](https://github.com/acvetochka/useful/blob/main/Linux/Linux-structure.md)
+   - [WSL](https://github.com/acvetochka/useful/blob/main/Linux/WSL.md)
+   - [wget](https://github.com/acvetochka/useful/blob/main/Linux/wget.md)
