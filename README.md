@@ -70,7 +70,7 @@
    - [WSL](https://github.com/acvetochka/useful/blob/main/Linux/WSL.md)
    - [wget](https://github.com/acvetochka/useful/blob/main/Linux/wget.md)
 10. Python
-   - Files
-     - [Managing files](https://github.com/acvetochka/useful/blob/main/Python/Files/Managing%20files.md)
-     - [Module CSV](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md)
-     - [Module OS](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md)
+    - Files
+      - [Managing files](https://github.com/acvetochka/useful/blob/main/Python/Files/Managing%20files.md)
+      - [Module CSV](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md)
+      - [Module OS](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md)
