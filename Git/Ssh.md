@@ -62,10 +62,10 @@ git remote -v
 Ти маєш побачити:
 
 ```scss
-origin  git@github.com:acvetochka/your-repo.git (fetch)
+origin  git@github.com:username/your-repo.git (fetch)
 ```
 ❗ Якщо ти бачиш https://..., зміни:
 
 ```bash
-git remote set-url origin git@github.com:acvetochka/your-repo.git
+git remote set-url origin git@github.com:username/your-repo.git
 ```
