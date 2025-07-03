@@ -64,7 +64,7 @@
    - [Vue-libraries](https://github.com/acvetochka/useful/blob/main/Frontend/vue-libs.md)
 8. GIT
    - [Git](https://github.com/acvetochka/useful/blob/main/Git/Git.md)
-   - [SSH}(https://github.com/acvetochka/useful/blob/main/Git/Ssh.md)
+   - [SSH](https://github.com/acvetochka/useful/blob/main/Git/Ssh.md)
 9. Languages
    - [English](https://github.com/acvetochka/useful/blob/main/Languages/English.md)
 10. Linux
