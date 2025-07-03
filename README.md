@@ -62,14 +62,17 @@
    - [React Libraries](https://github.com/acvetochka/useful/blob/main/Frontend/react-libs.md)
    - [Useful frontend links](https://github.com/acvetochka/useful/blob/main/Frontend/useful-frontend-links.md)
    - [Vue-libraries](https://github.com/acvetochka/useful/blob/main/Frontend/vue-libs.md)
-8. Languages
+8. GIT
+   - [Git](https://github.com/acvetochka/useful/blob/main/Git/Git.md)
+   - [SSH}(https://github.com/acvetochka/useful/blob/main/Git/Ssh.md)
+9. Languages
    - [English](https://github.com/acvetochka/useful/blob/main/Languages/English.md)
-9. Linux
+10. Linux
    - [Linux-commands](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md)
    - [Linux-structure](https://github.com/acvetochka/useful/blob/main/Linux/Linux-structure.md)
    - [WSL](https://github.com/acvetochka/useful/blob/main/Linux/WSL.md)
    - [wget](https://github.com/acvetochka/useful/blob/main/Linux/wget.md)
-10. Python
+11. Python
     - Files
       - [Managing files](https://github.com/acvetochka/useful/blob/main/Python/Files/Managing%20files.md)
       - [Module CSV](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md)
