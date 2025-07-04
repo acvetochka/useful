@@ -82,3 +82,9 @@
     - Testing
       - [Testing](https://github.com/acvetochka/useful/blob/main/Python/Testing/Testing.md)
       - [Unittest](https://github.com/acvetochka/useful/blob/main/Python/Testing/Unittest.md)
+    - [Dictionaries](https://github.com/acvetochka/useful/blob/main/Python/Dictionaries.md)
+    - [Errors](https://github.com/acvetochka/useful/blob/main/Python/Errors.md)
+    - [Functions](https://github.com/acvetochka/useful/blob/main/Python/Functions.md)
+    - [Glosary (ua)](https://github.com/acvetochka/useful/blob/main/Python/Glossary-ua.md)
+    - [Glosary (en)](https://github.com/acvetochka/useful/blob/main/Python/Glossary.md)
+
