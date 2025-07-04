@@ -77,3 +77,8 @@
       - [Managing files](https://github.com/acvetochka/useful/blob/main/Python/Files/Managing%20files.md)
       - [Module CSV](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20CSV.md)
       - [Module OS](https://github.com/acvetochka/useful/blob/main/Python/Files/Module%20OS.md)
+    - Modules
+      - [Logging](https://github.com/acvetochka/useful/blob/main/Python/Modules/Logging.md)
+    - Testing
+      - [Testing](https://github.com/acvetochka/useful/blob/main/Python/Testing/Testing.md)
+      - [Unittest](https://github.com/acvetochka/useful/blob/main/Python/Testing/Unittest.md)
