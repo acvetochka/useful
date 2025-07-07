@@ -1,6 +1,6 @@
 # Python Glossary
 
-| Definition | Description |
+| Term | Definition |
 | ------ | ----------- |
 | Automation | The process of replacing a manual step with one that happens automatically |
 | Client-side scripting language | Primarily for web programming; the scripts are transferred from a web server to the end-user’s internet browser, then executed in the browser |
