@@ -87,4 +87,8 @@
     - [Functions](https://github.com/acvetochka/useful/blob/main/Python/Functions.md)
     - [Glosary (ua)](https://github.com/acvetochka/useful/blob/main/Python/Glossary-ua.md)
     - [Glosary (en)](https://github.com/acvetochka/useful/blob/main/Python/Glossary.md)
+    - [Handlers](https://github.com/acvetochka/useful/blob/main/Python/Handlers.md)
+    - [Lists&Tuples](https://github.com/acvetochka/useful/blob/main/Python/Lists%26Tuples.md)
+    - [OOP](https://github.com/acvetochka/useful/blob/main/Python/OOP.md)
+
 
