@@ -68,10 +68,10 @@
 9. Languages
    - [English](https://github.com/acvetochka/useful/blob/main/Languages/English.md)
 10. Linux
-   - [Linux-commands](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md)
-   - [Linux-structure](https://github.com/acvetochka/useful/blob/main/Linux/Linux-structure.md)
-   - [WSL](https://github.com/acvetochka/useful/blob/main/Linux/WSL.md)
-   - [wget](https://github.com/acvetochka/useful/blob/main/Linux/wget.md)
+    - [Linux-commands](https://github.com/acvetochka/useful/blob/main/Linux/Linux-commands.md)
+    - [Linux-structure](https://github.com/acvetochka/useful/blob/main/Linux/Linux-structure.md)
+    - [WSL](https://github.com/acvetochka/useful/blob/main/Linux/WSL.md)
+    - [wget](https://github.com/acvetochka/useful/blob/main/Linux/wget.md)
 11. Python
     - Files
       - [Managing files](https://github.com/acvetochka/useful/blob/main/Python/Files/Managing%20files.md)
