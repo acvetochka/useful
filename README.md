@@ -90,5 +90,9 @@
     - [Handlers](https://github.com/acvetochka/useful/blob/main/Python/Handlers.md)
     - [Lists&Tuples](https://github.com/acvetochka/useful/blob/main/Python/Lists%26Tuples.md)
     - [OOP](https://github.com/acvetochka/useful/blob/main/Python/OOP.md)
+    - [Python (useful link)](https://github.com/acvetochka/useful/blob/main/Python/Python.md)
+    - [Regex](https://github.com/acvetochka/useful/blob/main/Python/Regex.md)
+    - [Strings](https://github.com/acvetochka/useful/blob/main/Python/Strings.md)
+    - [Types](https://github.com/acvetochka/useful/blob/main/Python/Types.md)
 
 
