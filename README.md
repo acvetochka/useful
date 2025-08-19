@@ -99,5 +99,7 @@
 12. [Bash-scripts](https://github.com/acvetochka/useful/blob/main/Bash.md)
 13. [Format data](https://github.com/acvetochka/useful/blob/main/FormatData.md)
 14. [Programming languages](https://github.com/acvetochka/useful/blob/main/Programming%20Languages.md)
+15. [Troubleshooting and Debugging (OS)](https://github.com/acvetochka/useful/blob/main/Troubleshooting%20and%20Debugging.md)
+16. [Web to Pdf](https://github.com/acvetochka/useful/blob/main/Web-to-pdf.md)
 
 
