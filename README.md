@@ -102,4 +102,5 @@
 15. [Troubleshooting and Debugging (OS)](https://github.com/acvetochka/useful/blob/main/Troubleshooting%20and%20Debugging.md)
 16. [Web to Pdf](https://github.com/acvetochka/useful/blob/main/Web-to-pdf.md)
 17. [Deploy site to server (Digital Ocean)](https://github.com/acvetochka/useful/blob/main/siteToServer.md)
+18. [useful sites](https://github.com/acvetochka/useful/blob/main/useful-sites.md)
 
