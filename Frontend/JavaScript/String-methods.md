@@ -27,6 +27,14 @@
 | ---- | ----------- | ------- | ------ | ------- |
 | at   | The at() method is used to find the character at the specified index, allows for positive and negative integers. Negative integers count back from the last string character.  | `index` The index (position) of the string character to be returned. | a new `String` consisting of the single UTF-16 code unit located at the specified offset | string.at(index) |
 
+<details>
+  <summary>ua</summary>
+
+|  Назва	|Опис |	Приймає |	Повертає |	Синтаксис |
+| ---- | ----------- | ------- | ------ | ------- |
+| at	|Метод at() використовується для отримання символу за вказаним індексом; підтримує як додатні, так і від’ємні числа. Від’ємні індекси відраховуються від останнього символу рядка.	| index — індекс (позиція) символу рядка, який потрібно повернути. |	Новий рядок, що складається з одного UTF-16 коду символу на вказаній позиції. | string.at(index) |
+</details>
+
 **Example**
 ```javaScript
 const sentence = 'The quick brown fox jumps over the lazy dog.';
@@ -45,6 +53,14 @@ console.log(`An index of ${index} returns the character ${sentence.at(index)}`);
 | Name | Description | Accepts | Return | Syntax |
 | ---- | ----------- | ------- | ------ | ------- |
 | concat | The concat() function concatenates the string arguments to the calling string and returns a new string. | `str1`, `…`, `strN` One or more strings to concatenate to str| A new `string` containing the combined text of the strings provided. | concat(str1, str2) |
+
+<details>
+  <summary>ua</summary>
+
+|  Назва	|Опис |	Приймає |	Повертає |	Синтаксис |
+| ---- | ----------- | ------- | ------ | ------- |
+| concat	|! Функція concat() об’єднує (конкатенує) рядки-аргументи з вихідним рядком і повертає новий рядок.	| str1, …, strN — один або кілька рядків для об’єднання з вихідним рядком. | Новий рядок, що містить об’єднаний текст усіх переданих рядків. |	concat(str1, str2) |
+</details>
 
 **Example**
 ```javaScript
