@@ -82,6 +82,14 @@ console.log(str2.concat(', ', str1));
 | ---- | ----------- | ------- | ------ | ------- |
 | endsWith | This method lets you determine whether or not a string ends with another string. This method is case-sensitive. |  `searchString` The characters to be searched for at the end of str <br> `endPosition` The end position at which searchString is expected to be found (the index of searchString's last character plus 1). Defaults to str.length. | `true` if the given characters are found at the end of the string, including when searchString is an empty string; otherwise, `false`. | string.endsWith(searchString, endPosition*) |
 
+<details>
+  <summary>ua</summary>
+
+| Назва |	Опис |	Приймає |	Повертає |	Синтаксис |
+| ---- | ----------- | ------- | ------ | ------- |
+| endsWith	| Метод endsWith() дозволяє визначити, чи закінчується рядок на інший заданий рядок. Метод чутливий до регістру.	| `searchString` — символи, які потрібно знайти в кінці рядка str. <br/> `endPosition` — позиція в рядку, на якій очікується знайти searchString (це індекс останнього символу searchString плюс 1). За замовчуванням — str.length. |	`true`, якщо вказані символи знайдено в кінці рядка (включно з випадком, коли searchString порожній); інакше — `false`.	| string.endsWith(searchString, endPosition*) |
+</details>
+
 **Example**
 ```javaScript
 const str1 = 'Cats are the best!';
@@ -104,6 +112,14 @@ console.log(str2.endsWith('question'));
 | ---- | ----------- | ------- | ------ | ------- |
 | includes | This method lets you determine whether or not a string includes another string. | `searchString` - A string to be searched for within str. Cannot be a regex.  <br>  `position` (optional) The position within the string at which to begin searching for searchString. (Defaults to 0.) | `true` if the search string is found anywhere within the given string, including when searchString is an empty string; otherwise, `false`. | string.includes(searchString, position*) |
 
+<details>
+<summary>ua</summary>
+
+  | Назва        | Опис                                                                           | Приймає                                                                                                                                                                                                       | Повертає                                                                                                                              | Синтаксис                                  |
+| ------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| **includes** | Метод **includes()** дозволяє визначити, чи містить рядок інший заданий рядок. | `searchString` — рядок, який потрібно знайти в межах `str`. Не може бути регулярним виразом.  <br>  `position` (необов’язково) — позиція в рядку, з якої почати пошук `searchString`. (За замовчуванням — 0.) | `true`, якщо рядок пошуку знайдено будь-де в межах даного рядка (включно з випадком, коли `searchString` порожній); інакше — `false`. | `string.includes(searchString, position*)` |
+</details>
+
 **Example**
 ```javaScript
 const sentence = 'The quick brown fox jumps over the lazy dog.';
@@ -123,6 +139,16 @@ console.log(
 | Name | Description | Accepts | Return | Syntax |
 | ---- | ----------- | ------- | ------ | ------- |
 | indexOf | The indexOf() method of String values searches this string and returns the index of the first occurrence of the specified substring. | `searchString` Substring to search for. <br> `position`(optional) The method returns the index of the first occurrence of the specified substring at a position greater than or equal to position, which defaults to 0 | The `index of the first occurrence` of searchString found, or `-1` if not found. | string.indexOf(searchString, position*) |
+
+<details>
+  <summary>ua</summary>
+
+  | Назва       | Опис                                                                                                                       | Приймає                                                                                                                                                                                             | Повертає                                                                        | Синтаксис                                 |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ----------------------------------------- |
+| **indexOf** | Метод **indexOf()** для значень типу String виконує пошук у рядку та повертає індекс першого входження вказаного підрядка. | `searchString` — підрядок для пошуку. <br> `position` (необов’язково) — метод повертає індекс першого входження підрядка, починаючи з позиції, більшої або рівної `position`. За замовчуванням — 0. | `Індекс першого входження` підрядка `searchString`, або `-1`, якщо не знайдено. | `string.indexOf(searchString, position*)` |
+
+</details>
+
 
 **Example**
 ```javaScript
