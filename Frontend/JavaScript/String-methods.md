@@ -143,8 +143,8 @@ console.log(
 <details>
   <summary>ua</summary>
 
-  | Назва       | Опис                                                                                                                       | Приймає                                                                                                                                                                                             | Повертає                                                                        | Синтаксис                                 |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ----------------------------------------- |
+| Назва       | Опис    | Приймає    | Повертає    | Синтаксис    |
+| ----------- | -------- | ------ | -------------| ------------ |
 | **indexOf** | Метод **indexOf()** для значень типу String виконує пошук у рядку та повертає індекс першого входження вказаного підрядка. | `searchString` — підрядок для пошуку. <br> `position` (необов’язково) — метод повертає індекс першого входження підрядка, починаючи з позиції, більшої або рівної `position`. За замовчуванням — 0. | `Індекс першого входження` підрядка `searchString`, або `-1`, якщо не знайдено. | `string.indexOf(searchString, position*)` |
 
 </details>
@@ -177,6 +177,18 @@ console.log(
 | ---- | ----------- | ------- | ------ | ------- |
 | lastIndexOf | searches this string and returns the index of the last occurrence of the specified substring | `searchString` Substring to search for.  <br> `position` (optional) The method returns the index of the last occurrence of the specified substring at a position less than or equal to position, which defaults to +Infinity | The `index of the last occurrence` of searchString found, or `-1` if not found. | string.lastIndexOf(searchString, position)|
 
+
+<details>
+  <summary>ua</summary>
+  
+| Назва           | Опис      | Приймає      | Повертає      | Синтаксис       |
+| --------------- | --------- | ------------- | ------------- | ------------------- |
+| **lastIndexOf** | Виконує пошук у рядку та повертає індекс останнього входження вказаного підрядка. | `searchString` — підрядок для пошуку. <br> `position` (необов’язково) — метод повертає індекс останнього входження підрядка на позиції, меншій або рівній `position`. За замовчуванням — `+Infinity`. | `Індекс останнього входження` підрядка `searchString`, або `-1`, якщо не знайдено. | `string.lastIndexOf(searchString, position)` |
+
+
+</details>
+
+
 **Example**
 ```javaScript
 const paragraph = "I think Ruth's dog is cuter than your dog!";
@@ -195,7 +207,19 @@ console.log(
 
 | Name | Description | Accepts | Return | Syntax |
 | ---- | ----------- | ------- | ------ | ------- |
-| localeCompare | The localeCompare() method of String values returns a number indicating whether this string comes before, or after, or is the same as the given string in sort order. | `compareString` The string against which the referenceStr is compared. <br> `locales` (Optional) - A string with a BCP 47 language tag, or an array of such strings. <br> `options` (Optional) - An object adjusting the output format. | A `negative number` if referenceStr occurs before compareString; `positive` if the referenceStr occurs after compareString; 0 if they are equivalent. | localeCompare(compareString, locales, options) |
+| localeCompare | The localeCompare() method of String values returns a number indicating whether this string comes before, or after, or is the same as the given string in sort order. | `compareString` The string against which the referenceStr is compared. <br> `locales` (Optional) - A string with a BCP 47 language tag, or an array of such strings. <br> `options` (Optional) - An object adjusting the output format. | - A `negative number` if referenceStr occurs before compareString; <br/> = `positive` if the referenceStr occurs after compareString; <br/> - 0 if they are equivalent. | localeCompare(compareString, locales, options) |
+
+
+<details>
+  <summary>ua</summary>
+
+| Назва             | Опис                                                                                                                                                                        | Приймає                                                                                                                                                                                                                     | Повертає                                                                                                                            | Синтаксис                                        |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| **localeCompare** | Метод **localeCompare()** для значень типу String повертає число, яке вказує, чи розташований рядок до, після або на тому ж місці, що й заданий рядок у порядку сортування. | `compareString` — рядок, з яким порівнюється `referenceStr`. <br> `locales` (необов’язково) — рядок із мовним тегом BCP 47 або масив таких рядків. <br> `options` (необов’язково) — об’єкт для налаштування формату виводу. | - `Від’ємне число`, якщо `referenceStr` розташований перед `compareString`; <br/> - `додатне число`, якщо після; <br/> - `0`, якщо вони еквівалентні. | `localeCompare(compareString, locales, options)` |
+
+
+</details>
+
 
 **Example**
 ```javaScript
@@ -215,6 +239,14 @@ console.log(a.localeCompare(b, 'en', { sensitivity: 'base' }));
 | Name | Description | Accepts | Return | Syntax |
 | ---- | ----------- | ------- | ------ | ------- |
 | match |The match() method of String values retrieves the result of matching this string against a regular expression. | `regexp` - A regular expression object, or any object that has a Symbol.match method. | An `Array` whose contents depend on the presence or absence of the global (g) flag, or `null` if no matches are found. | match(regexp)|
+
+
+<!-- <details>
+  <summary>ua</summary>
+
+
+</details>
+-->
 
 **Example**
 ```javaScript
@@ -241,6 +273,13 @@ console.log(found);
 | ---- | ----------- | ------- | ------ | ------- |
 | matchAll | The matchAll() method of String values returns an iterator of all results matching this string against a regular expression, including capturing groups. | `regexp` - A regular expression object, or any object that has a Symbol.matchAll method. | An `iterable iterator object` (which is not restartable) of matches or an empty iterator if no matches are found. Each value yielded by the iterator is an array with the same shape as the return value of RegExp.prototype.exec(). | matchAll(regexp) |
 
+<!-- <details>
+  <summary>ua</summary>
+
+
+</details>
+-->
+
 
 **Example** 
 ```javaScript
@@ -264,6 +303,14 @@ console.log(array[1]);
 | ---- | ----------- | ------- | ------ | ------- |
 | padEnd | The padEnd() method of String values pads this string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of this string. | `targetLength` - The length of the resulting string once the current str has been padded. If the value is less than or equal to str.length, the current string will be returned as-is. <br> `padString` (Optional) - The string to pad the current str with. If padString is too long to stay within targetLength, it will be truncated: for left-to-right languages the left-most part and for right-to-left languages the right-most will be applied. The default value for this parameter is " " (U+0020).| A `String` of the specified targetLength with the padString applied at the end of the current str. | padEnd(targetLength) <br> padEnd(targetLength, padString) |
 
+<!-- <details>
+  <summary>ua</summary>
+
+
+</details>
+-->
+
+
 **Example** 
 ```javaScript
 const str1 = "Breaded Mushrooms";
@@ -283,6 +330,14 @@ console.log(str2.padEnd(5));
 | Name | Description | Accepts | Return | Syntax |
 | ---- | ----------- | ------- | ------ | ------- |
 | padStart | The padStart() method of String values pads this string with another string (multiple times, if needed) until the resulting string reaches the given length. The padding is applied from the start of this string. | `targetLength` - The length of the resulting string once the current str has been padded. If the value is less than or equal to str.length, then str is returned as-is. <br> `padString` (Optional) - The string to pad the current str with. If padString is too long to stay within the targetLength, it will be truncated from the end. The default value is the unicode "space" character (U+0020). | A `String` of the specified targetLength with padString applied from the start. | padStart(targetLength) <br> padStart(targetLength, padString) |
+
+
+<!-- <details>
+  <summary>ua</summary>
+
+
+</details>
+-->
 
 **Example** 
 ```javaScript
@@ -307,6 +362,14 @@ console.log(maskedNumber);
 | ---- | ----------- | ------- | ------ | ------- |
 | repeat |  The repeat() method of String values constructs and returns a new string which contains the specified number of copies of this string, concatenated together. | `count` - An integer between 0 and +Infinity, indicating the number of times to repeat the string. | A new `string` containing the specified number of copies of the given string. | repeat(count) |
 
+<!-- <details>
+  <summary>ua</summary>
+
+
+</details>
+-->
+
+
 **Example**
 ```javaScript
 const mood = "Happy! ";
@@ -322,6 +385,15 @@ console.log(`I feel ${mood.repeat(3)}`);
 | Name | Description | Accepts | Return | Syntax |
 | ---- | ----------- | ------- | ------ | ------- |
 | replace | The replace() method of String values returns a new string with one, some, or all matches of a pattern replaced by a replacement.  | `pattern` - Can be a string or an object with a Symbol.replace method — the typical example being a regular expression. <br> `replacement` -Can be a string or a function. | A new `string`, with one, some, or all matches of the pattern replaced by the specified replacement. | replace(pattern, replacement) |
+
+
+<!-- <details>
+  <summary>ua</summary>
+
+
+</details>
+-->
+
 
 **Example**
 ```javaScript 
@@ -342,6 +414,15 @@ console.log(paragraph.replace(regex, "ferret"));
 | Name | Description | Accepts | Return | Syntax |
 | ---- | ----------- | ------- | ------ | ------- |
 | replaceAll | The replaceAll() method of String values returns a new string with all matches of a pattern replaced by a replacement. | `pattern`- Can be a string or an object with a Symbol.replace method — the typical example being a regular expression. If pattern is a regex, then it must have the global (g) flag set, or a TypeError is thrown. <br> `replacement` - Can be a string or a function. | A new `string`, with all matches of a pattern replaced by a replacement. | replaceAll(pattern, replacement) |
+
+
+<!-- <details>
+  <summary>ua</summary>
+
+
+</details>
+-->
+
 
 **Example**
 ```javaScript
@@ -364,6 +445,15 @@ console.log(paragraph.replaceAll(regex, "ferret"));
 | ---- | ----------- | ------- | ------ | ------- |
 | search | The search() method of String values executes a search for a match between a regular expression and this string, returning the index of the first match in the string. | `regexp`- A regular expression object, or any object that has a Symbol.search method. | The `index of the first match` between the regular expression and the given string, or `-1` if no match was found. | search(regexp) |
 
+
+<!-- <details>
+  <summary>ua</summary>
+
+
+</details>
+-->
+
+
 **Example**
 ```javaScript
 const paragraph = "I think Ruth's dog is cuter than your dog!";
@@ -385,6 +475,15 @@ console.log(paragraph[paragraph.search(regex)]);
 | Name | Description | Accepts | Return | Syntax |
 | ---- | ----------- | ------- | ------ | ------- |
 | slice | The slice() method of String values extracts a section of this string and returns it as a new string, without modifying the original string. | `indexStart` - The index of the first character to include in the returned substring. <br> `indexEnd` (Optional) - The index of the first character to exclude from the returned substring. | A new `string` containing the extracted section of the string. | slice(indexStart) <br> slice(indexStart, indexEnd) |
+
+
+<!-- <details>
+  <summary>ua</summary>
+
+
+</details>
+-->
+
 
 **Example**
 ```javaScript
@@ -411,6 +510,15 @@ console.log(str.slice(-9, -5));
 | ---- | ----------- | ------- | ------ | ------- |
 | split | The split() method of String values takes a pattern and divides this string into an ordered list of substrings by searching for the pattern, puts these substrings into an array, and returns the array. |`separator` - The pattern describing where each split should occur. Can be undefined, a string, or an object with a Symbol.split method — the typical example being a regular expression. <br> `limit` (Optional) - A non-negative integer specifying a limit on the number of substrings to be included in the array. If provided, splits the string at each occurrence of the specified separator, but stops when limit entries have been placed in the array. Any leftover text is not included in the array at all. | If separator is a string, an `Array of strings` is returned, split at each point where the separator occurs in the given string. <br> If separator is a regex, the returned `Array` also contains the captured groups for each separator match. <br> If separator has a custom [Symbol.split]() method, its return value is directly returned. | split(separator) <br> split(separator, limit) |
 
+
+<!-- <details>
+  <summary>ua</summary>
+
+
+</details>
+-->
+
+
 **Example**
 ```javaScript
 const str = "The quick brown fox jumps over the lazy dog.";
@@ -436,6 +544,15 @@ console.log(strCopy);
 | ---- | ----------- | ------- | ------ | ------- |
 | startsWith | The startsWith() method of String values determines whether this string begins with the characters of a specified string, returning true or false as appropriate. | `searchString` - The characters to be searched for at the start of this string. Cannot be a regex. All values that are not regexes are coerced to strings, so omitting it or passing undefined causes startsWith() to search for the string "undefined", which is rarely what you want. <br> `position` (Optional) - The start position at which searchString is expected to be found (the index of searchString's first character). Defaults to 0 | `true` if the given characters are found at the beginning of the string, including when searchString is an empty string; otherwise, `false`. | startsWith(searchString) <br> startsWith(searchString, position) |
 
+
+<!-- <details>
+  <summary>ua</summary>
+
+
+</details>
+-->
+
+
 **Example**
 ```javaScript
 const str1 = "Saturday night plans";
@@ -455,6 +572,15 @@ console.log(str1.startsWith("Sat", 3));
 | Name | Description | Accepts | Return | Syntax |
 | ---- | ----------- | ------- | ------ | ------- |
 | substring | The substring() method of String values returns the part of this string from the start index up to and excluding the end index, or to the end of the string if no end index is supplied. | `indexStart` - The index of the first character to include in the returned substring. <br> `indexEnd` (Optional) - The index of the first character to exclude from the returned substring. | A new `string` containing the specified part of the given string. | substring(indexStart) <br> substring(indexStart, indexEnd) |
+
+
+<!-- <details>
+  <summary>ua</summary>
+
+
+</details>
+-->
+
 
 **Example**
 ```javaScript
