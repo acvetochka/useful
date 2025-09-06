@@ -241,12 +241,16 @@ console.log(a.localeCompare(b, 'en', { sensitivity: 'base' }));
 | match |The match() method of String values retrieves the result of matching this string against a regular expression. | `regexp` - A regular expression object, or any object that has a Symbol.match method. | An `Array` whose contents depend on the presence or absence of the global (g) flag, or `null` if no matches are found. | match(regexp)|
 
 
-<!-- <details>
+ <details>
   <summary>ua</summary>
+  
+| Назва     | Опис                                                                                                | Приймає                                                                                 | Повертає                                                                                                                          | Синтаксис       |
+| --------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| **match** | Метод **match()** для значень типу String отримує результат зіставлення рядка з регулярним виразом. | `regexp` — об’єкт регулярного виразу або будь-який об’єкт, що має метод `Symbol.match`. | `Масив (Array)`, вміст якого залежить від наявності або відсутності глобального прапора `g`, або `null`, якщо збігів не знайдено. | `match(regexp)` |
 
 
 </details>
--->
+
 
 **Example**
 ```javaScript
@@ -273,12 +277,15 @@ console.log(found);
 | ---- | ----------- | ------- | ------ | ------- |
 | matchAll | The matchAll() method of String values returns an iterator of all results matching this string against a regular expression, including capturing groups. | `regexp` - A regular expression object, or any object that has a Symbol.matchAll method. | An `iterable iterator object` (which is not restartable) of matches or an empty iterator if no matches are found. Each value yielded by the iterator is an array with the same shape as the return value of RegExp.prototype.exec(). | matchAll(regexp) |
 
-<!-- <details>
+<details>
   <summary>ua</summary>
+
+| Назва        | Опис                                                                                                                                                  | Приймає                                                                                    | Повертає                                                                                                                                                                                                                                 | Синтаксис          |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| **matchAll** | Метод **matchAll()** для значень типу String повертає ітератор усіх результатів зіставлення рядка з регулярним виразом, включно з групами захоплення. | `regexp` — об’єкт регулярного виразу або будь-який об’єкт, що має метод `Symbol.matchAll`. | `Ітерабельний об’єкт-ітератор` (який не можна перезапустити) зі збігами, або порожній ітератор, якщо збігів не знайдено. Кожне значення, яке повертає ітератор, є масивом з тією ж структурою, що й результат `RegExp.prototype.exec()`. | `matchAll(regexp)` |
 
 
 </details>
--->
 
 
 **Example** 
