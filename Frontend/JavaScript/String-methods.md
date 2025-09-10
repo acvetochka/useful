@@ -1,6 +1,7 @@
 # String methods
 
 ## Menu
+
 - [at](#at)
 - [concat](#concat)
 - [endsWith](#endsWith)
@@ -23,19 +24,21 @@
 
 ## at
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
-| at   | The at() method is used to find the character at the specified index, allows for positive and negative integers. Negative integers count back from the last string character.  | `index` The index (position) of the string character to be returned. | a new `String` consisting of the single UTF-16 code unit located at the specified offset | string.at(index) |
+| Name | Description                                                                                                                                                                   | Accepts                                                              | Return                                                                                   | Syntax           |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------- |
+| at   | The at() method is used to find the character at the specified index, allows for positive and negative integers. Negative integers count back from the last string character. | `index` The index (position) of the string character to be returned. | a new `String` consisting of the single UTF-16 code unit located at the specified offset | string.at(index) |
 
 <details>
   <summary>ua</summary>
 
-|  Назва	|Опис |	Приймає |	Повертає |	Синтаксис |
-| ---- | ----------- | ------- | ------ | ------- |
-| at	|Метод at() використовується для отримання символу за вказаним індексом; підтримує як додатні, так і від’ємні числа. Від’ємні індекси відраховуються від останнього символу рядка.	| index — індекс (позиція) символу рядка, який потрібно повернути. |	Новий рядок, що складається з одного UTF-16 коду символу на вказаній позиції. | string.at(index) |
+| Назва | Опис                                                                                                                                                                              | Приймає                                                          | Повертає                                                                      | Синтаксис        |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------- | ---------------- |
+| at    | Метод at() використовується для отримання символу за вказаним індексом; підтримує як додатні, так і від’ємні числа. Від’ємні індекси відраховуються від останнього символу рядка. | index — індекс (позиція) символу рядка, який потрібно повернути. | Новий рядок, що складається з одного UTF-16 коду символу на вказаній позиції. | string.at(index) |
+
 </details>
 
 **Example**
+
 ```javaScript
 const sentence = 'The quick brown fox jumps over the lazy dog.';
 let index = 5;
@@ -50,19 +53,21 @@ console.log(`An index of ${index} returns the character ${sentence.at(index)}`);
 
 ## concat
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
-| concat | The concat() function concatenates the string arguments to the calling string and returns a new string. | `str1`, `…`, `strN` One or more strings to concatenate to str| A new `string` containing the combined text of the strings provided. | concat(str1, str2) |
+| Name   | Description                                                                                             | Accepts                                                       | Return                                                               | Syntax             |
+| ------ | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------ |
+| concat | The concat() function concatenates the string arguments to the calling string and returns a new string. | `str1`, `…`, `strN` One or more strings to concatenate to str | A new `string` containing the combined text of the strings provided. | concat(str1, str2) |
 
 <details>
   <summary>ua</summary>
 
-|  Назва	|Опис |	Приймає |	Повертає |	Синтаксис |
-| ---- | ----------- | ------- | ------ | ------- |
-| concat	|! Функція concat() об’єднує (конкатенує) рядки-аргументи з вихідним рядком і повертає новий рядок.	| str1, …, strN — один або кілька рядків для об’єднання з вихідним рядком. | Новий рядок, що містить об’єднаний текст усіх переданих рядків. |	concat(str1, str2) |
+| Назва  | Опис                                                                                               | Приймає                                                                  | Повертає                                                        | Синтаксис          |
+| ------ | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------- | ------------------ |
+| concat | ! Функція concat() об’єднує (конкатенує) рядки-аргументи з вихідним рядком і повертає новий рядок. | str1, …, strN — один або кілька рядків для об’єднання з вихідним рядком. | Новий рядок, що містить об’єднаний текст усіх переданих рядків. | concat(str1, str2) |
+
 </details>
 
 **Example**
+
 ```javaScript
 const str1 = 'Hello';
 const str2 = 'World';
@@ -78,19 +83,21 @@ console.log(str2.concat(', ', str1));
 
 ## endsWith
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
-| endsWith | This method lets you determine whether or not a string ends with another string. This method is case-sensitive. |  `searchString` The characters to be searched for at the end of str <br> `endPosition` The end position at which searchString is expected to be found (the index of searchString's last character plus 1). Defaults to str.length. | `true` if the given characters are found at the end of the string, including when searchString is an empty string; otherwise, `false`. | string.endsWith(searchString, endPosition*) |
+| Name     | Description                                                                                                     | Accepts                                                                                                                                                                                                                           | Return                                                                                                                                 | Syntax                                       |
+| -------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| endsWith | This method lets you determine whether or not a string ends with another string. This method is case-sensitive. | `searchString` The characters to be searched for at the end of str <br> `endPosition` The end position at which searchString is expected to be found (the index of searchString's last character plus 1). Defaults to str.length. | `true` if the given characters are found at the end of the string, including when searchString is an empty string; otherwise, `false`. | string.endsWith(searchString, endPosition\*) |
 
 <details>
   <summary>ua</summary>
 
-| Назва |	Опис |	Приймає |	Повертає |	Синтаксис |
-| ---- | ----------- | ------- | ------ | ------- |
-| endsWith	| Метод endsWith() дозволяє визначити, чи закінчується рядок на інший заданий рядок. Метод чутливий до регістру.	| `searchString` — символи, які потрібно знайти в кінці рядка str. <br/> `endPosition` — позиція в рядку, на якій очікується знайти searchString (це індекс останнього символу searchString плюс 1). За замовчуванням — str.length. |	`true`, якщо вказані символи знайдено в кінці рядка (включно з випадком, коли searchString порожній); інакше — `false`.	| string.endsWith(searchString, endPosition*) |
+| Назва    | Опис                                                                                                           | Приймає                                                                                                                                                                                                                           | Повертає                                                                                                                | Синтаксис                                    |
+| -------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| endsWith | Метод endsWith() дозволяє визначити, чи закінчується рядок на інший заданий рядок. Метод чутливий до регістру. | `searchString` — символи, які потрібно знайти в кінці рядка str. <br/> `endPosition` — позиція в рядку, на якій очікується знайти searchString (це індекс останнього символу searchString плюс 1). За замовчуванням — str.length. | `true`, якщо вказані символи знайдено в кінці рядка (включно з випадком, коли searchString порожній); інакше — `false`. | string.endsWith(searchString, endPosition\*) |
+
 </details>
 
 **Example**
+
 ```javaScript
 const str1 = 'Cats are the best!';
 console.log(str1.endsWith('best!'));
@@ -108,19 +115,21 @@ console.log(str2.endsWith('question'));
 
 ## includes
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
-| includes | This method lets you determine whether or not a string includes another string. | `searchString` - A string to be searched for within str. Cannot be a regex.  <br>  `position` (optional) The position within the string at which to begin searching for searchString. (Defaults to 0.) | `true` if the search string is found anywhere within the given string, including when searchString is an empty string; otherwise, `false`. | string.includes(searchString, position*) |
+| Name     | Description                                                                     | Accepts                                                                                                                                                                                              | Return                                                                                                                                     | Syntax                                    |
+| -------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------- |
+| includes | This method lets you determine whether or not a string includes another string. | `searchString` - A string to be searched for within str. Cannot be a regex. <br> `position` (optional) The position within the string at which to begin searching for searchString. (Defaults to 0.) | `true` if the search string is found anywhere within the given string, including when searchString is an empty string; otherwise, `false`. | string.includes(searchString, position\*) |
 
 <details>
 <summary>ua</summary>
 
-  | Назва        | Опис                                                                           | Приймає                                                                                                                                                                                                       | Повертає                                                                                                                              | Синтаксис                                  |
-| ------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| **includes** | Метод **includes()** дозволяє визначити, чи містить рядок інший заданий рядок. | `searchString` — рядок, який потрібно знайти в межах `str`. Не може бути регулярним виразом.  <br>  `position` (необов’язково) — позиція в рядку, з якої почати пошук `searchString`. (За замовчуванням — 0.) | `true`, якщо рядок пошуку знайдено будь-де в межах даного рядка (включно з випадком, коли `searchString` порожній); інакше — `false`. | `string.includes(searchString, position*)` |
+| Назва        | Опис                                                                           | Приймає                                                                                                                                                                                                     | Повертає                                                                                                                              | Синтаксис                                  |
+| ------------ | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| **includes** | Метод **includes()** дозволяє визначити, чи містить рядок інший заданий рядок. | `searchString` — рядок, який потрібно знайти в межах `str`. Не може бути регулярним виразом. <br> `position` (необов’язково) — позиція в рядку, з якої почати пошук `searchString`. (За замовчуванням — 0.) | `true`, якщо рядок пошуку знайдено будь-де в межах даного рядка (включно з випадком, коли `searchString` порожній); інакше — `false`. | `string.includes(searchString, position*)` |
+
 </details>
 
 **Example**
+
 ```javaScript
 const sentence = 'The quick brown fox jumps over the lazy dog.';
 const word = 'fox';
@@ -136,21 +145,21 @@ console.log(
 
 ## indexOf
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
-| indexOf | The indexOf() method of String values searches this string and returns the index of the first occurrence of the specified substring. | `searchString` Substring to search for. <br> `position`(optional) The method returns the index of the first occurrence of the specified substring at a position greater than or equal to position, which defaults to 0 | The `index of the first occurrence` of searchString found, or `-1` if not found. | string.indexOf(searchString, position*) |
+| Name    | Description                                                                                                                          | Accepts                                                                                                                                                                                                                | Return                                                                           | Syntax                                   |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ---------------------------------------- |
+| indexOf | The indexOf() method of String values searches this string and returns the index of the first occurrence of the specified substring. | `searchString` Substring to search for. <br> `position`(optional) The method returns the index of the first occurrence of the specified substring at a position greater than or equal to position, which defaults to 0 | The `index of the first occurrence` of searchString found, or `-1` if not found. | string.indexOf(searchString, position\*) |
 
 <details>
   <summary>ua</summary>
 
-| Назва       | Опис    | Приймає    | Повертає    | Синтаксис    |
-| ----------- | -------- | ------ | -------------| ------------ |
+| Назва       | Опис                                                                                                                       | Приймає                                                                                                                                                                                             | Повертає                                                                        | Синтаксис                                 |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ----------------------------------------- |
 | **indexOf** | Метод **indexOf()** для значень типу String виконує пошук у рядку та повертає індекс першого входження вказаного підрядка. | `searchString` — підрядок для пошуку. <br> `position` (необов’язково) — метод повертає індекс першого входження підрядка, починаючи з позиції, більшої або рівної `position`. За замовчуванням — 0. | `Індекс першого входження` підрядка `searchString`, або `-1`, якщо не знайдено. | `string.indexOf(searchString, position*)` |
 
 </details>
 
-
 **Example**
+
 ```javaScript
 const paragraph = "I think Ruth's dog is cuter than your dog!";
 
@@ -173,10 +182,9 @@ console.log(
 
 ## lastIndexOf
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
-| lastIndexOf | searches this string and returns the index of the last occurrence of the specified substring | `searchString` Substring to search for.  <br> `position` (optional) The method returns the index of the last occurrence of the specified substring at a position less than or equal to position, which defaults to +Infinity | The `index of the last occurrence` of searchString found, or `-1` if not found. | string.lastIndexOf(searchString, position)|
-
+| Name        | Description                                                                                  | Accepts                                                                                                                                                                                                                     | Return                                                                          | Syntax                                     |
+| ----------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------ |
+| lastIndexOf | searches this string and returns the index of the last occurrence of the specified substring | `searchString` Substring to search for. <br> `position` (optional) The method returns the index of the last occurrence of the specified substring at a position less than or equal to position, which defaults to +Infinity | The `index of the last occurrence` of searchString found, or `-1` if not found. | string.lastIndexOf(searchString, position) |
 
 <details>
   <summary>ua</summary>
@@ -185,11 +193,10 @@ console.log(
 | --------------- | --------- | ------------- | ------------- | ------------------- |
 | **lastIndexOf** | Виконує пошук у рядку та повертає індекс останнього входження вказаного підрядка. | `searchString` — підрядок для пошуку. <br> `position` (необов’язково) — метод повертає індекс останнього входження підрядка на позиції, меншій або рівній `position`. За замовчуванням — `+Infinity`. | `Індекс останнього входження` підрядка `searchString`, або `-1`, якщо не знайдено. | `string.lastIndexOf(searchString, position)` |
 
-
 </details>
 
-
 **Example**
+
 ```javaScript
 const paragraph = "I think Ruth's dog is cuter than your dog!";
 
@@ -205,23 +212,21 @@ console.log(
 
 ## localeCompare
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
+| Name          | Description                                                                                                                                                           | Accepts                                                                                                                                                                                                                                 | Return                                                                                                                                                                  | Syntax                                         |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
 | localeCompare | The localeCompare() method of String values returns a number indicating whether this string comes before, or after, or is the same as the given string in sort order. | `compareString` The string against which the referenceStr is compared. <br> `locales` (Optional) - A string with a BCP 47 language tag, or an array of such strings. <br> `options` (Optional) - An object adjusting the output format. | - A `negative number` if referenceStr occurs before compareString; <br/> = `positive` if the referenceStr occurs after compareString; <br/> - 0 if they are equivalent. | localeCompare(compareString, locales, options) |
-
 
 <details>
   <summary>ua</summary>
 
-| Назва             | Опис                                                                                                                                                                        | Приймає                                                                                                                                                                                                                     | Повертає                                                                                                                            | Синтаксис                                        |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| Назва             | Опис                                                                                                                                                                        | Приймає                                                                                                                                                                                                                     | Повертає                                                                                                                                              | Синтаксис                                        |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
 | **localeCompare** | Метод **localeCompare()** для значень типу String повертає число, яке вказує, чи розташований рядок до, після або на тому ж місці, що й заданий рядок у порядку сортування. | `compareString` — рядок, з яким порівнюється `referenceStr`. <br> `locales` (необов’язково) — рядок із мовним тегом BCP 47 або масив таких рядків. <br> `options` (необов’язково) — об’єкт для налаштування формату виводу. | - `Від’ємне число`, якщо `referenceStr` розташований перед `compareString`; <br/> - `додатне число`, якщо після; <br/> - `0`, якщо вони еквівалентні. | `localeCompare(compareString, locales, options)` |
-
 
 </details>
 
-
 **Example**
+
 ```javaScript
 const a = 'réservé'; // With accents, lowercase
 const b = 'RESERVE'; // No accents, uppercase
@@ -236,10 +241,9 @@ console.log(a.localeCompare(b, 'en', { sensitivity: 'base' }));
 
 ## match
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
-| match |The match() method of String values retrieves the result of matching this string against a regular expression. | `regexp` - A regular expression object, or any object that has a Symbol.match method. | An `Array` whose contents depend on the presence or absence of the global (g) flag, or `null` if no matches are found. | match(regexp)|
-
+| Name  | Description                                                                                                    | Accepts                                                                               | Return                                                                                                                 | Syntax        |
+| ----- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------- |
+| match | The match() method of String values retrieves the result of matching this string against a regular expression. | `regexp` - A regular expression object, or any object that has a Symbol.match method. | An `Array` whose contents depend on the presence or absence of the global (g) flag, or `null` if no matches are found. | match(regexp) |
 
  <details>
   <summary>ua</summary>
@@ -248,11 +252,10 @@ console.log(a.localeCompare(b, 'en', { sensitivity: 'base' }));
 | --------------- | --------- | ------------- | ------------- | ------------------- |
 | **match** | Метод **match()** для значень типу String отримує результат зіставлення рядка з регулярним виразом. | `regexp` — об’єкт регулярного виразу або будь-який об’єкт, що має метод `Symbol.match`. | `Масив (Array)`, вміст якого залежить від наявності або відсутності глобального прапора `g`, або `null`, якщо збігів не знайдено. | `match(regexp)` |
 
-
 </details>
 
-
 **Example**
+
 ```javaScript
 const str = "For more information, see Chapter 3.4.5.1";
 const re = /see (chapter \d+(\.\d)*)/i;
@@ -273,22 +276,21 @@ console.log(found);
 
 ## matchAll
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
+| Name     | Description                                                                                                                                              | Accepts                                                                                  | Return                                                                                                                                                                                                                               | Syntax           |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
 | matchAll | The matchAll() method of String values returns an iterator of all results matching this string against a regular expression, including capturing groups. | `regexp` - A regular expression object, or any object that has a Symbol.matchAll method. | An `iterable iterator object` (which is not restartable) of matches or an empty iterator if no matches are found. Each value yielded by the iterator is an array with the same shape as the return value of RegExp.prototype.exec(). | matchAll(regexp) |
 
 <details>
   <summary>ua</summary>
 
-| Назва           | Опис      | Приймає      | Повертає      | Синтаксис       |
-| --------------- | --------- | ------------- | ------------- | ------------------- |
+| Назва        | Опис                                                                                                                                                  | Приймає                                                                                    | Повертає                                                                                                                                                                                                                                 | Синтаксис          |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
 | **matchAll** | Метод **matchAll()** для значень типу String повертає ітератор усіх результатів зіставлення рядка з регулярним виразом, включно з групами захоплення. | `regexp` — об’єкт регулярного виразу або будь-який об’єкт, що має метод `Symbol.matchAll`. | `Ітерабельний об’єкт-ітератор` (який не можна перезапустити) зі збігами, або порожній ітератор, якщо збігів не знайдено. Кожне значення, яке повертає ітератор, є масивом з тією ж структурою, що й результат `RegExp.prototype.exec()`. | `matchAll(regexp)` |
-
 
 </details>
 
+**Example**
 
-**Example** 
 ```javaScript
 const regexp = /t(e)(st(\d?))/g;
 const str = "test1test2";
@@ -306,23 +308,21 @@ console.log(array[1]);
 
 ## padEnd
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
-| padEnd | The padEnd() method of String values pads this string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of this string. | `targetLength` - The length of the resulting string once the current str has been padded. If the value is less than or equal to str.length, the current string will be returned as-is. <br> `padString` (Optional) - The string to pad the current str with. If padString is too long to stay within targetLength, it will be truncated: for left-to-right languages the left-most part and for right-to-left languages the right-most will be applied. The default value for this parameter is " " (U+0020).| A `String` of the specified targetLength with the padString applied at the end of the current str. | padEnd(targetLength) <br> padEnd(targetLength, padString) |
+| Name   | Description                                                                                                                                                                                              | Accepts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Return                                                                                             | Syntax                                                    |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| padEnd | The padEnd() method of String values pads this string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of this string. | `targetLength` - The length of the resulting string once the current str has been padded. If the value is less than or equal to str.length, the current string will be returned as-is. <br> `padString` (Optional) - The string to pad the current str with. If padString is too long to stay within targetLength, it will be truncated: for left-to-right languages the left-most part and for right-to-left languages the right-most will be applied. The default value for this parameter is " " (U+0020). | A `String` of the specified targetLength with the padString applied at the end of the current str. | padEnd(targetLength) <br> padEnd(targetLength, padString) |
 
  <details>
   <summary>ua</summary>
 
-| Назва           | Опис      | Приймає      | Повертає      | Синтаксис       |
-| --------------- | --------- | ------------- | ------------- | ------------------- |
-|padEnd	| Метод padEnd() для значень типу String доповнює рядок вказаним рядком (повторюваним за потреби), щоб отриманий рядок досяг певної довжини. Доповнення застосовується з кінця вихідного рядка.	| `targetLength` — довжина отриманого рядка після доповнення. Якщо значення менше або дорівнює str.length, повертається вихідний рядок без змін. <br> `padString` (необов’язково) — рядок, яким доповнюється вихідний рядок. Якщо padString занадто довгий для розміщення в межах targetLength, він буде обрізаний: для мов з написанням зліва направо використовується ліва частина, а для мов з написанням справа наліво — права. Значення за замовчуванням — " " (U+0020).	| Рядок (String) заданої довжини targetLength з доданим у кінці padString.	| padEnd(targetLength) <br> padEnd(targetLength, padString) |
-
+| Назва  | Опис                                                                                                                                                                                          | Приймає                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Повертає                                                                 | Синтаксис                                                 |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------- |
+| padEnd | Метод padEnd() для значень типу String доповнює рядок вказаним рядком (повторюваним за потреби), щоб отриманий рядок досяг певної довжини. Доповнення застосовується з кінця вихідного рядка. | `targetLength` — довжина отриманого рядка після доповнення. Якщо значення менше або дорівнює str.length, повертається вихідний рядок без змін. <br> `padString` (необов’язково) — рядок, яким доповнюється вихідний рядок. Якщо padString занадто довгий для розміщення в межах targetLength, він буде обрізаний: для мов з написанням зліва направо використовується ліва частина, а для мов з написанням справа наліво — права. Значення за замовчуванням — " " (U+0020). | Рядок (String) заданої довжини targetLength з доданим у кінці padString. | padEnd(targetLength) <br> padEnd(targetLength, padString) |
 
 </details>
 
+**Example**
 
-
-**Example** 
 ```javaScript
 const str1 = "Breaded Mushrooms";
 
@@ -338,19 +338,21 @@ console.log(str2.padEnd(5));
 
 ## padStart
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
+| Name     | Description                                                                                                                                                                                                        | Accepts                                                                                                                                                                                                                                                                                                                                                                                                 | Return                                                                          | Syntax                                                        |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | padStart | The padStart() method of String values pads this string with another string (multiple times, if needed) until the resulting string reaches the given length. The padding is applied from the start of this string. | `targetLength` - The length of the resulting string once the current str has been padded. If the value is less than or equal to str.length, then str is returned as-is. <br> `padString` (Optional) - The string to pad the current str with. If padString is too long to stay within the targetLength, it will be truncated from the end. The default value is the unicode "space" character (U+0020). | A `String` of the specified targetLength with padString applied from the start. | padStart(targetLength) <br> padStart(targetLength, padString) |
 
-
-<!-- <details>
+<details>
   <summary>ua</summary>
 
+| Назва        | Опис                                                                                                                                                                                                | Приймає                                                                                                                                                                                                                                                                                                                                                                              | Повертає                                                                           | Синтаксис                                                         |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **padStart** | Метод **padStart()** для значень типу String доповнює цей рядок іншим рядком (повторюваним за потреби), доки отриманий рядок не досягне заданої довжини. Доповнення застосовується з початку рядка. | `targetLength` — довжина отриманого рядка після доповнення. Якщо значення менше або дорівнює `str.length`, повертається вихідний рядок без змін. <br> `padString` (необов’язково) — рядок, яким доповнюється вихідний рядок. Якщо `padString` занадто довгий для розміщення в межах `targetLength`, він буде обрізаний з кінця. Значення за замовчуванням — символ пробілу (U+0020). | `Рядок (String)` заданої довжини `targetLength` із доданим на початку `padString`. | `padStart(targetLength)` <br> `padStart(targetLength, padString)` |
 
 </details>
--->
 
-**Example** 
+**Example**
+
 ```javaScript
 const str1 = "5";
 
@@ -369,19 +371,21 @@ console.log(maskedNumber);
 
 ## repeat
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
-| repeat |  The repeat() method of String values constructs and returns a new string which contains the specified number of copies of this string, concatenated together. | `count` - An integer between 0 and +Infinity, indicating the number of times to repeat the string. | A new `string` containing the specified number of copies of the given string. | repeat(count) |
+| Name   | Description                                                                                                                                                   | Accepts                                                                                            | Return                                                                        | Syntax        |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------- |
+| repeat | The repeat() method of String values constructs and returns a new string which contains the specified number of copies of this string, concatenated together. | `count` - An integer between 0 and +Infinity, indicating the number of times to repeat the string. | A new `string` containing the specified number of copies of the given string. | repeat(count) |
 
-<!-- <details>
+<details>
   <summary>ua</summary>
 
+| Назва      | Опис                                                                                                                                               | Приймає                                                                       | Повертає                                                                      | Синтаксис       |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | --------------- |
+| **repeat** | Метод **repeat()** для значень типу String створює та повертає новий рядок, який містить вказану кількість копій вихідного рядка, з’єднаних разом. | `count` — ціле число від 0 до +Infinity, що вказує кількість повторень рядка. | Новий `рядок (string)`, який містить вказану кількість копій вихідного рядка. | `repeat(count)` |
 
 </details>
--->
-
 
 **Example**
+
 ```javaScript
 const mood = "Happy! ";
 
@@ -393,21 +397,22 @@ console.log(`I feel ${mood.repeat(3)}`);
 
 ## replace
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
-| replace | The replace() method of String values returns a new string with one, some, or all matches of a pattern replaced by a replacement.  | `pattern` - Can be a string or an object with a Symbol.replace method — the typical example being a regular expression. <br> `replacement` -Can be a string or a function. | A new `string`, with one, some, or all matches of the pattern replaced by the specified replacement. | replace(pattern, replacement) |
+| Name    | Description                                                                                                                       | Accepts                                                                                                                                                                    | Return                                                                                               | Syntax                        |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------- |
+| replace | The replace() method of String values returns a new string with one, some, or all matches of a pattern replaced by a replacement. | `pattern` - Can be a string or an object with a Symbol.replace method — the typical example being a regular expression. <br> `replacement` -Can be a string or a function. | A new `string`, with one, some, or all matches of the pattern replaced by the specified replacement. | replace(pattern, replacement) |
 
-
-<!-- <details>
+ <details>
   <summary>ua</summary>
 
+| Назва       | Опис                                                                                                                                     | Приймає                                                                                                                                                         | Повертає                                                                                       | Синтаксис                       |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------- |
+| **replace** | Метод **replace()** для значень типу String повертає новий рядок, у якому один, кілька або всі збіги шаблону замінені на вказану заміну. | `pattern` — може бути рядком або об’єктом із методом `Symbol.replace` (типовий приклад — регулярний вираз). <br> `replacement` — може бути рядком або функцією. | Новий `рядок (string)`, у якому один, кілька або всі збіги шаблону замінено на вказану заміну. | `replace(pattern, replacement)` |
 
 </details>
--->
-
 
 **Example**
-```javaScript 
+
+```javaScript
 const paragraph = "I think Ruth's dog is cuter than your dog!";
 
 console.log(paragraph.replace("Ruth's", "my"));
@@ -415,27 +420,28 @@ console.log(paragraph.replace("Ruth's", "my"));
 
 const regex = /Dog/i;
 console.log(paragraph.replace(regex, "ferret"));
-// Expected output: "I think Ruth's ferret is cuter than your dog!" 
+// Expected output: "I think Ruth's ferret is cuter than your dog!"
 ```
 
 [Back to Menu](#Menu)
 
 ## replaceAll
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
+| Name       | Description                                                                                                            | Accepts                                                                                                                                                                                                                                                                | Return                                                                   | Syntax                           |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | -------------------------------- |
 | replaceAll | The replaceAll() method of String values returns a new string with all matches of a pattern replaced by a replacement. | `pattern`- Can be a string or an object with a Symbol.replace method — the typical example being a regular expression. If pattern is a regex, then it must have the global (g) flag set, or a TypeError is thrown. <br> `replacement` - Can be a string or a function. | A new `string`, with all matches of a pattern replaced by a replacement. | replaceAll(pattern, replacement) |
 
-
-<!-- <details>
+<details>
   <summary>ua</summary>
 
+| Назва          | Опис                                                                                                                       | Приймає                                                                                                                                                                                                                                                                        | Повертає                                                                      | Синтаксис                          |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- | ---------------------------------- |
+| **replaceAll** | Метод **replaceAll()** для значень типу String повертає новий рядок, у якому всі збіги шаблону замінено на вказану заміну. | `pattern` — може бути рядком або об’єктом із методом `Symbol.replace` (типовий приклад — регулярний вираз). Якщо `pattern` є регулярним виразом, він повинен мати глобальний прапор `g`, інакше буде викинуто `TypeError`. <br> `replacement` — може бути рядком або функцією. | Новий `рядок (string)`, у якому всі збіги шаблону замінено на вказану заміну. | `replaceAll(pattern, replacement)` |
 
 </details>
--->
-
 
 **Example**
+
 ```javaScript
 const paragraph = "I think Ruth's dog is cuter than your dog!";
 
@@ -452,20 +458,21 @@ console.log(paragraph.replaceAll(regex, "ferret"));
 
 ## search
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
+| Name   | Description                                                                                                                                                            | Accepts                                                                               | Return                                                                                                             | Syntax         |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | -------------- |
 | search | The search() method of String values executes a search for a match between a regular expression and this string, returning the index of the first match in the string. | `regexp`- A regular expression object, or any object that has a Symbol.search method. | The `index of the first match` between the regular expression and the given string, or `-1` if no match was found. | search(regexp) |
 
-
-<!-- <details>
+<details>
   <summary>ua</summary>
 
+| Назва      | Опис                                                                                                                                         | Приймає                                                                                  | Повертає                                                                                           | Синтаксис        |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ---------------- |
+| **search** | Метод **search()** для значень типу String виконує пошук збігу між регулярним виразом і цим рядком, повертаючи індекс першого збігу у рядку. | `regexp` — об’єкт регулярного виразу або будь-який об’єкт, що має метод `Symbol.search`. | `Індекс першого збігу` між регулярним виразом і заданим рядком, або `-1`, якщо збігів не знайдено. | `search(regexp)` |
 
 </details>
--->
-
 
 **Example**
+
 ```javaScript
 const paragraph = "I think Ruth's dog is cuter than your dog!";
 
@@ -483,20 +490,21 @@ console.log(paragraph[paragraph.search(regex)]);
 
 ## slice
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
+| Name  | Description                                                                                                                                  | Accepts                                                                                                                                                                                     | Return                                                         | Syntax                                             |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------- |
 | slice | The slice() method of String values extracts a section of this string and returns it as a new string, without modifying the original string. | `indexStart` - The index of the first character to include in the returned substring. <br> `indexEnd` (Optional) - The index of the first character to exclude from the returned substring. | A new `string` containing the extracted section of the string. | slice(indexStart) <br> slice(indexStart, indexEnd) |
 
-
-<!-- <details>
+<details>
   <summary>ua</summary>
 
+| Назва     | Опис                                                                                                                                 | Приймає                                                                                                                                                                                | Повертає                                                   | Синтаксис                                              |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------ |
+| **slice** | Метод **slice()** для значень типу String вирізає частину цього рядка та повертає її як новий рядок, не змінюючи оригінальний рядок. | `indexStart` — індекс першого символу, який слід включити у повернений підрядок. <br> `indexEnd` (необов’язково) — індекс першого символу, який слід виключити з поверненого підрядка. | Новий `рядок (string)`, що містить вирізану частину рядка. | `slice(indexStart)` <br> `slice(indexStart, indexEnd)` |
 
 </details>
--->
-
 
 **Example**
+
 ```javaScript
 const str = "The quick brown fox jumps over the lazy dog.";
 
@@ -517,20 +525,21 @@ console.log(str.slice(-9, -5));
 
 ## split
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
-| split | The split() method of String values takes a pattern and divides this string into an ordered list of substrings by searching for the pattern, puts these substrings into an array, and returns the array. |`separator` - The pattern describing where each split should occur. Can be undefined, a string, or an object with a Symbol.split method — the typical example being a regular expression. <br> `limit` (Optional) - A non-negative integer specifying a limit on the number of substrings to be included in the array. If provided, splits the string at each occurrence of the specified separator, but stops when limit entries have been placed in the array. Any leftover text is not included in the array at all. | If separator is a string, an `Array of strings` is returned, split at each point where the separator occurs in the given string. <br> If separator is a regex, the returned `Array` also contains the captured groups for each separator match. <br> If separator has a custom [Symbol.split]() method, its return value is directly returned. | split(separator) <br> split(separator, limit) |
+| Name  | Description                                                                                                                                                                                              | Accepts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Return                                                                                                                                                                                                                                                                                                                                         | Syntax                                        |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| split | The split() method of String values takes a pattern and divides this string into an ordered list of substrings by searching for the pattern, puts these substrings into an array, and returns the array. | `separator` - The pattern describing where each split should occur. Can be undefined, a string, or an object with a Symbol.split method — the typical example being a regular expression. <br> `limit` (Optional) - A non-negative integer specifying a limit on the number of substrings to be included in the array. If provided, splits the string at each occurrence of the specified separator, but stops when limit entries have been placed in the array. Any leftover text is not included in the array at all. | If separator is a string, an `Array of strings` is returned, split at each point where the separator occurs in the given string. <br> If separator is a regex, the returned `Array` also contains the captured groups for each separator match. <br> If separator has a custom [Symbol.split]() method, its return value is directly returned. | split(separator) <br> split(separator, limit) |
 
-
-<!-- <details>
+<details>
   <summary>ua</summary>
 
+| Назва     | Опис                                                                                                                                                                                 | Приймає                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Повертає                                                                                                                                                                                                                                                                                                                                                                         | Синтаксис                                         |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| **split** | Метод **split()** для значень типу String приймає шаблон і ділить цей рядок на впорядкований список підрядків, шукаючи цей шаблон, поміщає ці підрядки у масив і повертає цей масив. | `separator` — шаблон, що описує, де має відбуватися поділ. Може бути `undefined`, рядком або об’єктом із методом `Symbol.split` (типовий приклад — регулярний вираз). <br> `limit` (необов’язково) — невід’ємне ціле число, яке визначає обмеження кількості підрядків у масиві. Якщо вказано, рядок ділиться при кожному збігу з роздільником, але зупиняється, коли у масив додано `limit` елементів. Будь-який залишок тексту в масив не включається. | Якщо `separator` — рядок, повертається `масив рядків (Array of strings)`, розділений у кожному місці, де в заданому рядку зустрічається роздільник. <br> Якщо `separator` — регулярний вираз, повернутий `масив (Array)` також містить захоплені групи для кожного збігу з роздільником. <br> Якщо `separator` має власний метод `[Symbol.split]()`, повертається його значення. | `split(separator)` <br> `split(separator, limit)` |
 
 </details>
--->
-
 
 **Example**
+
 ```javaScript
 const str = "The quick brown fox jumps over the lazy dog.";
 
@@ -551,20 +560,21 @@ console.log(strCopy);
 
 ## startsWith
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
+| Name       | Description                                                                                                                                                       | Accepts                                                                                                                                                                                                                                                                                                                                                                                                                                            | Return                                                                                                                                       | Syntax                                                           |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | startsWith | The startsWith() method of String values determines whether this string begins with the characters of a specified string, returning true or false as appropriate. | `searchString` - The characters to be searched for at the start of this string. Cannot be a regex. All values that are not regexes are coerced to strings, so omitting it or passing undefined causes startsWith() to search for the string "undefined", which is rarely what you want. <br> `position` (Optional) - The start position at which searchString is expected to be found (the index of searchString's first character). Defaults to 0 | `true` if the given characters are found at the beginning of the string, including when searchString is an empty string; otherwise, `false`. | startsWith(searchString) <br> startsWith(searchString, position) |
 
-
-<!-- <details>
+<details>
   <summary>ua</summary>
 
+| Назва          | Опис                                                                                                                                                     | Приймає                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Повертає                                                                                                                    | Синтаксис                                                            |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| **startsWith** | Метод **startsWith()** для значень типу String визначає, чи починається цей рядок із символів указаного рядка, повертаючи `true` або `false` відповідно. | `searchString` — символи, які потрібно знайти на початку цього рядка. Не може бути регулярним виразом. Усі значення, які не є регулярними виразами, примусово перетворюються на рядки, тому пропуск аргументу або передавання `undefined` призводить до пошуку рядка `"undefined"`, що рідко є бажаним. <br> `position` (необов’язково) — початкова позиція, на якій очікується знайти `searchString` (індекс першого символу `searchString`). За замовчуванням — 0. | `true`, якщо задані символи знайдено на початку рядка (включно з випадком, коли `searchString` порожній); інакше — `false`. | `startsWith(searchString)` <br> `startsWith(searchString, position)` |
 
 </details>
--->
-
 
 **Example**
+
 ```javaScript
 const str1 = "Saturday night plans";
 
@@ -577,23 +587,23 @@ console.log(str1.startsWith("Sat", 3));
 
 [Back to Menu](#Menu)
 
-
 ## substring
 
-| Name | Description | Accepts | Return | Syntax |
-| ---- | ----------- | ------- | ------ | ------- |
+| Name      | Description                                                                                                                                                                              | Accepts                                                                                                                                                                                     | Return                                                            | Syntax                                                     |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------- |
 | substring | The substring() method of String values returns the part of this string from the start index up to and excluding the end index, or to the end of the string if no end index is supplied. | `indexStart` - The index of the first character to include in the returned substring. <br> `indexEnd` (Optional) - The index of the first character to exclude from the returned substring. | A new `string` containing the specified part of the given string. | substring(indexStart) <br> substring(indexStart, indexEnd) |
 
-
-<!-- <details>
+<details>
   <summary>ua</summary>
 
+| Назва         | Опис                                                                                                                                                                                           | Приймає                                                                                                                                                                                | Повертає                                                           | Синтаксис                                                      |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------- |
+| **substring** | Метод **substring()** для значень типу String повертає частину цього рядка від початкового індексу до (але не включаючи) кінцевий індекс, або до кінця рядка, якщо кінцевий індекс не вказано. | `indexStart` — індекс першого символу, який слід включити у повернений підрядок. <br> `indexEnd` (необов’язково) — індекс першого символу, який слід виключити з поверненого підрядка. | Новий `рядок (string)`, що містить указані частини заданого рядка. | `substring(indexStart)` <br> `substring(indexStart, indexEnd)` |
 
 </details>
--->
-
 
 **Example**
+
 ```javaScript
 const str = "Mozilla";
 
@@ -603,5 +613,3 @@ console.log(str.substring(1, 3));
 console.log(str.substring(2));
 // Expected output: "zilla"
 ```
-
-
