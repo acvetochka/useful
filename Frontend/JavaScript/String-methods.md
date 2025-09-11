@@ -51,6 +51,31 @@ console.log(`An index of ${index} returns the character ${sentence.at(index)}`);
 
 [Back to Menu](#Menu)
 
+## charAt  
+
+| Name | Description | Accepts | Return | Syntax |  
+| ---- | ----------- | ------- | ------ | ------ |  
+| charAt | The charAt() method returns a new string consisting of the single UTF-16 code unit located at the specified offset. | `index` – An integer between 0 and str.length – 1. If index is out of range, an empty string is returned. | A new `string` containing the single character at the specified index, or an empty string. | string.charAt(index) |
+
+<details>
+  <summary>ua</summary>
+
+| Назва | Опис | Приймає | Повертає | Синтаксис |  
+| ----- | ----- | ------- | -------- | ---------- |  
+| charAt | Метод charAt() повертає новий рядок, що складається з одного UTF-16 коду символу, розташованого на вказаній позиції. | `index` – ціле число від 0 до str.length – 1. Якщо індекс поза межами, повертається порожній рядок. | Новий рядок із одним символом за вказаним індексом або порожній рядок. | string.charAt(index) |  
+
+</details>
+
+**Example**  
+
+```js
+const str = 'Hello';
+console.log(str.charAt(1)); // "e"
+console.log(str.charAt(99)); // ""
+```
+
+[Back to Menu](#Menu)
+
 ## concat
 
 | Name   | Description                                                                                             | Accepts                                                       | Return                                                               | Syntax             |
