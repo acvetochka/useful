@@ -3,6 +3,7 @@
 ## Menu
 
 - [at](#at)
+- [charAt](#charAt)
 - [concat](#concat)
 - [endsWith](#endsWith)
 - [includes](#includes)
