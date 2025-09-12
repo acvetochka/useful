@@ -77,6 +77,52 @@ console.log(str.charAt(99)); // ""
 
 [Back to Menu](#Menu)
 
+## charCodeAt
+
+| Name       | Description                                                                                                          | Accepts                                            | Return                                                                                           | Syntax                   |
+| ---------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------ |
+| charCodeAt | The charCodeAt() method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index. | `index` – An integer between 0 and str.length – 1. | A `number` – the UTF-16 code unit value at the specified index, or NaN if index is out of range. | string.charCodeAt(index) |
+
+
+<details> <summary>ua</summary>
+
+  | Назва      | Опис                                                                                                           | Приймає                                       | Повертає                                                                                      | Синтаксис                |
+| ---------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------ |
+| charCodeAt | Метод charCodeAt() повертає ціле число від 0 до 65535, що представляє UTF-16 кодовий юніт за заданим індексом. | `index` – ціле число від 0 до str.length – 1. | Число – значення UTF-16 кодового юніта за вказаним індексом або NaN, якщо індекс поза межами. | string.charCodeAt(index) |
+
+
+</details>
+
+Example
+```javascript
+const str = 'ABC';
+console.log(str.charCodeAt(0)); // 65
+```
+
+[Back to Menu](#Menu)
+
+## codePointAt
+
+| Name        | Description                                                                                                         | Accepts                                               | Return                                                                                            | Syntax                       |
+| ----------- | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------- |
+| codePointAt | The codePointAt() method returns a non-negative integer that is the Unicode code point value at the given position. | `position` – An integer between 0 and str.length – 1. | A `number` representing the full Unicode code point value, or undefined if index is out of range. | string.codePointAt(position) |
+
+<details> <summary>ua</summary>
+
+  | Назва       | Опис                                                                                                    | Приймає                                          | Повертає                                                                                  | Синтаксис                    |
+| ----------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------------- | ---------------------------- |
+| codePointAt | Метод codePointAt() повертає невід’ємне число, яке є значенням коду Unicode символу на заданій позиції. | `position` – ціле число від 0 до str.length – 1. | Число, що представляє повний код символу Unicode, або undefined, якщо індекс поза межами. | string.codePointAt(position) |
+
+</details>
+
+Example
+```javascript
+const rocket = '🚀';
+console.log(rocket.codePointAt(0)); // 128640
+```
+
+[Back to Menu](#Menu)
+
 ## concat
 
 | Name   | Description                                                                                             | Accepts                                                       | Return                                                               | Syntax             |
