@@ -4,6 +4,8 @@
 
 - [at](#at)
 - [charAt](#charAt)
+- [charCodeAt](#charCodeAt)
+- [codePointAt](#codePointAt)
 - [concat](#concat)
 - [endsWith](#endsWith)
 - [includes](#includes)
