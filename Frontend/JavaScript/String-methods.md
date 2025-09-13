@@ -380,6 +380,73 @@ console.log(array[1]);
 
 [Back to Menu](#Menu)
 
+## normalize  
+
+| Name | Description | Accepts | Return | Syntax |  
+| ---- | ----------- | ------- | ------ | ------ |  
+| normalize | The normalize() method returns the Unicode Normalization Form of the string. | `form` (Optional) – One of "NFC", "NFD", "NFKC", or "NFKD". Defaults to "NFC". | A new `string` containing the normalized form of the original string. | string.normalize(form) |
+
+<details>
+  <summary>ua</summary>
+
+| Назва | Опис | Приймає | Повертає | Синтаксис |  
+| ----- | ----- | ------- | -------- | ---------- |  
+| normalize | Метод normalize() повертає рядок у вказаній формі нормалізації Unicode. | `form` (необов’язково) – одне зі значень "NFC", "NFD", "NFKC" або "NFKD". За замовчуванням — "NFC". | Новий рядок у нормалізованій формі Unicode. | string.normalize(form) |  
+
+</details>
+
+**Example**  
+
+```js
+const name1 = '\u0041\u030A'; // A + ring
+const name2 = '\u00C5'; // Å
+console.log(name1.normalize() === name2.normalize()); // true
+```
+
+[Back to Menu](#Menu)
+
+## toLowerCase
+| Name | Description | Accepts | Return | Syntax |  
+| ---- | ----------- | ------- | ------ | ------ |  
+|toLowerCase |	The toLowerCase() method returns the calling string value converted to lower case. |	– |A new string converted to lower case.	| string.toLowerCase() |
+
+
+<details> <summary>ua</summary>
+  
+| Назва | Опис | Приймає | Повертає | Синтаксис |  
+| ----- | ----- | ------- | -------- | ---------- |  
+| toLowerCase |	Метод toLowerCase() повертає викликаний рядок, перетворений у нижній регістр. |	–	| Новий рядок у нижньому регістрі.	| string.toLowerCase() |
+
+</details>
+
+**Example**
+
+```js
+console.log('ABC'.toLowerCase()); // 'abc'
+```
+
+[Back to Menu](#Menu)
+
+## toUpperCase
+| Name | Description | Accepts | Return | Syntax |  
+| ---- | ----------- | ------- | ------ | ------ | 
+|toUpperCase	| The toUpperCase() method returns the calling string value converted to upper case.	| –	 |A new string converted to upper case.	| string.toUpperCase()|
+
+<details> <summary>ua</summary>
+  
+| Назва | Опис | Приймає | Повертає | Синтаксис |  
+| ----- | ----- | ------- | -------- | ---------- | 
+| toUpperCase	| Метод toUpperCase() повертає викликаний рядок, перетворений у верхній регістр. |	–	| Новий рядок у верхньому регістрі. |	string.toUpperCase() |
+
+</details>
+
+Example
+```js
+console.log('abc'.toUpperCase()); // 'ABC'
+```
+
+[Back to Menu](#Menu)
+
 ## padEnd
 
 | Name   | Description                                                                                                                                                                                              | Accepts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Return                                                                                             | Syntax                                                    |
