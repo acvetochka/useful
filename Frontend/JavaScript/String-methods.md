@@ -14,7 +14,7 @@
 - [localeCompare](#localeCompare)
 - [match](#match)
 - [matchAll](#matchAll)
-- [mormalize](#normalize)
+- [normalize](#normalize)
 - [padEnd](#padEnd)
 - [padStart](#padStart)
 - [repeat](#repeat)
