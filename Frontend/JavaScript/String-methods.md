@@ -14,6 +14,7 @@
 - [localeCompare](#localeCompare)
 - [match](#match)
 - [matchAll](#matchAll)
+- [mormalize](#normalize)
 - [padEnd](#padEnd)
 - [padStart](#padStart)
 - [repeat](#repeat)
@@ -24,6 +25,8 @@
 - [split](#split)
 - [startsWith](#startsWith)
 - [substring](#substring)
+- [toLowerCase](#tolowercase)
+- [toUpperCase](#touppercase)
 
 ## at
 
@@ -54,25 +57,25 @@ console.log(`An index of ${index} returns the character ${sentence.at(index)}`);
 
 [Back to Menu](#Menu)
 
-## charAt  
+## charAt
 
-| Name | Description | Accepts | Return | Syntax |  
-| ---- | ----------- | ------- | ------ | ------ |  
+| Name   | Description                                                                                                         | Accepts                                                                                                   | Return                                                                                     | Syntax               |
+| ------ | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------------------- |
 | charAt | The charAt() method returns a new string consisting of the single UTF-16 code unit located at the specified offset. | `index` – An integer between 0 and str.length – 1. If index is out of range, an empty string is returned. | A new `string` containing the single character at the specified index, or an empty string. | string.charAt(index) |
 
 <details>
   <summary>ua</summary>
 
-| Назва | Опис | Приймає | Повертає | Синтаксис |  
-| ----- | ----- | ------- | -------- | ---------- |  
-| charAt | Метод charAt() повертає новий рядок, що складається з одного UTF-16 коду символу, розташованого на вказаній позиції. | `index` – ціле число від 0 до str.length – 1. Якщо індекс поза межами, повертається порожній рядок. | Новий рядок із одним символом за вказаним індексом або порожній рядок. | string.charAt(index) |  
+| Назва  | Опис                                                                                                                 | Приймає                                                                                             | Повертає                                                               | Синтаксис            |
+| ------ | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | -------------------- |
+| charAt | Метод charAt() повертає новий рядок, що складається з одного UTF-16 коду символу, розташованого на вказаній позиції. | `index` – ціле число від 0 до str.length – 1. Якщо індекс поза межами, повертається порожній рядок. | Новий рядок із одним символом за вказаним індексом або порожній рядок. | string.charAt(index) |
 
 </details>
 
-**Example**  
+**Example**
 
 ```js
-const str = 'Hello';
+const str = "Hello";
 console.log(str.charAt(1)); // "e"
 console.log(str.charAt(99)); // ""
 ```
@@ -85,19 +88,18 @@ console.log(str.charAt(99)); // ""
 | ---------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------ |
 | charCodeAt | The charCodeAt() method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index. | `index` – An integer between 0 and str.length – 1. | A `number` – the UTF-16 code unit value at the specified index, or NaN if index is out of range. | string.charCodeAt(index) |
 
-
 <details> <summary>ua</summary>
 
-  | Назва      | Опис                                                                                                           | Приймає                                       | Повертає                                                                                      | Синтаксис                |
+| Назва      | Опис                                                                                                           | Приймає                                       | Повертає                                                                                      | Синтаксис                |
 | ---------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------ |
 | charCodeAt | Метод charCodeAt() повертає ціле число від 0 до 65535, що представляє UTF-16 кодовий юніт за заданим індексом. | `index` – ціле число від 0 до str.length – 1. | Число – значення UTF-16 кодового юніта за вказаним індексом або NaN, якщо індекс поза межами. | string.charCodeAt(index) |
-
 
 </details>
 
 Example
+
 ```javascript
-const str = 'ABC';
+const str = "ABC";
 console.log(str.charCodeAt(0)); // 65
 ```
 
@@ -111,15 +113,16 @@ console.log(str.charCodeAt(0)); // 65
 
 <details> <summary>ua</summary>
 
-  | Назва       | Опис                                                                                                    | Приймає                                          | Повертає                                                                                  | Синтаксис                    |
+| Назва       | Опис                                                                                                    | Приймає                                          | Повертає                                                                                  | Синтаксис                    |
 | ----------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------------- | ---------------------------- |
 | codePointAt | Метод codePointAt() повертає невід’ємне число, яке є значенням коду Unicode символу на заданій позиції. | `position` – ціле число від 0 до str.length – 1. | Число, що представляє повний код символу Unicode, або undefined, якщо індекс поза межами. | string.codePointAt(position) |
 
 </details>
 
 Example
+
 ```javascript
-const rocket = '🚀';
+const rocket = "🚀";
 console.log(rocket.codePointAt(0)); // 128640
 ```
 
@@ -380,69 +383,27 @@ console.log(array[1]);
 
 [Back to Menu](#Menu)
 
-## normalize  
+## normalize
 
-| Name | Description | Accepts | Return | Syntax |  
-| ---- | ----------- | ------- | ------ | ------ |  
+| Name      | Description                                                                  | Accepts                                                                        | Return                                                                | Syntax                 |
+| --------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------- | ---------------------- |
 | normalize | The normalize() method returns the Unicode Normalization Form of the string. | `form` (Optional) – One of "NFC", "NFD", "NFKC", or "NFKD". Defaults to "NFC". | A new `string` containing the normalized form of the original string. | string.normalize(form) |
 
 <details>
   <summary>ua</summary>
 
-| Назва | Опис | Приймає | Повертає | Синтаксис |  
-| ----- | ----- | ------- | -------- | ---------- |  
-| normalize | Метод normalize() повертає рядок у вказаній формі нормалізації Unicode. | `form` (необов’язково) – одне зі значень "NFC", "NFD", "NFKC" або "NFKD". За замовчуванням — "NFC". | Новий рядок у нормалізованій формі Unicode. | string.normalize(form) |  
-
-</details>
-
-**Example**  
-
-```js
-const name1 = '\u0041\u030A'; // A + ring
-const name2 = '\u00C5'; // Å
-console.log(name1.normalize() === name2.normalize()); // true
-```
-
-[Back to Menu](#Menu)
-
-## toLowerCase
-| Name | Description | Accepts | Return | Syntax |  
-| ---- | ----------- | ------- | ------ | ------ |  
-|toLowerCase |	The toLowerCase() method returns the calling string value converted to lower case. |	– |A new string converted to lower case.	| string.toLowerCase() |
-
-
-<details> <summary>ua</summary>
-  
-| Назва | Опис | Приймає | Повертає | Синтаксис |  
-| ----- | ----- | ------- | -------- | ---------- |  
-| toLowerCase |	Метод toLowerCase() повертає викликаний рядок, перетворений у нижній регістр. |	–	| Новий рядок у нижньому регістрі.	| string.toLowerCase() |
+| Назва     | Опис                                                                    | Приймає                                                                                             | Повертає                                    | Синтаксис              |
+| --------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------- | ---------------------- |
+| normalize | Метод normalize() повертає рядок у вказаній формі нормалізації Unicode. | `form` (необов’язково) – одне зі значень "NFC", "NFD", "NFKC" або "NFKD". За замовчуванням — "NFC". | Новий рядок у нормалізованій формі Unicode. | string.normalize(form) |
 
 </details>
 
 **Example**
 
 ```js
-console.log('ABC'.toLowerCase()); // 'abc'
-```
-
-[Back to Menu](#Menu)
-
-## toUpperCase
-| Name | Description | Accepts | Return | Syntax |  
-| ---- | ----------- | ------- | ------ | ------ | 
-|toUpperCase	| The toUpperCase() method returns the calling string value converted to upper case.	| –	 |A new string converted to upper case.	| string.toUpperCase()|
-
-<details> <summary>ua</summary>
-  
-| Назва | Опис | Приймає | Повертає | Синтаксис |  
-| ----- | ----- | ------- | -------- | ---------- | 
-| toUpperCase	| Метод toUpperCase() повертає викликаний рядок, перетворений у верхній регістр. |	–	| Новий рядок у верхньому регістрі. |	string.toUpperCase() |
-
-</details>
-
-Example
-```js
-console.log('abc'.toUpperCase()); // 'ABC'
+const name1 = "\u0041\u030A"; // A + ring
+const name2 = "\u00C5"; // Å
+console.log(name1.normalize() === name2.normalize()); // true
 ```
 
 [Back to Menu](#Menu)
@@ -754,3 +715,47 @@ console.log(str.substring(1, 3));
 console.log(str.substring(2));
 // Expected output: "zilla"
 ```
+
+## toLowerCase
+
+| Name        | Description                                                                        | Accepts | Return                                | Syntax               |
+| ----------- | ---------------------------------------------------------------------------------- | ------- | ------------------------------------- | -------------------- |
+| toLowerCase | The toLowerCase() method returns the calling string value converted to lower case. | –       | A new string converted to lower case. | string.toLowerCase() |
+
+<details> <summary>ua</summary>
+  
+| Назва | Опис | Приймає | Повертає | Синтаксис |  
+| ----- | ----- | ------- | -------- | ---------- |  
+| toLowerCase |	Метод toLowerCase() повертає викликаний рядок, перетворений у нижній регістр. |	–	| Новий рядок у нижньому регістрі.	| string.toLowerCase() |
+
+</details>
+
+**Example**
+
+```javascript
+console.log("ABC".toLowerCase()); // 'abc'
+```
+
+[Back to Menu](#Menu)
+
+## toUpperCase
+
+| Name        | Description                                                                        | Accepts | Return                                | Syntax               |
+| ----------- | ---------------------------------------------------------------------------------- | ------- | ------------------------------------- | -------------------- |
+| toUpperCase | The toUpperCase() method returns the calling string value converted to upper case. | –       | A new string converted to upper case. | string.toUpperCase() |
+
+<details> <summary>ua</summary>
+  
+| Назва | Опис | Приймає | Повертає | Синтаксис |  
+| ----- | ----- | ------- | -------- | ---------- | 
+| toUpperCase	| Метод toUpperCase() повертає викликаний рядок, перетворений у верхній регістр. |	–	| Новий рядок у верхньому регістрі. |	string.toUpperCase() |
+
+</details>
+
+Example
+
+```javascript
+console.log("abc".toUpperCase()); // 'ABC'
+```
+
+[Back to Menu](#Menu)
