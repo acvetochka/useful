@@ -27,6 +27,7 @@
 - [substring](#substring)
 - [toLowerCase](#tolowercase)
 - [toUpperCase](#touppercase)
+- [trim](#trim)
 
 ## at
 
@@ -756,6 +757,28 @@ Example
 
 ```javascript
 console.log("abc".toUpperCase()); // 'ABC'
+```
+
+[Back to Menu](#Menu)
+
+## trim
+
+| Name | Description                                                                                                               | Accepts | Return                                                 | Syntax        |
+| ---- | ------------------------------------------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------ | ------------- |
+| trim | The trim() method removes whitespace from both ends of a string and returns a new string, without modifying the original. | –       | A new `string` with whitespace removed from both ends. | string.trim() |
+
+<details> <summary>ua</summary>
+
+| Назва | Опис                                                                                           | Приймає | Повертає                                | Синтаксис     |
+| ----- | ---------------------------------------------------------------------------------------------- | ------- | --------------------------------------- | ------------- |
+| trim  | Метод trim() видаляє пробіли з обох кінців рядка й повертає новий рядок, не змінюючи оригінал. | –       | Новий рядок без пробілів з обох кінців. | string.trim() |
+
+</details>
+
+**Example**
+
+```javaScript
+console.log('  hello  '.trim()); // 'hello'
 ```
 
 [Back to Menu](#Menu)
