@@ -28,6 +28,8 @@
 - [toLowerCase](#tolowercase)
 - [toUpperCase](#touppercase)
 - [trim](#trim)
+- [trimStart/trimLeft](#trimstart--trimleft)
+- [trimEnd/trimRight](#trimend--trimright)
 
 ## at
 
@@ -779,6 +781,50 @@ console.log("abc".toUpperCase()); // 'ABC'
 
 ```javaScript
 console.log('  hello  '.trim()); // 'hello'
+```
+
+[Back to Menu](#Menu)
+
+## trimStart / trimLeft
+
+| Name      | Description                                                                                    | Accepts | Return                                                 | Syntax             |
+| --------- | ---------------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------ | ------------------ |
+| trimStart | The trimStart() method removes whitespace from the start of a string and returns a new string. | –       | A new `string` with whitespace removed from the start. | string.trimStart() |
+
+<details> <summary>ua</summary>
+
+| Назва                | Опис                                                                                       | Приймає | Повертає                             | Синтаксис          |
+| -------------------- | ------------------------------------------------------------------------------------------ | ------- | ------------------------------------ | ------------------ |
+| trimStart / trimLeft | Метод trimStart() (або trimLeft()) видаляє пробіли з початку рядка й повертає новий рядок. | –       | Новий рядок без пробілів на початку. | string.trimStart() |
+
+</details>
+
+**Example**
+
+```javaScript
+console.log('  hello'.trimStart()); // 'hello'
+```
+
+[Back to Menu](#Menu)
+
+## trimEnd / trimRight
+
+| Name    | Description                                                                                | Accepts | Return                                               | Syntax           |
+| ------- | ------------------------------------------------------------------------------------------ | ------- | ---------------------------------------------------- | ---------------- |
+| trimEnd | The trimEnd() method removes whitespace from the end of a string and returns a new string. | –       | A new `string` with whitespace removed from the end. | string.trimEnd() |
+
+<details> <summary>ua</summary>
+
+| Назва               | Опис                                                                                    | Приймає | Повертає                          | Синтаксис        |
+| ------------------- | --------------------------------------------------------------------------------------- | ------- | --------------------------------- | ---------------- |
+| trimEnd / trimRight | Метод trimEnd() (або trimRight()) видаляє пробіли з кінця рядка й повертає новий рядок. | –       | Новий рядок без пробілів у кінці. | string.trimEnd() |
+
+</details>
+
+**Example**
+
+```javaScript
+console.log('hello  '.trimEnd()); // 'hello'
 ```
 
 [Back to Menu](#Menu)
