@@ -30,6 +30,7 @@
 - [trim](#trim)
 - [trimStart/trimLeft](#trimstart--trimleft)
 - [trimEnd/trimRight](#trimend--trimright)
+- [valueOf](#valueof)
 
 ## at
 
@@ -825,6 +826,29 @@ console.log('  hello'.trimStart()); // 'hello'
 
 ```javaScript
 console.log('hello  '.trimEnd()); // 'hello'
+```
+
+[Back to Menu](#Menu)
+
+## valueOf
+
+| Name    | Description                                                          | Accepts | Return                                           | Syntax           |
+| ------- | -------------------------------------------------------------------- | ------- | ------------------------------------------------ | ---------------- |
+| valueOf | The valueOf() method returns the primitive value of a String object. | –       | The primitive string value of the String object. | string.valueOf() |
+
+<details> <summary>ua</summary>
+
+| Назва   | Опис                                                         | Приймає | Повертає                   | Синтаксис        |
+| ------- | ------------------------------------------------------------ | ------- | -------------------------- | ---------------- |
+| valueOf | Метод valueOf() повертає примітивне значення об’єкта String. | –       | Примітивне значення рядка. | string.valueOf() |
+
+</details>
+
+**Example**
+
+```javaScript
+const strObj = new String('hello');
+console.log(strObj.valueOf()); // 'hello'
 ```
 
 [Back to Menu](#Menu)
