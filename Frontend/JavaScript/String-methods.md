@@ -27,6 +27,7 @@
 - [substring](#substring)
 - [toLowerCase](#tolowercase)
 - [toUpperCase](#touppercase)
+- [toString](#tostring)
 - [trim](#trim)
 - [trimStart/trimLeft](#trimstart--trimleft)
 - [trimEnd/trimRight](#trimend--trimright)
@@ -760,6 +761,29 @@ Example
 
 ```javascript
 console.log("abc".toUpperCase()); // 'ABC'
+```
+
+[Back to Menu](#Menu)
+
+## toString
+
+| Name     | Description                                                               | Accepts | Return                                        | Syntax            |
+| -------- | ------------------------------------------------------------------------- | ------- | --------------------------------------------- | ----------------- |
+| toString | The toString() method returns a string representing the specified object. | –       | A `string` representing the specified object. | string.toString() |
+
+<details> <summary>ua</summary>
+
+| Назва    | Опис                                                               | Приймає | Повертає                      | Синтаксис         |
+| -------- | ------------------------------------------------------------------ | ------- | ----------------------------- | ----------------- |
+| toString | Метод toString() повертає рядкове представлення вказаного об’єкта. | –       | Рядок, що представляє об’єкт. | string.toString() |
+
+</details>
+
+**Example**
+
+```javaScript
+const strObj = new String('hello');
+console.log(strObj.toString()); // 'hello'
 ```
 
 [Back to Menu](#Menu)
