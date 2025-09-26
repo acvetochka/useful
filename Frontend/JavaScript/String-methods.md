@@ -17,6 +17,7 @@
 - [normalize](#normalize)
 - [padEnd](#padEnd)
 - [padStart](#padStart)
+- [raw](#raw)
 - [repeat](#repeat)
 - [replace](#replace)
 - [replaceAll](#replaceAll)
@@ -475,6 +476,27 @@ console.log(maskedNumber);
 ```
 
 [Back to Menu](#Menu)
+
+## raw 
+
+| Name | Description                                                                                                                                                   | Accepts                                                                                                                                     | Return                                                    | Syntax                               |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------ |
+| raw  | The static String.raw() method is a tag function of template literals. It returns a raw string from a template string, without interpreting escape sequences. | `template` – A template string (array of strings with raw property) <br> `substitutions` – Optional values to substitute into the template. | A `string` containing the raw text of a template literal. | String.raw(template, …substitutions) |
+
+<details> <summary>ua</summary>
+
+| Назва | Опис                                                                                                                                              | Приймає                                                                                                                                | Повертає                                      | Синтаксис                            |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- | ------------------------------------ |
+| raw   | Статичний метод String.raw() — це тегована функція для шаблонних літералів. Повертає «сирий» рядок із шаблону, без обробки escape-послідовностей. | `template` – шаблонний рядок (масив рядків із властивістю raw) <br> `substitutions` – необов’язкові значення для підстановки у шаблон. | Рядок із «сирим» текстом шаблонного літерала. | String.raw(template, …substitutions) |
+
+</details>
+
+**Example**
+```javaScript
+console.log(String.raw`Hi\n${2+3}`); // 'Hi\\n5'
+```
+[Back to Menu](#Menu)
+
 
 ## repeat
 
