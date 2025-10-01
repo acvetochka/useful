@@ -1,7 +1,7 @@
 # APIs
 
-[Free Public APIs](https://www.freepublicapis.com/) -  A collection of Free Public APIs for Students and Developers. 
-[PublicAPIs](https://publicapis.io/) - collection of public APIs
+- [Free Public APIs](https://www.freepublicapis.com/) -  A collection of Free Public APIs for Students and Developers. 
+- [PublicAPIs](https://publicapis.io/) - collection of public APIs
 
 ## API Movies
 
