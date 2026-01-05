@@ -243,80 +243,118 @@ expect(element).toBeInTheDocument();
 
 ✔️ елемент є в DOM
 
-🔹 not
+- 🔹 not
+```js
 expect(element).not.toBeInTheDocument();
+```
 
-🔹 toHaveTextContent
+- 🔹 toHaveTextContent
+```js
 expect(element).toHaveTextContent('Hello');
+```
 
-🔹 toBeVisible
+- 🔹 toBeVisible
+```js
 expect(element).toBeVisible();
+```
 
-🔹 toBeDisabled / Enabled
+- 🔹 toBeDisabled / Enabled
+```js
 expect(button).toBeDisabled();
+```
 
-🔹 toHaveValue
+- 🔹 toHaveValue
+```js
 expect(input).toHaveValue('Anna');
+```
 
-🔹 toHaveAttribute
+- 🔹 toHaveAttribute
+```js
 expect(link).toHaveAttribute('href', '/home');
+```
 
-6️⃣ mock
+## 6️⃣ mock
 📌 Що таке mock
 
 Підміна реальної логіки
 
-6.1 jest.fn()
+### 6.1 jest.fn()
+```js
 const onClick = jest.fn();
 
 <button onClick={onClick} />
 
 expect(onClick).toHaveBeenCalled();
+```
 
-6.2 mockReturnValue
+### 6.2 mockReturnValue
+```js
 jest.fn().mockReturnValue(5);
+```
 
-6.3 mockResolvedValue (async)
+### 6.3 mockResolvedValue (async)
+```js
 fetchData = jest.fn().mockResolvedValue(data);
+```
 
-6.4 jest.mock()
+### 6.4 jest.mock()
+```js
 jest.mock('./api', () => ({
   fetchUsers: jest.fn(),
 }));
+```
 
-7️⃣ userEvent
+## 7️⃣ userEvent
 📌 Для чого
 
 Імітує реальні дії користувача
 
-click
+- click
+```js
 await user.click(button);
+```
 
-type
+- type
+```js
 await user.type(input, 'Hello');
+```
 
-clear
+- clear
+```js
 await user.clear(input);
+```
 
-tab
+- tab
+```js
 await user.tab();
+```
 
-8️⃣ Асинхронні перевірки
+## 8️⃣ Асинхронні перевірки
+
 waitFor
+```js
 await waitFor(() => {
   expect(screen.getByText('Done')).toBeInTheDocument();
 });
+```
 
-9️⃣ Що тестувати, а що ні
+## 9️⃣ Що тестувати, а що ні
 
 ✅ кнопки
+
 ✅ тексти
+
 ✅ форми
+
 ✅ поведінку
 
+
 ❌ стейти
+
 ❌ хуки
+
 ❌ CSS
+
 
 🔟 Золоте правило
 
