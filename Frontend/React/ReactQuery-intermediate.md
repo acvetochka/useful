@@ -31,10 +31,14 @@ Axios:
 📌 Разом — ідеальна пара
 
 🔹 Встановлення Axios
+
+```bash
 npm install axios
+```
 
 🔹 Створюємо axios instance (ДУЖЕ важливо)
-// api/axios.js
+```js
+  // api/axios.js
 import axios from 'axios'
 
 export const api = axios.create({
@@ -43,11 +47,12 @@ export const api = axios.create({
     'Content-Type': 'application/json',
   },
 })
-
+```
 
 👉 Тепер усі запити в одному місці
 
 🔹 Запит через Axios + useQuery
+```js
 // api/users.js
 import { api } from './axios'
 
@@ -60,8 +65,10 @@ useQuery({
   queryKey: ['users'],
   queryFn: getUsers,
 })
+```
 
 🔹 Mutation з Axios
+```js
 export const createUser = async (user) => {
   const { data } = await api.post('/users', user)
   return data
@@ -70,8 +77,10 @@ export const createUser = async (user) => {
 useMutation({
   mutationFn: createUser,
 })
+```
 
 🔹 Axios Interceptors (наприклад token)
+```js
 api.interceptors.request.use(config => {
   const token = localStorage.getItem('token')
 
@@ -81,6 +90,9 @@ api.interceptors.request.use(config => {
 
   return config
 })
+```
+
+[Back to menu ↑](#react--query)
 
 ## 2️⃣ Пагінація (Pagination)
 🔹 Що таке пагінація
@@ -94,14 +106,17 @@ api.interceptors.request.use(config => {
 сторінка 3
 
 🔹 API-запит з параметрами
+```js
 export const getUsers = async (page = 1) => {
   const { data } = await api.get('/users', {
     params: { page, limit: 10 }
   })
   return data
 }
+```
 
 🔹 useQuery з page
+```js
 const [page, setPage] = useState(1)
 
 const { data, isLoading } = useQuery({
@@ -109,22 +124,24 @@ const { data, isLoading } = useQuery({
   queryFn: () => getUsers(page),
   keepPreviousData: true,
 })
+```
 
 🔹 Навіщо keepPreviousData
 
 👉 Без нього:
 
-екран блимає
+- екран блимає
 
-дані зникають
+- дані зникають
 
 👉 З ним:
 
-стара сторінка показується
+- стара сторінка показується
 
-нова вантажиться у фоні
+- нова вантажиться у фоні
 
 🔹 Кнопки пагінації
+```html
 <button onClick={() => setPage(p => Math.max(p - 1, 1))}>
   Prev
 </button>
@@ -132,6 +149,9 @@ const { data, isLoading } = useQuery({
 <button onClick={() => setPage(p => p + 1)}>
   Next
 </button>
+```
+
+[Back to menu ↑](#react--query)
 
 ## 3️⃣ Infinite Scroll
 🔹 Що це
@@ -139,6 +159,7 @@ const { data, isLoading } = useQuery({
 👉 Дані підвантажуються при скролі, а не кнопками
 
 🔹 useInfiniteQuery
+```js
 useInfiniteQuery({
   queryKey: ['users'],
   queryFn: ({ pageParam = 1 }) => getUsers(pageParam),
@@ -146,35 +167,47 @@ useInfiniteQuery({
     return lastPage.nextPage ?? undefined
   },
 })
+```
 
 🔹 Що повертає useInfiniteQuery
+```js
 const {
   data,
   fetchNextPage,
   hasNextPage,
   isFetchingNextPage
 } = useInfiniteQuery(...)
+```
 
 🔹 Рендер списку
+```js
 data.pages.map(page =>
   page.items.map(user => (
     <User key={user.id} user={user} />
   ))
 )
+```
 
 🔹 Кнопка “Завантажити ще”
+```html
 <button
   disabled={!hasNextPage}
   onClick={() => fetchNextPage()}
 >
   Load more
 </button>
+```
+
+[Back to menu ↑](#react--query)
 
 ## 4️⃣ React Query + Next.js (App Router)
 🔹 Обовʼязково use client
+```js
 'use client'
+```
 
 🔹 Provider у layout.tsx
+```js
 'use client'
 
 const queryClient = new QueryClient()
@@ -186,31 +219,39 @@ export function Providers({ children }) {
     </QueryClientProvider>
   )
 }
-
+```
+```js
 // layout.tsx
 <Providers>{children}</Providers>
-
+```
 🔹 SSR / Hydration (коротко)
 
 📌 React Query підтримує SSR, але:
 
-це окрема тема
+- це окрема тема
 
-зазвичай починають без SSR
+- зазвичай починають без SSR
+
+[Back to menu ↑](#react--query)
 
 ## 5️⃣ Авторизація + Protected Queries
 🔹 Запит, який потребує token
+```js
 useQuery({
   queryKey: ['profile'],
   queryFn: getProfile,
   enabled: !!token,
 })
-
+```
 
 👉 Без token — запит не виконається
 
 🔹 Logout → очищення кешу
+```js
 queryClient.clear()
+```
+
+[Back to menu ↑](#react--query)
 
 ## 6️⃣ Оптимістичні оновлення
 🔹 Що це
@@ -218,6 +259,8 @@ queryClient.clear()
 👉 UI оновлюється до відповіді сервера
 
 🔹 Приклад
+
+```js
 useMutation({
   mutationFn: addTodo,
   onMutate: async (newTodo) => {
@@ -239,8 +282,12 @@ useMutation({
     queryClient.invalidateQueries(['todos'])
   }
 })
+```
+
+[Back to menu ↑](#react--query)
 
 ## 7️⃣ Структура проєкту (BEST PRACTICE)
+```plaintext
 src/
  ├ api/
  │  ├ axios.js
@@ -251,19 +298,25 @@ src/
  │  └ useProfile.js
  ├ pages/
  └ components/
+```
 
+```js
 export const useUsers = () =>
   useQuery({
     queryKey: ['users'],
     queryFn: getUsers,
   })
+```
+
+[Back to menu ↑](#react--query)
 
 ## 8️⃣ CHEAT SHEET (коротко)
-useQuery({ queryKey, queryFn })
-useMutation({ mutationFn })
-useInfiniteQuery({ queryKey, queryFn })
-queryClient.invalidateQueries()
-queryClient.setQueryData()
+
+- useQuery({ queryKey, queryFn })
+- useMutation({ mutationFn })
+- useInfiniteQuery({ queryKey, queryFn })
+- queryClient.invalidateQueries()
+- queryClient.setQueryData()
 
 🎯 Підсумок
 
@@ -274,3 +327,5 @@ React Query:
 🔥 робить код чистим
 
 🔥 мастхев для реальних проєктів
+
+[Back to menu ↑](#react--query)
