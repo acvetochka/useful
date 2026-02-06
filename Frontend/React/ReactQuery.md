@@ -1,5 +1,24 @@
 # React Query
 
+## MENU
+
+1. [Що таке React Query (TanStack Query)](#%D1%89%D0%BE-%D1%82%D0%B0%D0%BA%D0%B5-react-query-tanstack-query)
+2. [Яку проблему вона вирішує](#-%D1%8F%D0%BA%D1%83-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%83-%D0%B2%D0%BE%D0%BD%D0%B0-%D0%B2%D0%B8%D1%80%D1%96%D1%88%D1%83%D1%94)
+3. [Коли React Query НЕ потрібна](#%D0%BA%D0%BE%D0%BB%D0%B8-react-query-%D0%BD%D0%B5-%D0%BF%D0%BE%D1%82%D1%80%D1%96%D0%B1%D0%BD%D0%B0)
+4. [Основні поняття (дуже важливо)](#-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%96-%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D1%82%D1%8F-%D0%B4%D1%83%D0%B6%D0%B5-%D0%B2%D0%B0%D0%B6%D0%BB%D0%B8%D0%B2%D0%BE)
+5. [Встановлення](#-%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F)
+6. [Підключення React Query до застосунку](#-%D0%BF%D1%96%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%BD%D1%8F-react-query-%D0%B4%D0%BE-%D0%B7%D0%B0%D1%81%D1%82%D0%BE%D1%81%D1%83%D0%BD%D0%BA%D1%83)
+7. [Перший запит (useQuery)](#-%D0%BF%D0%B5%D1%80%D1%88%D0%B8%D0%B9-%D0%B7%D0%B0%D0%BF%D0%B8%D1%82-usequery)
+8. [Розбір useQuery по частинах](#-%D1%80%D0%BE%D0%B7%D0%B1%D1%96%D1%80-usequery-%D0%BF%D0%BE-%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%85)
+9. [Кеш і повторні запити](#-%D0%BA%D0%B5%D1%88-%D1%96-%D0%BF%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%BD%D1%96-%D0%B7%D0%B0%D0%BF%D0%B8%D1%82%D0%B8)
+10. [Параметри запиту](#-%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D0%B8-%D0%B7%D0%B0%D0%BF%D0%B8%D1%82%D1%83)
+11. [Mutation (POST / PUT / DELETE)](#-mutation-post--put--delete)
+12. [Оновлення списку після mutation](#-%D0%BE%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D1%83-%D0%BF%D1%96%D1%81%D0%BB%D1%8F-mutation)
+13. [Devtools (ДУЖЕ рекомендую)](#-devtools-%D0%B4%D1%83%D0%B6%D0%B5-%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D1%83%D1%8E)
+14. [Типовий патерн (best practice)](#-%D1%82%D0%B8%D0%BF%D0%BE%D0%B2%D0%B8%D0%B9-%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD-best-practice)
+15. [Часті помилки](#-%D1%87%D0%B0%D1%81%D1%82%D1%96-%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B8)
+16. [Коли React Query — must have](#-%D0%BA%D0%BE%D0%BB%D0%B8-react-query--must-have)
+
 ## Що таке React Query (TanStack Query)
 
 `React Query` — це бібліотека для роботи з серверними даними у React.
