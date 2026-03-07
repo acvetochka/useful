@@ -91,6 +91,21 @@
 
   ---
 
+- Cистема Callouts (приміток) 
+  Eлемент дизайну документів, технічної документації або вебсайтів, який використовується для привернення уваги до важливої інформації, виділення ключових моментів або додавання контексту.
+
+  В Obsidian та GitHub (через спеціальний синтаксис) можна створювати кольорові блоки "Увага" чи "Порада":
+  ```markdown
+  > [!WARNING]
+  > Обережно! Це критично важлива інформація.
+  ```
+
+  Вигляд
+ > [!WARNING]  
+ > Обережно! Це критично важлива інформація.
+  
+  [Докладніше про Callouts](https://github.com/acvetochka/useful/blob/main/Documentation/Markdown/Symbols.md#7-c%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-callouts-%D0%BF%D1%80%D0%B8%D0%BC%D1%96%D1%82%D0%BE%D0%BA)
+
 ## 6. Блоки коду
 
 - Інлайновий код: 
@@ -131,7 +146,13 @@
 [^1]: А ось і сама виноска внизу сторінки.
 
 - Emoji:
-Використовуйте коди: `:smile:`, `:rocket:`, `:warning:`.
+Використовуйте коди:  
+`:smile:` :smile:  
+`:rocket:` :rocket:  
+`:warning:`:warning:
+
+  [Підбірка Shortcodes для Emoji](https://github.com/acvetochka/useful/blob/main/Documentation/Markdown/Symbols.md#shortcodes-%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D1%96-%D0%BA%D0%BE%D0%B4%D0%B8)
+
 
 - Математичні формули (LaTeX):
   ```markdown
@@ -196,6 +217,8 @@ $$
 
 ## 10. Mermaid (Діаграми)
 Це блоки коду з тегом `mermaid`, які перетворюються на графіки (Gantt, Flowchart, Pie Chart, ER-діаграми).
+
+Докладніше про [Mermaid](https://github.com/acvetochka/useful/blob/main/Documentation/Markdown/Mermaid.md)
 
 ## Пробіли
 
