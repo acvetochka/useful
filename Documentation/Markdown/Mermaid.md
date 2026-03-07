@@ -241,7 +241,7 @@ journey
       Фікс багів: 1: Користувач
 ```
 
-## 3. Git Graph (Візуалізація гілок Git)
+### 3. Git Graph (Візуалізація гілок Git)
 Це просто знахідка для документації! Ви можете малювати коміти, мерджі та розгалуження прямо в коді.
 ```
 gitGraph
@@ -269,14 +269,33 @@ gitGraph
     commit id: "v1.0.0" tag: "v1.0.0"
 ```
 
-## 4. Quadrant Chart (Матриця пріоритетів)
+### 4. Quadrant Chart (Матриця пріоритетів)
 Допомагає візуалізувати завдання за двома осями (наприклад, "Складність" та "Важливість").
+
+```
+quadrantChart
+    title "Feature Analysis"
+    x-axis "Low Complexity" --> "High Complexity"
+    y-axis "Low Value" --> "High Value"
+    quadrant-1 "Strategic"
+    quadrant-2 "Quick Wins"
+    quadrant-3 "Low Priority"
+    quadrant-4 "Maintenance"
+    "Авторизація": [0.2, 0.9]
+    "Чат": [0.7, 0.8]
+    "Зміна кольору кнопки": [0.1, 0.2]
+    "AI аналітика": [0.9, 0.4]
+```
 
 ```mermaid
 quadrantChart
-    title Аналіз фіч
-    x-axis Низька складність --> Висока складність
-    y-axis Мала цінність --> Велика цінність
+    title "Feature Analysis"
+    x-axis "Low Complexity" --> "High Complexity"
+    y-axis "Low Value" --> "High Value"
+    quadrant-1 "Strategic"
+    quadrant-2 "Quick Wins"
+    quadrant-3 "Low Priority"
+    quadrant-4 "Maintenance"
     "Авторизація": [0.2, 0.9]
     "Чат": [0.7, 0.8]
     "Зміна кольору кнопки": [0.1, 0.2]
@@ -368,3 +387,143 @@ graph TB
         B[(Redis)]
     end
 ```
+
+## Cпецифічні діаграми для вузьких задач
+Остання порція «екзотики» Mermaid — це специфічні діаграми для вузьких задач, про які знають не всі розробники.
+
+### 1. C4 Diagram (Архітектура систем)
+Це стандарт для візуалізації архітектури програмного забезпечення. Вона дозволяє малювати контейнери, компоненти та системи.
+```
+C4Context
+    title Контекстна діаграма системи лояльності
+    Person(customer, "Клієнт", "Користувач сервісу")
+    System(banking, "Інтернет-банк", "Зовнішня платіжна система")
+    System_Boundary(c1, "Наш Проєкт") {
+        System(web_app, "Веб-додаток", "Дозволяє купувати товари")
+        System(api, "API", "Обробляє запити")
+    }
+    Rel(customer, web_app, "Користується")
+    Rel(web_app, api, "Робить запити", "JSON/HTTPS")
+    Rel(api, banking, "Перевіряє оплату")
+```
+
+```mermaid
+C4Context
+    title Контекстна діаграма системи лояльності
+    Person(customer, "Клієнт", "Користувач сервісу")
+    System(banking, "Інтернет-банк", "Зовнішня платіжна система")
+    System_Boundary(c1, "Наш Проєкт") {
+        System(web_app, "Веб-додаток", "Дозволяє купувати товари")
+        System(api, "API", "Обробляє запити")
+    }
+    Rel(customer, web_app, "Користується")
+    Rel(web_app, api, "Робить запити", "JSON/HTTPS")
+    Rel(api, banking, "Перевіряє оплату")
+```
+
+### 2. State Diagram (Діаграма станів)
+Ідеально для логіки кнопок, статусів замовлень або життєвого циклу об'єктів у коді (наприклад, стан вашого Task або JoinRequest).
+```
+stateDiagram-v2
+    [*] --> Pending
+    Pending --> Approved: Адмін підтвердив
+    Pending --> Rejected: Адмін відхилив
+    Approved --> Completed: Завдання виконано
+    Completed --> [*]
+```
+
+```mermaid
+stateDiagram-v2
+    [*] --> Pending
+    Pending --> Approved: Адмін підтвердив
+    Pending --> Rejected: Адмін відхилив
+    Approved --> Completed: Завдання виконано
+    Completed --> [*]
+```
+
+### 3. Class Diagram (Діаграма класів)
+Якщо ви пишете на C#, це найкращий спосіб візуалізувати структуру класів, методи та типи даних перед кодингом.
+```
+classDiagram
+    class User {
+        +string Name
+        +string Email
+        +Login() bool
+    }
+    class Admin {
+        +int AccessLevel
+        +BanUser(id)
+    }
+    User <|-- Admin : успадкування
+```
+
+```mermaid
+classDiagram
+    class User {
+        +string Name
+        +string Email
+        +Login() bool
+    }
+    class Admin {
+        +int AccessLevel
+        +BanUser(id)
+    }
+    User <|-- Admin : успадкування
+```
+
+### 4. Sankey Diagram (Потоки даних/грошей)
+Нова фіча (може не працювати в старих версіях плагінів), яка показує, як об'єм чогось перетікає з однієї категорії в іншу.
+```
+sankey-beta
+    Budget,Salaries,3000
+    Budget,Rent,1000
+    Salaries,Frontend,1500
+    Salaries,Backend,1500
+```
+
+```mermaid
+sankey-beta
+    Budget,Salaries,3000
+    Budget,Rent,1000
+    Salaries,Frontend,1500
+    Salaries,Backend,1500
+```
+
+### 5. XY Chart (Графіки)
+Так, Mermaid тепер може малювати прості лінійні графіки та гістограми безпосередньо в Markdown!
+```
+xychart-beta
+    title "Активність користувачів за тиждень"
+    x-axis ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Нд"]
+    y-axis "Кількість постів" 0 --> 100
+    line [10, 40, 35, 80, 50, 90, 70]
+    bar [15, 30, 45, 60, 55, 85, 65]
+```
+
+```mermaid
+xychart-beta
+    title "Активність користувачів за тиждень"
+    x-axis ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Нд"]
+    y-axis "Кількість постів" 0 --> 100
+    line [10, 40, 35, 80, 50, 90, 70]
+    bar [15, 30, 45, 60, 55, 85, 65]
+```
+
+### 6. Конфігурація (Theming)
+Ви можете змінювати вигляд діаграми прямо всередині блоку коду за допомогою спеціальної директиви %%{init: ...}%%:
+```
+%%{init: {'theme': 'forest'}}%%
+graph TD
+    A --> B
+```
+
+```mermaid
+%%{init: {'theme': 'forest'}}%%
+graph TD
+    A --> B
+```
+
+Доступні теми: `default`, `neutral`, `dark`, `forest`, `base`.
+
+## Підсумок: 
+Mermaid перетворює ваш README або нотатки в Obsidian на повноцінний технічний паспорт проєкту, де замість статичних картинок — живий код, який легко правити.
