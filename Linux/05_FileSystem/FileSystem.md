@@ -16,9 +16,9 @@
 ## 2. Повна ієрархія зберігання даних
 
 Важливо зрозуміти всю послідовність рівнів.
-![alt text](image-1.png)
-![alt text](image-3.png)
-![alt text](image.png)
+![alt text](/public/Linux/image-1.png)
+![alt text](/public/Linux/image-3.png)
+![alt text](/public/Linux/image.png)
 ```mermaid
 flowchart TD
 
