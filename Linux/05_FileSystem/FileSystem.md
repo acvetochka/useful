@@ -587,7 +587,8 @@ C --> B
 D --> A
 ```
 
-Докладніше про [роботу з файлами](https://github.com/acvetochka/useful/tree/main/Linux/07_FileManagement)
+Докладніше про [Жорсткі та символічні посилання](https://github.com/acvetochka/useful/blob/main/Linux/05_FileSystem/Links.md)
+
 
 [Назад до змісту](#зміст-)
 
@@ -603,7 +604,9 @@ D --> A
 | mv      | перемістити    |
 | rm      | видалити       |
 
-Докладніше про [Жорсткі та символічні посилання](https://github.com/acvetochka/useful/blob/main/Linux/05_FileSystem/Links.md)
+
+Докладніше про [роботу з файлами](https://github.com/acvetochka/useful/tree/main/Linux/07_FileManagement)
+
 
 [Назад до змісту](#зміст-)
 
