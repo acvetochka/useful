@@ -2,62 +2,79 @@
 Що таке процес
 Програма vs процес
 PID, PPID
-Ієрархія процесів (дерево)
+Ієрархія процесів
 init / systemd
 
-⚙️ Розділ 2. Життєвий цикл процесу
-Стани процесу (running, sleeping, zombie…)
-Створення процесу (fork, exec)
-Завершення процесу (exit, signal)
-Zombie та orphan процеси
+🧠 Розділ 2. Типи процесів
+👉 (це те, що ти помітила — важливо винести окремо)
+Користувацькі процеси (user processes)
+Процеси ядра (kernel processes / kernel threads)
+Демони (daemons)
+Інтерактивні vs фонові
+CPU-bound vs IO-bound
 
-🧠 Розділ 3. Планування процесів (Scheduling)
-Що таке scheduler
-Пріоритети (nice, renice)
-Типи планування (CFS)
-CPU time
+⚙️ Розділ 3. Життєвий цикл процесу
+Стани процесу
+fork(), exec()
+exit()
+zombie / orphan
 
 🧵 Розділ 4. Потоки (Threads)
 Процес vs потік
-User threads vs kernel threads
-multithreading в Linux
+Kernel threads vs user threads
+multithreading
 
-📊 Розділ 5. Управління процесами (команди)
+🔄 Розділ 5. Планування (Scheduling)
+scheduler
+nice / renice
+пріоритети
+
+💻 Розділ 6. Jobs і робота shell
+👉 (ДУЖЕ правильно, що ти це виділила — це окрема концепція!)
+Що таке job (завдання shell)
+foreground vs background
+&, jobs, fg, bg
+job ≠ process (важливе!)
+job control
+
+📊 Розділ 7. Управління процесами (команди)
 ps
 top / htop
 kill / pkill / killall
-jobs, fg, bg
 nohup
 
-🔗 Розділ 6. Міжпроцесна взаємодія (IPC)
+🔗 Розділ 8. Міжпроцесна взаємодія (IPC)
 pipes
 signals
 sockets
 shared memory
-message queues
 
-🧬 Розділ 7. Сигнали (Signals)
-Що це таке
-Основні сигнали (SIGTERM, SIGKILL…)
-Обробка сигналів
+🔌 Розділ 9. Стандартні потоки (stdin, stdout, stderr)
+👉 (це окремий фундаментальний розділ, не про threads!)
+stdin (0)
+stdout (1)
+stderr (2)
+перенаправлення (>, >>, <)
+пайпи (|)
 
-🧱 Розділ 8. Control groups (cgroups) і limits
-обмеження ресурсів
+🧬 Розділ 10. Signals
+що це
+основні сигнали
+обробка
+
+🧱 Розділ 11. Ресурси і обмеження
 ulimit
+cgroups
 systemd slices
 
-🔐 Розділ 9. Безпека процесів
-права процесів
+🔐 Розділ 12. Безпека процесів
 UID, EUID
 setuid
 
-🧰 Розділ 10. Systemd і сервіси
-що таке unit
-як працюють сервіси
-daemon процеси
+🧰 Розділ 13. systemd і демони
+сервіси
+daemon processes
 
-🧪 Розділ 11. Практичні сценарії
-як знайти "важкий" процес
-як дебажити
-як вбити завислий процес
-best practices
+🧪 Розділ 14. Практика і дебаг
+як знайти проблему
+як аналізувати процеси
