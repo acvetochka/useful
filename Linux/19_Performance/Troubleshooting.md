@@ -51,6 +51,15 @@
   - [9.1 atop](#91-atop)
   - [9.2 dstat](#92-dstat)
   - [9.3 sar](#93-sar)
+  - [9.4 perf](#94-perf)
+  - [9.5 strace](#95-strace)
+- [10. Практичні сценарії](#10-практичні-сценарії)
+- [11. Головні патерни](#11-головні-патерни)
+  - [11.1 CPU bound vs IO bound](#111-cpu-bound-vs-io-bound)
+  - [11.2 Cache vs RAM](#112-cache-vs-ram)
+  - [11.3 Scaling](#113-scaling)
+- [12. Cheat Sheet](#12-cheat-sheet)
+- [Висновок (дуже важливий)](#висновок-дуже-важливий)
 
 ## 1. Що таке “швидкодія” в Linux
 
@@ -486,62 +495,75 @@ sar -u 1
 
 👉 історичні дані
 
-9.4 perf
+### 9.4 perf
+```bash
 perf top
-
+```
 👉 профілювання CPU
 
-9.5 strace
+### 9.5 strace
+```bash
 strace -p PID
-
+```
 👉 що робить процес
 
-🧩 Розділ 10. Практичні сценарії
+## 10. Практичні сценарії
 🔴 Сценарій 1: сайт повільний
-top → CPU?
-iostat → диск?
-free → swap?
+- 0top → CPU?
+- iostat → диск?
+- free → swap?
+
 🔴 Сценарій 2: load високий
-load ↑
-CPU idle → IO проблема
+- load ↑
+- CPU idle → IO проблема
+  
 🔴 Сценарій 3: сервер “висить”
-vmstat
-dmesg
+- `vmstat`
+- `dmesg`
+  
 🔴 Сценарій 4: база гальмує
-iostat
-iotop
-🧠 Розділ 11. Головні патерни
-11.1 CPU bound vs IO bound
-Тип	Ознака
-CPU bound	CPU 100%
-IO bound	wa високий
-11.2 Cache vs RAM
+- `iostat`
+- `iotop`
+
+## 11. Головні патерни
+### 11.1 CPU bound vs IO bound
+
+| Тип       | Ознака     |
+| --------- | ---------- |
+| CPU bound | CPU 100%   |
+| IO bound  | wa високий |
+
+### 11.2 Cache vs RAM
 
 Linux використовує RAM ефективно
 
-11.3 Scaling
+### 11.3 Scaling
+- vertical (додати ресурси)
+- horizontal (більше серверів)
 
-vertical (додати ресурси)
-
-horizontal (більше серверів)
-
-📌 Розділ 12. Cheat Sheet
+## 12. Cheat Sheet
 🔥 Швидка діагностика
+```bash
 top
 htop
 free -h
 iostat -x 1
 vmstat 1
+```
 🔥 Знайти проблему
-Симптом	Інструмент
-CPU	top
-RAM	free
-Disk	iostat
-Network	iftop
-🧠 Висновок (дуже важливий)
+| Симптом | Інструмент |
+| ------- | ---------- |
+| CPU     | top        |
+| RAM     | free       |
+| Disk    | iostat     |
+| Network | iftop      |
 
-👉 Performance — це НЕ про команди
+## Висновок (дуже важливий)
+
+👉 Performance — це НЕ про команди  
 👉 Це про мислення
 
 Головна формула:
+```bash
 Симптом → Ресурс → Метрика → Причина → Рішення
+```
