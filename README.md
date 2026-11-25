@@ -321,22 +321,22 @@
     - [Module CSV](Python/Files/Module%20CSV.md)
     - [Module OS](Python/Files/Module%20OS.md)
   - [Functions](Python/Functions.md)
-  - [Glossary](Python/Glossary-ua.md)
+  - [Python Glossary UA](Python/Glossary-ua.md)
   - [Python Glossary](Python/Glossary.md)
   - [Handlers in Python](Python/Handlers.md)
   - [Lists&Tuples](Python/Lists%26Tuples.md)
   - **Modules/**
     - [Конспект по модулю журналювання (logging) в Python](Python/Modules/Logging.md)
-  - [prints "red"](Python/OOP.md)
-  - [Others](Python/Others.md)
-  - [Python](Python/Python.md)
-  - [Python](Python/README.md)
+  - [Методи класу](Python/OOP.md)
+  - [Python Links](Python/Python.md)
+  - [Python Menu](Python/README.md)
   - [Конспект по регулярним виразам (regex) у Python](Python/Regex.md)
   - [Strings (Рядки)](Python/Strings.md)
   - **Testing/**
     - [Testing](Python/Testing/Testing.md)
     - [Модульне тестування (Unit Testing)](Python/Testing/Unittest.md)
   - [Типи даних](Python/Types.md)
+- [Useful-links](README-old.md)
 - **Security/**
   - **CS50_Вступ до кібербезпеки/**
     - [Захист облікових записів](Security/CS50_%D0%92%D1%81%D1%82%D1%83%D0%BF%20%D0%B4%D0%BE%20%D0%BA%D1%96%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D0%BA%D0%B8/1.%20%D0%97%D0%B0%D1%85%D0%B8%D1%81%D1%82%20%D0%BE%D0%B1%D0%BB%D1%96%D0%BA%D0%BE%D0%B2%D0%B8%D1%85%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%96%D0%B2.md)
