@@ -1,4 +1,4 @@
-# Glossary
+# Python Glossary UA
 
 | Термін | Визначення |
 | ---- | ------ |

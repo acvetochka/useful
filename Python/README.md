@@ -1,4 +1,4 @@
-# Python
+# Python Menu
 
 - [Types](https://github.com/acvetochka/useful/blob/main/Python/Types.md)
 - [Strings](https://github.com/acvetochka/useful/blob/main/Python/Strings.md)
