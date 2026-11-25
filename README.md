@@ -1,4 +1,355 @@
 # Useful-links
 
 <!-- AUTO-GENERATED-START -->
+- **AI/**
+  - [Список АІ-інструментів](AI/AI-list.md)
+  - [Інструменти для виявлення контенту, створеного ШІ](AI/AIContentDetectors.md)
+  - **Google AI Essentials/**
+    - [Корисні ресурси й поради для початку роботи](AI/Google%20AI%20Essentials/1.1.%20%D0%9A%D0%BE%D1%80%D0%B8%D1%81%D0%BD%D1%96%20%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%B8.md)
+    - [Посібник із ШІ й машинного навчання](AI/Google%20AI%20Essentials/1.2.%20%D0%9F%D0%BE%D1%81%D1%96%D0%B1%D0%BD%D0%B8%D0%BA%20%D1%96%D0%B7%20%D0%A8%D0%86%20%D1%82%D0%B0%20%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BD%D0%B0%D0%B2%D1%87%D0%B0%D0%BD%D0%BD%D1%8F.md)
+    - [Моделі ШІ й процес навчання](AI/Google%20AI%20Essentials/2.1.%20%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%96%20%D0%A8%D0%86%20%D1%82%D0%B0%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%20%D0%BD%D0%B0%D0%B2%D1%87%D0%B0%D0%BD%D0%BD%D1%8F.md)
+    - [Інструменти на основі генеративного ШІ для робочих](AI/Google%20AI%20Essentials/2.2.%20%D0%86%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%20%D0%BD%D0%B0%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%96%20%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%A8%D0%86%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%BE%D0%B1%D0%BE%D1%87%D0%B8%D1%85%20%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D1%8C.md)
+    - [Використання Gemini у Google Документах, Презентаціях, Таблицях, Meet і Gmail](AI/Google%20AI%20Essentials/2.3.%20%D0%92%D0%B8%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F%20Gemini%20%D1%83%20Google%20%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%85%2C%20%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D1%96%D1%8F%D1%85%2C%20Meet%20%D1%96%20Gmail.md)
+    - [Отримуйте статистику з декількох джерел за допомогою NotebookLM](AI/Google%20AI%20Essentials/2.4.%20%D0%9E%D1%82%D1%80%D0%B8%D0%BC%D1%83%D0%B9%D1%82%D0%B5%20%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D1%83%20%D0%B7%20%D0%B4%D0%B5%D0%BA%D1%96%D0%BB%D1%8C%D0%BA%D0%BE%D1%85%20%D0%B4%D0%B6%D0%B5%D1%80%D0%B5%D0%BB%20%D0%B7%D0%B0%20%D0%B4%D0%BE%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%BE%D1%8E%20NotebookLM.md)
+    - [Найкращі практики створення запитів](AI/Google%20AI%20Essentials/3.1.%20%D0%9D%D0%B0%D0%B9%D0%BA%D1%80%D0%B0%D1%89%D1%96%20%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8%20%D1%81%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%82%D1%96%D0%B2.md)
+    - [Запити для різних цілей](AI/Google%20AI%20Essentials/3.2.%20%D0%97%D0%B0%D0%BF%D0%B8%D1%82%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%80%D1%96%D0%B7%D0%BD%D0%B8%D1%85%20%D1%86%D1%96%D0%BB%D0%B5%D0%B9.md)
+    - [Методи виконання складних завдань за допомогою ШІ](AI/Google%20AI%20Essentials/3.3.%20%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D0%B8%20%D0%B2%D0%B8%D0%BA%D0%BE%D0%BD%D0%B0%D0%BD%D0%BD%D1%8F%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B8%D1%85%20%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D1%8C%20%D0%B7%D0%B0%20%D0%B4%D0%BE%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%BE%D1%8E%20%D0%A8%D0%86.md)
+    - [Упередженість, похибка й обмеженість знань](AI/Google%20AI%20Essentials/4.1.%20%D0%A3%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B6%D0%B5%D0%BD%D1%96%D1%81%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D1%85%D0%B8%D0%B1%D0%BA%D0%B0%20%D0%B9%20%D0%BE%D0%B1%D0%BC%D0%B5%D0%B6%D0%B5%D0%BD%D1%96%D1%81%D1%82%D1%8C%20%D0%B7%D0%BD%D0%B0%D0%BD%D1%8C.md)
+    - [Контрольний список для відповідального використання ШІ](AI/Google%20AI%20Essentials/4.2.%20%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D0%B2%D1%96%D0%B4%D0%BF%D0%BE%D0%B2%D1%96%D0%B4%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B2%D0%B8%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F%20%D0%A8%D0%86.md)
+    - [Як залишатися в курсі розвитку ШІ](AI/Google%20AI%20Essentials/5.1.%20%D0%AF%D0%BA%20%D0%B7%D0%B0%D0%BB%D0%B8%D1%88%D0%B0%D1%82%D0%B8%D1%81%D1%8F%20%D0%B2%20%D0%BA%D1%83%D1%80%D1%81%D1%96%20%D1%80%D0%BE%D0%B7%D0%B2%D0%B8%D1%82%D0%BA%D1%83%20%D0%A8%D0%86.md)
+    - [Терміни та визначення з курсу](AI/Google%20AI%20Essentials/%D0%93%D0%BB%D0%BE%D1%81%D0%B0%D1%80%D1%96%D0%B9%20Google%20AI%20Essentials.md)
+- **Algorithms/**
+  - [Алгоритми та структури даних](Algorithms/README.md)
+  - **БЛОК 1. ОСНОВИ АЛГОРИТМІЧНОГО МИСЛЕННЯ/**
+    - [Поглиблення Time–Space Tradeoff](Algorithms/%D0%91%D0%9B%D0%9E%D0%9A%201.%20%D0%9E%D0%A1%D0%9D%D0%9E%D0%92%D0%98%20%D0%90%D0%9B%D0%93%D0%9E%D0%A0%D0%98%D0%A2%D0%9C%D0%86%D0%A7%D0%9D%D0%9E%D0%93%D0%9E%20%D0%9C%D0%98%D0%A1%D0%9B%D0%95%D0%9D%D0%9D%D0%AF/%D0%9F%D0%9E%D0%93%D0%9B%D0%98%D0%91%D0%9B%D0%95%D0%9D%D0%9D%D0%AF%20TIME%E2%80%93SPACE%20TRADEOFF.md)
+    - [РОЗДІЛ 1. ЩО ТАКЕ АЛГОРИТМ](Algorithms/%D0%91%D0%9B%D0%9E%D0%9A%201.%20%D0%9E%D0%A1%D0%9D%D0%9E%D0%92%D0%98%20%D0%90%D0%9B%D0%93%D0%9E%D0%A0%D0%98%D0%A2%D0%9C%D0%86%D0%A7%D0%9D%D0%9E%D0%93%D0%9E%20%D0%9C%D0%98%D0%A1%D0%9B%D0%95%D0%9D%D0%9D%D0%AF/%D0%A0%D0%9E%D0%97%D0%94%D0%86%D0%9B%201.%20%D0%A9%D0%9E%20%D0%A2%D0%90%D0%9A%D0%95%20%D0%90%D0%9B%D0%93%D0%9E%D0%A0%D0%98%D0%A2%D0%9C.md)
+    - [РОЗДІЛ 2. ЯК КОМП’ЮТЕР РЕАЛЬНО ВИКОНУЄ ПРОГРАМУ](Algorithms/%D0%91%D0%9B%D0%9E%D0%9A%201.%20%D0%9E%D0%A1%D0%9D%D0%9E%D0%92%D0%98%20%D0%90%D0%9B%D0%93%D0%9E%D0%A0%D0%98%D0%A2%D0%9C%D0%86%D0%A7%D0%9D%D0%9E%D0%93%D0%9E%20%D0%9C%D0%98%D0%A1%D0%9B%D0%95%D0%9D%D0%9D%D0%AF/%D0%A0%D0%9E%D0%97%D0%94%D0%86%D0%9B%202.%20%D0%AF%D0%9A%20%D0%9A%D0%9E%D0%9C%D0%9F%E2%80%99%D0%AE%D0%A2%D0%95%D0%A0%20%D0%A0%D0%95%D0%90%D0%9B%D0%AC%D0%9D%D0%9E%20%D0%92%D0%98%D0%9A%D0%9E%D0%9D%D0%A3%D0%84%20%D0%9F%D0%A0%D0%9E%D0%93%D0%A0%D0%90%D0%9C%D0%A3.md)
+    - [⭐ РОЗДІЛ 3. СКЛАДНІСТЬ АЛГОРИТМІВ (BIG O)](Algorithms/%D0%91%D0%9B%D0%9E%D0%9A%201.%20%D0%9E%D0%A1%D0%9D%D0%9E%D0%92%D0%98%20%D0%90%D0%9B%D0%93%D0%9E%D0%A0%D0%98%D0%A2%D0%9C%D0%86%D0%A7%D0%9D%D0%9E%D0%93%D0%9E%20%D0%9C%D0%98%D0%A1%D0%9B%D0%95%D0%9D%D0%9D%D0%AF/%D0%A0%D0%9E%D0%97%D0%94%D0%86%D0%9B%203.%20%D0%A1%D0%9A%D0%9B%D0%90%D0%94%D0%9D%D0%86%D0%A1%D0%A2%D0%AC%20%D0%90%D0%9B%D0%93%D0%9E%D0%A0%D0%98%D0%A2%D0%9C%D0%86%D0%92%20%28BIG%20O%29.md)
+    - [РОЗДІЛ 4. ЧАС vs ПАМʼЯТЬ (TIME–SPACE TRADEOFF)](Algorithms/%D0%91%D0%9B%D0%9E%D0%9A%201.%20%D0%9E%D0%A1%D0%9D%D0%9E%D0%92%D0%98%20%D0%90%D0%9B%D0%93%D0%9E%D0%A0%D0%98%D0%A2%D0%9C%D0%86%D0%A7%D0%9D%D0%9E%D0%93%D0%9E%20%D0%9C%D0%98%D0%A1%D0%9B%D0%95%D0%9D%D0%9D%D0%AF/%D0%A0%D0%9E%D0%97%D0%94%D0%86%D0%9B%204.%20%D0%A7%D0%90%D0%A1%20vs%20%D0%9F%D0%90%D0%9C%CA%BC%D0%AF%D0%A2%D0%AC%20%28TIME%E2%80%93SPACE%20TRADEOFF%29.md)
+    - [РОЗДІЛ 5. РЕКУРСІЯ](Algorithms/%D0%91%D0%9B%D0%9E%D0%9A%201.%20%D0%9E%D0%A1%D0%9D%D0%9E%D0%92%D0%98%20%D0%90%D0%9B%D0%93%D0%9E%D0%A0%D0%98%D0%A2%D0%9C%D0%86%D0%A7%D0%9D%D0%9E%D0%93%D0%9E%20%D0%9C%D0%98%D0%A1%D0%9B%D0%95%D0%9D%D0%9D%D0%AF/%D0%A0%D0%9E%D0%97%D0%94%D0%86%D0%9B%205.%20%D0%A0%D0%95%D0%9A%D0%A3%D0%A0%D0%A1%D0%86%D0%AF.md)
+  - **БЛОК 2. СТРУКТУРИ ДАНИХ/**
+    - [РОЗДІЛ 1. МАСИВИ (ARRAYS)](Algorithms/%D0%91%D0%9B%D0%9E%D0%9A%202.%20%D0%A1%D0%A2%D0%A0%D0%A3%D0%9A%D0%A2%D0%A3%D0%A0%D0%98%20%D0%94%D0%90%D0%9D%D0%98%D0%A5/%D0%A0%D0%9E%D0%97%D0%94%D0%86%D0%9B%201.%20%D0%9C%D0%90%D0%A1%D0%98%D0%92%D0%98%20%28ARRAYS%29.md)
+    - [РОЗДІЛ 2. LINKED LIST (ЗВ'ЯЗАНИЙ СПИСОК)](Algorithms/%D0%91%D0%9B%D0%9E%D0%9A%202.%20%D0%A1%D0%A2%D0%A0%D0%A3%D0%9A%D0%A2%D0%A3%D0%A0%D0%98%20%D0%94%D0%90%D0%9D%D0%98%D0%A5/%D0%A0%D0%9E%D0%97%D0%94%D0%86%D0%9B%202.%20Linked%20List%20%28%D0%B7%D0%B2%CA%BC%D1%8F%D0%B7%D0%B0%D0%BD%D1%96%20%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8%29.md)
+    - [РОЗДІЛ 3. STACK (СТЕК)](Algorithms/%D0%91%D0%9B%D0%9E%D0%9A%202.%20%D0%A1%D0%A2%D0%A0%D0%A3%D0%9A%D0%A2%D0%A3%D0%A0%D0%98%20%D0%94%D0%90%D0%9D%D0%98%D0%A5/%D0%A0%D0%9E%D0%97%D0%94%D0%86%D0%9B%203.%20Stack%20%28%D0%A1%D1%82%D0%B5%D0%BA%29.md)
+    - [РОЗДІЛ 4. QUEUE (ЧЕРГА)](Algorithms/%D0%91%D0%9B%D0%9E%D0%9A%202.%20%D0%A1%D0%A2%D0%A0%D0%A3%D0%9A%D0%A2%D0%A3%D0%A0%D0%98%20%D0%94%D0%90%D0%9D%D0%98%D0%A5/%D0%A0%D0%9E%D0%97%D0%94%D0%86%D0%9B%204.%20Queue%20%28%D0%A7%D0%B5%D1%80%D0%B3%D0%B0%29.md)
+    - [РОЗДІЛ 5. HASH TABLE (ХЕШ-ТАБЛИЦЯ)](Algorithms/%D0%91%D0%9B%D0%9E%D0%9A%202.%20%D0%A1%D0%A2%D0%A0%D0%A3%D0%9A%D0%A2%D0%A3%D0%A0%D0%98%20%D0%94%D0%90%D0%9D%D0%98%D0%A5/%D0%A0%D0%9E%D0%97%D0%94%D0%86%D0%9B%205.%20HASH%20TABLE%20%28HashMap%2C%20Dictionary%2C%20Object%2C%20Map%29.md)
+    - [РОЗДІЛ 6. SET ТА MAP](Algorithms/%D0%91%D0%9B%D0%9E%D0%9A%202.%20%D0%A1%D0%A2%D0%A0%D0%A3%D0%9A%D0%A2%D0%A3%D0%A0%D0%98%20%D0%94%D0%90%D0%9D%D0%98%D0%A5/%D0%A0%D0%9E%D0%97%D0%94%D0%86%D0%9B%206.%20Set%20%D1%82%D0%B0%20Map.md)
+  - [СЛОВНИК Алгоритми та структури даних <!-- omit from toc -->](Algorithms/%D0%A1%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA.md)
+- **Backend/**
+  - [Prisma + PostgreSQL + PostGIS](Backend/PostgreSQL%26Prima.md)
+  - [Структура Backend проекту](Backend/Structure.md)
+- **C#/**
+  - [C# + .NET](C%23/C%23%20%2B%20.NET.md)
+- **Cloud/**
+  - [Cloud Technologies](Cloud/CloudTechnologies.md)
+  - **DigitalOcaen/**
+    - [Security for server (DigitalOcean)](Cloud/DigitalOcaen/serverSecurity.md)
+    - [Перенесення сайту на сервер DigitalOcean](Cloud/DigitalOcaen/siteToServer.md)
+- **CMS/**
+  - [CMS <!-- omit in toc -->](CMS/CMS.md)
+  - [eCommerce платформи з JAMstack підходом <!-- omit in toc -->](CMS/eCommerce-JAMstack.md)
+  - **Strapi/**
+    - [Strapi Backend To Do](CMS/Strapi/Strapi-Backend%20to%20DO.md)
+- **DataScience/**
+  - **AI/**
+    - [Конспект: Наука про дані та Генеративний ШІ](DataScience/AI/Data%20Science%20and%20Generative%20AI.md)
+    - [Типи генеративних AI моделей](DataScience/AI/Types%20of%20generative%20AI%20models.md)
+    - [Конспект: Використання Генеративного ШІ для Науки про Дані](DataScience/AI/Use%20of%20Generative%20AI%20for%20Data%20Science.md)
+  - **Data Analytics/**
+    - [Від проблеми до дії: Шість етапів аналізу даних](DataScience/Data%20Analytics/1.%20%D0%A8%D1%96%D1%81%D1%82%D1%8C%20%D0%B5%D1%82%D0%B0%D0%BF%D1%96%D0%B2%20%D0%B0%D0%BD%D0%B0%D0%BB%D1%96%D0%B7%D1%83%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85.md)
+    - [Шість найпоширеніших типів проблем](DataScience/Data%20Analytics/2.%20%D0%A8%D1%96%D1%81%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B9%D0%BF%D0%BE%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D1%96%D1%88%D0%B8%D1%85%20%D1%82%D0%B8%D0%BF%D1%96%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC.md)
+    - [Більше про SMART-питання](DataScience/Data%20Analytics/3.%20SMART-%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%BD%D1%8F.md)
+    - [Випробування та перемоги даних](DataScience/Data%20Analytics/4.%20%D0%92%D0%B8%D0%BF%D1%80%D0%BE%D0%B1%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%20%D1%82%D0%B0%20%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%BE%D0%B3%D0%B8%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85.md)
+    - [Якісні та кількісні дані в бізнесі](DataScience/Data%20Analytics/5.%20%D0%AF%D0%BA%D1%96%D1%81%D0%BD%D1%96%20%D1%82%D0%B0%20%D0%BA%D1%96%D0%BB%D1%8C%D0%BA%D1%96%D1%81%D0%BD%D1%96%20%D0%B4%D0%B0%D0%BD%D1%96%20%D0%B2%20%D0%B1%D1%96%D0%B7%D0%BD%D0%B5%D1%81%D1%96.md)
+    - [Інструменти для візуалізації даних](DataScience/Data%20Analytics/6.%20%D0%86%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%B2%D1%96%D0%B7%D1%83%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%97%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85.md)
+    - [Створюйте привабливі дашборди](DataScience/Data%20Analytics/7.%20%D0%A1%D1%82%D0%B2%D0%BE%D1%80%D1%8E%D0%B9%D1%82%D0%B5%20%D0%BF%D1%80%D0%B8%D0%B2%D0%B0%D0%B1%D0%BB%D0%B8%D0%B2%D1%96%20%D0%B4%D0%B0%D1%88%D0%B1%D0%BE%D1%80%D0%B4%D0%B8.md)
+    - [**Заглибитися в дашборди**](DataScience/Data%20Analytics/8.%20%D0%97%D0%B0%D0%B3%D0%BB%D0%B8%D0%B1%D0%B8%D1%82%D0%B8%D1%81%D1%8F%20%D0%B2%20%D0%B4%D0%B0%D1%88%D0%B1%D0%BE%D1%80%D0%B4%D0%B8.md)
+    - [Великі та малі дані](DataScience/Data%20Analytics/9.%20%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D1%96%20%D1%82%D0%B0%20%D0%BC%D0%B0%D0%BB%D1%96%20%D0%B4%D0%B0%D0%BD%D1%96.md)
+    - [Електронні таблиці та життєвий цикл даних](DataScience/Data%20Analytics/10.%20%D0%95%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D1%96%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%96%20%D1%82%D0%B0%20%D0%B6%D0%B8%D1%82%D1%82%D1%94%D0%B2%D0%B8%D0%B9%20%D1%86%D0%B8%D0%BA%D0%BB%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85.md)
+    - [Дізнайтеся більше про основи електронних таблиць](DataScience/Data%20Analytics/11.%20%D0%94%D1%96%D0%B7%D0%BD%D0%B0%D0%B9%D1%82%D0%B5%D1%81%D1%8F%20%D0%B1%D1%96%D0%BB%D1%8C%D1%88%D0%B5%20%D0%BF%D1%80%D0%BE%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D1%85%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8C.md)
+    - [Короткий довідник: Формули в електронних таблицях](DataScience/Data%20Analytics/12.%20%D0%9A%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%BE%D0%B2%D1%96%D0%B4%D0%BD%D0%B8%D0%BA.%20%D0%A4%D0%BE%D1%80%D0%BC%D1%83%D0%BB%D0%B8%20%D0%B2%20%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D1%85%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8F%D1%85.md)
+    - [Більше про помилки та виправлення в електронних таблицях](DataScience/Data%20Analytics/13.%20%D0%91%D1%96%D0%BB%D1%8C%D1%88%D0%B5%20%D0%BF%D1%80%D0%BE%20%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B8%20%D1%82%D0%B0%20%D0%B2%D0%B8%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%B2%20%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D1%85%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8F%D1%85.md)
+    - [Короткий довідник: Функції в електронних таблицях](DataScience/Data%20Analytics/14.%20%D0%9A%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%BE%D0%B2%D1%96%D0%B4%D0%BD%D0%B8%D0%BA.%20%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D1%96%D1%97%20%D0%B2%20%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D1%85%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8F%D1%85.md)
+    - [Робота зі стейкхолдерами](DataScience/Data%20Analytics/15.%20%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B7%D1%96%20%D1%81%D1%82%D0%B5%D0%B9%D0%BA%D1%85%D0%BE%D0%BB%D0%B4%D0%B5%D1%80%D0%B0%D0%BC%D0%B8.md)
+    - [Використовуйте кілька комунікаційних стратегій, щоб охопити свою аудиторію](DataScience/Data%20Analytics/16.%20%D0%92%D0%B8%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D1%83%D0%B9%D1%82%D0%B5%20%D0%BA%D1%96%D0%BB%D1%8C%D0%BA%D0%B0%20%D0%BA%D0%BE%D0%BC%D1%83%D0%BD%D1%96%D0%BA%D0%B0%D1%86%D1%96%D0%B9%D0%BD%D0%B8%D1%85%20%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D1%96%D0%B9%2C%20%D1%89%D0%BE%D0%B1%20%D0%BE%D1%85%D0%BE%D0%BF%D0%B8%D1%82%D0%B8%20%D1%81%D0%B2%D0%BE%D1%8E%20%D0%B0%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80%D1%96%D1%8E.md)
+    - [Обмеження даних](DataScience/Data%20Analytics/17.%20%D0%9E%D0%B1%D0%BC%D0%B5%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85.md)
+    - [Проводьте чудові зустрічі](DataScience/Data%20Analytics/18.%20%D0%9F%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%82%D0%B5%20%D1%87%D1%83%D0%B4%D0%BE%D0%B2%D1%96%20%D0%B7%D1%83%D1%81%D1%82%D1%80%D1%96%D1%87%D1%96.md)
+    - [**Терміни та визначення курсу 2, модуль 1**](DataScience/Data%20Analytics/%D0%93%D0%BB%D0%BE%D1%81%D0%B0%D1%80%D1%96%D0%B9%20%D1%82%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D1%96%D0%B2%20%D0%B7%20%D0%BA%D1%83%D1%80%D1%81%D1%83%202%2C%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.md)
+    - [**Терміни та визначення для курсу 2, модуль 2**](DataScience/Data%20Analytics/%D0%93%D0%BB%D0%BE%D1%81%D0%B0%D1%80%D1%96%D0%B9%20%D1%82%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D1%96%D0%B2%20%D0%B7%20%D0%BA%D1%83%D1%80%D1%81%D1%83%202%2C%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%202.md)
+    - [Глосарій термінів з курсу 2, модуль 3](DataScience/Data%20Analytics/%D0%93%D0%BB%D0%BE%D1%81%D0%B0%D1%80%D1%96%D0%B9%20%D1%82%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D1%96%D0%B2%20%D0%B7%20%D0%BA%D1%83%D1%80%D1%81%D1%83%202%2C%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%203.md)
+    - **Підготовка даних/**
+      - [Виберіть правильні дані](DataScience/Data%20Analytics/%D0%9F%D1%96%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85/1.%20%D0%92%D0%B8%D0%B1%D0%B5%D1%80%D1%96%D1%82%D1%8C%20%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D1%8C%D0%BD%D1%96%20%D0%B4%D0%B0%D0%BD%D1%96.md)
+      - [Формати даних на практиці](DataScience/Data%20Analytics/%D0%9F%D1%96%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85/2.%20%D0%A4%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85%20%D0%BD%D0%B0%20%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%86%D1%96.md)
+      - [Вплив різних структур](DataScience/Data%20Analytics/%D0%9F%D1%96%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85/3.%20%D0%92%D0%BF%D0%BB%D0%B8%D0%B2%20%D1%80%D1%96%D0%B7%D0%BD%D0%B8%D1%85%20%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80.md)
+      - [Рівні та методи моделювання даних](DataScience/Data%20Analytics/%D0%9F%D1%96%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85/4.%20%D0%A0%D1%96%D0%B2%D0%BD%D1%96%20%D1%82%D0%B0%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%B8%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8E%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85.md)
+      - [Використовуйте булеву логіку](DataScience/Data%20Analytics/%D0%9F%D1%96%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85/5.%20%D0%92%D0%B8%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D1%83%D0%B9%D1%82%D0%B5%20%D0%B1%D1%83%D0%BB%D0%B5%D0%B2%D1%83%20%D0%BB%D0%BE%D0%B3%D1%96%D0%BA%D1%83.md)
+      - [Крок за кроком: Зустрічайте широкі та довгі дані](DataScience/Data%20Analytics/%D0%9F%D1%96%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85/6.%20%D0%9A%D1%80%D0%BE%D0%BA%20%D0%B7%D0%B0%20%D0%BA%D1%80%D0%BE%D0%BA%D0%BE%D0%BC.%20%D0%97%D1%83%D1%81%D1%82%D1%80%D1%96%D1%87%D0%B0%D0%B9%D1%82%D0%B5%20%D1%88%D0%B8%D1%80%D0%BE%D0%BA%D1%96%20%D1%82%D0%B0%20%D0%B4%D0%BE%D0%B2%D0%B3%D1%96%20%D0%B4%D0%B0%D0%BD%D1%96.md)
+      - [Перетворення даних](DataScience/Data%20Analytics/%D0%9F%D1%96%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85/7.%20%D0%9F%D0%B5%D1%80%D0%B5%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85.md)
+      - [Анонімізація даних](DataScience/Data%20Analytics/%D0%9F%D1%96%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85/8.%20%D0%90%D0%BD%D0%BE%D0%BD%D1%96%D0%BC%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85.md)
+      - [Дебати про відкриті дані](DataScience/Data%20Analytics/%D0%9F%D1%96%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85/9.%20%D0%94%D0%B5%D0%B1%D0%B0%D1%82%D0%B8%20%D0%BF%D1%80%D0%BE%20%D0%B2%D1%96%D0%B4%D0%BA%D1%80%D0%B8%D1%82%D1%96%20%D0%B4%D0%B0%D0%BD%D1%96.md)
+      - [Ресурси для відкритих даних](DataScience/Data%20Analytics/%D0%9F%D1%96%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85/10.%20%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%B2%D1%96%D0%B4%D0%BA%D1%80%D0%B8%D1%82%D0%B8%D1%85%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85.md)
+      - [Терміни Та Визначення Для Курсу 3, Модуль 1](DataScience/Data%20Analytics/%D0%9F%D1%96%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85/%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B8%20%D1%82%D0%B0%20%D0%B2%D0%B8%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%B4%D0%BB%D1%8F%20%D0%9A%D1%83%D1%80%D1%81%D1%83%203%2C%20%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%201.md)
+  - [Аналіз даних за допомогою Python](DataScience/DataAnalys%20with%20Python.md)
+  - [Методологія та методи Data Science](DataScience/Metodology.md)
+  - [Регресія SoftMax, "один проти всіх" і "один проти одного" для багатокласової класифікації](DataScience/Multiclass%20prediction.md)
+  - [Prisma](DataScience/Prisma.md)
+  - [Дерева рішень](DataScience/RegressionTrees.md)
+  - **SQL/**
+    - [Підключення до баз даних](DataScience/SQL/Connect%20to%20DB.md)
+    - [Database migration from SQLite to PostgreSQL](DataScience/SQL/Database%20migration%20from%20SQLite%20to%20PostgreSQL.md)
+    - [Data Definition Language (DDL)](DataScience/SQL/DDL.md)
+    - [Інтерактивні онлайн-платформи для SQL (тренувальні майданчики)](DataScience/SQL/Interaktiv%20platforms%20for%20SQL.md)
+    - [Оператори SQL](DataScience/SQL/SQL%20Operations.md)
+    - [Типи даних та обмеження](DataScience/SQL/Types%20and%20constraints.md)
+  - [Tools for Data Science](DataScience/Tools.md)
+  - **Visualisation/**
+    - [Cheat Sheet : Data Preprocessing Tasks in Pandas](DataScience/Visualisation/Data%20Preprocessing%20Tasks%20in%20Pandas.md)
+    - [Cheat Sheet : Maps, Waffles, WordCloud and Seaborn](DataScience/Visualisation/Maps%2C%20Waffles%2C%20WordCloud%20and%20Seaborn.md)
+    - [Cheat Sheet : Plot Libraries](DataScience/Visualisation/Plot%20Libraries.md)
+    - [Cheat Sheet: Plotly and Dash](DataScience/Visualisation/Plotly%20and%20Dash.md)
+    - [Cheat Sheet : Plotting with Matplotlib using Pandas](DataScience/Visualisation/Plotting%20with%20Matplotlib.md)
+- **Design/**
+  - [3D for 3D Printer](Design/3D%20for%203D%20Printer.md)
+  - [Design](Design/Design.md)
+  - [Figma](Design/Figma.md)
+- **DevOps/**
+  - [DevOps](DevOps/DevOps.md)
+  - [Docker](DevOps/Docker.md)
+  - **Kubernetes/**
+    - [aciinema](DevOps/Kubernetes/aciinema.md)
+    - [ArgoCD](DevOps/Kubernetes/argocd.md)
+    - [kubectl](DevOps/Kubernetes/kubectl.md)
+    - [𝗣𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝘃𝗲 𝘁𝗼𝗼𝗹𝘀 𝗳𝗼𝗿 𝗸𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀:](DevOps/Kubernetes/kubetools.md)
+  - [Puppet](DevOps/Puppet.md)
+- **Docker/**
+  - [Конспект по Docker](Docker/Docker.md)
+- **Documentation/**
+  - **Markdown/**
+    - [Markdown <!-- omit in toc -->](Documentation/Markdown/Markdown-code.md)
+    - [Markdown <!-- omit in toc -->](Documentation/Markdown/Markdown.md)
+    - [Menu in Markdown-file <!-- omit in toc -->](Documentation/Markdown/Menu.md)
+    - [Mermaid <!-- omit in toc -->](Documentation/Markdown/Mermaid.md)
+    - [Markdown](Documentation/Markdown/README.md)
+    - [Символи в Markdown <!-- omit in toc -->](Documentation/Markdown/Symbols.md)
+- [Format Data](FormatData.md)
+- **Frontend/**
+  - **Angular/**
+    - [Angular — повна інструкція з прикладами](Frontend/Angular/Angular.md)
+  - [Angular.js](Frontend/Angular.md)
+  - [APIs](Frontend/APIs.md)
+  - [Colors](Frontend/colors.md)
+  - [Images](Frontend/images.md)
+  - **JavaScript/**
+    - [Javascript](Frontend/JavaScript/js.md)
+    - [Регулярні вирази у JavaScript](Frontend/JavaScript/Regexp.md)
+    - [String methods](Frontend/JavaScript/String-methods.md)
+  - [Libraries](Frontend/Libraries.md)
+  - **React/**
+    - [React  Query](Frontend/React/ReactQuery-intermediate.md)
+    - [React Query](Frontend/React/ReactQuery.md)
+  - [React Libraries](Frontend/react-libs.md)
+  - **TypeScript/**
+    - [tsconfig.json](Frontend/TypeScript/tsconfig.md)
+    - [Типи даних в TypeScript](Frontend/TypeScript/Types.md)
+    - [TypeScript в React](Frontend/TypeScript/TypeScript%20in%20React.md)
+  - [Useful frontend links](Frontend/useful-frontend-links.md)
+  - [Vue-libraries](Frontend/vue-libs.md)
+  - [Zustand](Frontend/Zustand.md)
+- **Git/**
+  - [Git/Github](Git/Git.md)
+  - [🔐 Як налаштувати SSH-доступ до GitHub:](Git/Ssh.md)
+- **IT-Support/**
+  - **Google It Support/**
+    - **Основи компютерних мереж/**
+      - [Технології Ethernet через кручену пару](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/1.1.%20%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%97%20Ethernet%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20%D0%BA%D1%80%D1%83%D1%87%D0%B5%D0%BD%D1%83%20%D0%BF%D0%B0%D1%80%D1%83.md)
+      - [Інструменти для кабелювання](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/1.2.%20%D0%86%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8E%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F.md)
+      - [1. Глосарій. Вступ До Нетворкінгу](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/1.%20%D0%93%D0%BB%D0%BE%D1%81%D0%B0%D1%80%D1%96%D0%B9.%20%D0%92%D1%81%D1%82%D1%83%D0%BF%20%D0%B4%D0%BE%20%D0%BD%D0%B5%D1%82%D0%B2%D0%BE%D1%80%D0%BA%D1%96%D0%BD%D0%B3%D1%83.md)
+      - **Вступ до нетворкінгу.md/**
+        - [Клієнти та сервери в мережі](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%92%D1%81%D1%82%D1%83%D0%BF%20%D0%B4%D0%BE%20%D0%BD%D0%B5%D1%82%D0%B2%D0%BE%D1%80%D0%BA%D1%96%D0%BD%D0%B3%D1%83.md/%D0%9A%D0%BB%D1%96%D1%94%D0%BD%D1%82%D0%B8%20%D1%96%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B8%20%D0%B2%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6%D1%96.md)
+        - [Маршрутизатори (Routers)](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%92%D1%81%D1%82%D1%83%D0%BF%20%D0%B4%D0%BE%20%D0%BD%D0%B5%D1%82%D0%B2%D0%BE%D1%80%D0%BA%D1%96%D0%BD%D0%B3%D1%83.md/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80%D0%B8.md)
+        - [Мережева модель OSI Model](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%92%D1%81%D1%82%D1%83%D0%BF%20%D0%B4%D0%BE%20%D0%BD%D0%B5%D1%82%D0%B2%D0%BE%D1%80%D0%BA%D1%96%D0%BD%D0%B3%D1%83.md/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B0%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%20OSI.md)
+        - [Мережеві кабелі та базові принципи передачі даних](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%92%D1%81%D1%82%D1%83%D0%BF%20%D0%B4%D0%BE%20%D0%BD%D0%B5%D1%82%D0%B2%D0%BE%D1%80%D0%BA%D1%96%D0%BD%D0%B3%D1%83.md/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D1%96%20%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%96%20%D1%82%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%96%20%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D1%96%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85.md)
+        - [Мережеві пристрої: хаби та комутатори](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%92%D1%81%D1%82%D1%83%D0%BF%20%D0%B4%D0%BE%20%D0%BD%D0%B5%D1%82%D0%B2%D0%BE%D1%80%D0%BA%D1%96%D0%BD%D0%B3%D1%83.md/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D1%96%20%D0%BF%D1%80%D0%B8%D1%81%D1%82%D1%80%D0%BE%D1%97.%20%D0%A5%D0%B0%D0%B1%D0%B8%20%D1%82%D0%B0%20%D0%BA%D0%BE%D0%BC%D1%83%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D0%B8.md)
+        - [П’ятирівнева мережева модель (Network Model)](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%92%D1%81%D1%82%D1%83%D0%BF%20%D0%B4%D0%BE%20%D0%BD%D0%B5%D1%82%D0%B2%D0%BE%D1%80%D0%BA%D1%96%D0%BD%D0%B3%D1%83.md/%D0%9F%D1%8F%D1%82%D0%B8%D1%80%D1%96%D0%B2%D0%BD%D0%B5%D0%B2%D0%B0%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B0%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C.md)
+      - **Канальний рівень/**
+        - [Ethernet та MAC-адреси](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9A%D0%B0%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/Ethernet%20%D1%82%D0%B0%20MAC-%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B8.md)
+        - [Ethernet-кадр (Ethernet Frame)](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9A%D0%B0%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/Ethernet-%D0%BA%D0%B0%D0%B4%D1%80.md)
+        - [Типи передачі даних в Ethernet](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9A%D0%B0%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%A2%D0%B8%D0%BF%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D1%96%20%D0%B2%20Ethernet.md)
+      - **Мережевий рівень/**
+        - [ARP: зв’язок між IP і MAC](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/ARP.%20%D0%B7%D0%B2%E2%80%99%D1%8F%D0%B7%D0%BE%D0%BA%20%D0%BC%D1%96%D0%B6%20IP%20%D1%96%20MAC.md)
+        - [BGP — як Інтернет приймає рішення](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/BGP%20%E2%80%94%20%D1%8F%D0%BA%20%D0%86%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82%20%D0%BF%D1%80%D0%B8%D0%B9%D0%BC%D0%B0%D1%94%20%D1%80%D1%96%D1%88%D0%B5%D0%BD%D0%BD%D1%8F.md)
+        - [IP-адреси (IPv4)](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/IP-%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B8%20%28IPv4%29.md)
+        - [IP-датаграма (IP Datagram)](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/IP-%D0%B4%D0%B0%D1%82%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B0.md)
+        - [Вся мережа в одній схемі](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%92%D1%81%D1%8F%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6%D0%B0%20%D0%B2%20%D0%BE%D0%B4%D0%BD%D1%96%D0%B9%20%D1%81%D1%85%D0%B5%D0%BC%D1%96.md)
+        - [Двійкова система (Binary) і мережі](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%94%D0%B2%D1%96%D0%B9%D0%BA%D0%BE%D0%B2%D0%B0%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%28Binary%29%20%D1%96%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6%D1%96.md)
+        - [Еволюція адресації: Class → Subnet → CIDR](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%95%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D1%96%D1%8F%20%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0%D1%86%D1%96%D1%97_Class%20%E2%86%92%20Subnet%20%E2%86%92%20CIDR.md)
+        - [Класи адрес IPv4](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%9A%D0%BB%D0%B0%D1%81%D0%B8%20%D0%B0%D0%B4%D1%80%D0%B5%D1%81%20IPv4.md)
+        - [Маршрутизація (Routing)](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D1%96%D1%8F.md)
+        - [Маска підмережі (Subnet Mask)](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%9C%D0%B0%D1%81%D0%BA%D0%B0%20%D0%BF%D1%96%D0%B4%D0%BC%D0%B5%D1%80%D0%B5%D0%B6%D1%96.md)
+        - [Мережевий рівень (Network Layer)](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C.md)
+        - [Немаршрутний адресний простір](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%9D%D0%B5%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%BD%D0%B8%D0%B9%20%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%BD%D0%B8%D0%B9%20%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%96%D1%80.md)
+        - [Протоколи зовнішнього шлюзу (EGP)](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%20%D0%B7%D0%BE%D0%B2%D0%BD%D1%96%D1%88%D0%BD%D1%8C%D0%BE%D0%B3%D0%BE%20%D1%88%D0%BB%D1%8E%D0%B7%D1%83%20%28EGP%29.md)
+        - [Протоколи маршрутизації (Routing Protocols)](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%20%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D1%96%D1%97%20%28Routing%20Protocols%29.md)
+        - [Підмережі (Subnetting)](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%9F%D1%96%D0%B4%D0%BC%D0%B5%D1%80%D0%B5%D0%B6%D1%96%20%28Subnetting%29.md)
+        - [Таблиця маршрутизації (Routing Table)](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8F%20%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D1%96%D1%97%20%28Routing%20Table%29.md)
+        - [Як перевести число в двійкову систему](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%AF%D0%BA%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%B5%D1%81%D1%82%D0%B8%20%D1%87%D0%B8%D1%81%D0%BB%D0%BE%20%D0%B2%20%D0%B4%D0%B2%D1%96%D0%B9%D0%BA%D0%BE%D0%B2%D1%83%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%83.md)
+      - **Фізичний рівень/**
+        - [Кручена пара та режими передачі даних](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%A4%D1%96%D0%B7%D0%B8%D1%87%D0%BD%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%9A%D1%80%D1%83%D1%87%D0%B5%D0%BD%D0%B0%20%D0%BF%D0%B0%D1%80%D0%B0%20%D1%82%D0%B0%20%D1%80%D0%B5%D0%B6%D0%B8%D0%BC%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D1%96%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85.md)
+        - [Мережеві порти та патч-панелі](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%A4%D1%96%D0%B7%D0%B8%D1%87%D0%BD%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%9C%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%B2%D1%96%20%D0%BF%D0%BE%D1%80%D1%82%D0%B8%20%D1%82%D0%B0%20%D0%BF%D0%B0%D1%82%D1%87-%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%96.md)
+        - [⚡ Фізичний рівень (Physical Layer)](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%85%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6/%D0%A4%D1%96%D0%B7%D0%B8%D1%87%D0%BD%D0%B8%D0%B9%20%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C/%D0%9F%D0%B5%D1%80%D0%B5%D0%BC%D1%96%D1%89%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%B1%D1%96%D1%82%D1%96%D0%B2%20%D0%BF%D0%BE%20%D0%B4%D1%80%D0%BE%D1%82%D1%83.md)
+    - **Основи технічної підтримки/**
+      - [Логічні вентилі](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/1.1.%20%D0%9B%D0%BE%D0%B3%D1%96%D1%87%D0%BD%D1%96%20%D0%B2%D0%B5%D0%BD%D1%82%D0%B8%D0%BB%D1%96.md)
+      - [Як вимірюються обсяги зберігання даних](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/1.2.%20%D0%AF%D0%BA%20%D0%B2%D0%B8%D0%BC%D1%96%D1%80%D1%8E%D1%8E%D1%82%D1%8C%D1%81%D1%8F%20%D0%BE%D0%B1%D1%81%D1%8F%D0%B3%D0%B8%20%D0%B7%D0%B1%D0%B5%D1%80%D1%96%D0%B3%D0%B0%D0%BD%D0%BD%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85.md)
+      - [Нові терміни і їх визначення: Знайомство з ІТ](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/1.%20%D0%93%D0%BB%D0%BE%D1%81%D0%B0%D1%80%D1%96%D0%B9.%20%D0%97%D0%BD%D0%B0%D0%B9%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%BE%20%D0%B7%20%D0%86%D0%A2.md)
+      - [Додатковий матеріал про ЦП](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/2.1.%20%D0%94%D0%BE%D0%B4%D0%B0%D1%82%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D1%96%D0%B0%D0%BB%20%D0%BF%D1%80%D0%BE%20%D0%A6%D0%9F.md)
+      - [Джерела живлення](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/2.2.%20%D0%94%D0%B6%D0%B5%D1%80%D0%B5%D0%BB%D0%B0%20%D0%B6%D0%B8%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F.md)
+      - [Типи конекторів](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/2.3.%20%D0%A2%D0%B8%D0%BF%D0%B8%20%D0%BA%D0%BE%D0%BD%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D1%96%D0%B2.md)
+      - [Додаткові статті про проєктори](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/2.4.%20%D0%94%D0%BE%D0%B4%D0%B0%D1%82%D0%BA%D0%BE%D0%B2%D1%96%20%D1%81%D1%82%D0%B0%D1%82%D1%82%D1%96%20%D0%BF%D1%80%D0%BE%20%D0%BF%D1%80%D0%BE%D1%94%D0%BA%D1%82%D0%BE%D1%80%D0%B8.md)
+      - [Типи дисплеїв мобільних пристроїв](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/2.5.%20%D0%A2%D0%B8%D0%BF%D0%B8%20%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D1%97%D0%B2%20%D0%BC%D0%BE%D0%B1%D1%96%D0%BB%D1%8C%D0%BD%D0%B8%D1%85%20%D0%BF%D1%80%D0%B8%D1%81%D1%82%D1%80%D0%BE%D1%97%D0%B2.md)
+      - [Нові терміни і їхні визначення: Апаратне забезпечення](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/2.%20%D0%93%D0%BB%D0%BE%D1%81%D0%B0%D1%80%D1%96%D0%B9.%20%D0%90%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%BD%D0%B5%20%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F.md)
+      - [Способи запуску](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/3.1.%20%D0%A1%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8%20%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D1%83.md)
+      - [Практичні поради щодо способів запуску](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/3.2.%20%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%BD%D1%96%20%D0%BF%D0%BE%D1%80%D0%B0%D0%B4%D0%B8%20%D1%89%D0%BE%D0%B4%D0%BE%20%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D1%96%D0%B2%20%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D1%83.md)
+      - [Матриця функцій Windows 10 і 11](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/3.3.%20%D0%9C%D0%B0%D1%82%D1%80%D0%B8%D1%86%D1%8F%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D1%96%D0%B9%20Windows%2010%20%D1%96%2011.md)
+      - [Додаткова стаття про Ubuntu](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/3.4.%20%D0%94%D0%BE%D0%B4%D0%B0%D1%82%D0%BA%D0%BE%D0%B2%D0%B0%20%D1%81%D1%82%D0%B0%D1%82%D1%82%D1%8F%20%D0%BF%D1%80%D0%BE%20Ubuntu.md)
+      - [3. Глосарій. Операційні Системи](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/3.%20%D0%93%D0%BB%D0%BE%D1%81%D0%B0%D1%80%D1%96%D0%B9.%20%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D1%96%D0%B9%D0%BD%D1%96%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B8.md)
+      - [Нові терміни і їхні визначення: Організація мереж](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/4.%20%D0%93%D0%BB%D0%BE%D1%81%D0%B0%D1%80%D1%96%D0%B9.%20%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F%20%D0%BC%D0%B5%D1%80%D0%B5%D0%B6.md)
+      - [5.1. Поширені Рішення Для Роботи Зі Скриптами](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/5.1.%20%D0%9F%D0%BE%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D1%96%20%D1%80%D1%96%D1%88%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8%20%D0%B7%D1%96%20%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B0%D0%BC%D0%B8.md)
+      - [Нові терміни і їхні визначення: Програмне забезпечення](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/5.%20%D0%93%D0%BB%D0%BE%D1%81%D0%B0%D1%80%D1%96%D0%B9.%20%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%B5%20%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F.md)
+      - [Нові терміни і їхні визначення: Усунення несправностей](IT-Support/Google%20It%20Support/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%BE%D1%97%20%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8/6.%20%D0%93%D0%BB%D0%BE%D1%81%D0%B0%D1%80%D1%96%D0%B9.%20%D0%A3%D1%81%D1%83%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%BD%D0%B5%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9.md)
+- **Languages/**
+  - [English](Languages/English.md)
+- **Linux/**
+  - **01_Fundamentals/**
+    - [Структура Linux](Linux/01_Fundamentals/Linux-structure.md)
+    - [Сімейства дистрибутивів Linux](Linux/01_Fundamentals/%D0%A1%D1%96%D0%BC%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B0%20%D0%B4%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D1%96%D0%B2.md)
+  - **02_Environment/**
+    - [WSL](Linux/02_Environment/WSL.md)
+    - [Налаштування SSH-proxy](Linux/02_Environment/%D0%9D%D0%B0%D0%BB%D0%B0%D1%88%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%20SSH-proxy.md)
+  - **03_Shell/**
+    - [Change Bash-prompt](Linux/03_Shell/Change%20Bash-prompt.md)
+    - [Команда history](Linux/03_Shell/history.md)
+    - [Стандартні потоки введення-виведення (Standrt Streams)](Linux/03_Shell/Standard%20Streams.md)
+    - [Оператори](Linux/03_Shell/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8%20%D1%82%D0%B0%20%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%B8.md)
+  - **04_Shell-Scripting/**
+    - **Bash/**
+      - [Readme](Linux/04_Shell-Scripting/Bash/README.md)
+      - [Антипатерни Bash (частина до Розділу 2)](Linux/04_Shell-Scripting/Bash/%D0%90%D0%BD%D1%82%D0%B8%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D0%B8%20Bash.md)
+      - [Вступ до Bash-скриптів](Linux/04_Shell-Scripting/Bash/%D0%92%D1%81%D1%82%D1%83%D0%BF%20%D0%B4%D0%BE%20Bash-%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D1%96%D0%B2.md)
+      - [Змінні та типи даних у Bash](Linux/04_Shell-Scripting/Bash/%D0%97%D0%BC%D1%96%D0%BD%D0%BD%D1%96%20%D1%82%D0%B0%20%D1%82%D0%B8%D0%BF%D0%B8%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85%20%D1%83%20Bash.md)
+    - [Конспект по Bash скриптам](Linux/04_Shell-Scripting/Bash.md)
+    - [Масиви](Linux/04_Shell-Scripting/%D0%9C%D0%B0%D1%81%D0%B8%D0%B2%D0%B8.md)
+    - [Оператори для порівняння чисел та рядків](Linux/04_Shell-Scripting/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8.md)
+    - [Створення Bash-скриптів — це процес об'єднання команд, які зазвичай вводяться вручну в терміналі, у текстові файли для автоматизації певних завдань.](Linux/04_Shell-Scripting/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D1%81%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%20Bash-%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D1%96%D0%B2%20%D1%82%D0%B0%20%D1%80%D0%BE%D0%BB%D1%8C%20%D1%88%D0%B5%D0%B1%D0%B0%D0%BD%D0%B3%D1%83.md)
+    - [Цикли](Linux/04_Shell-Scripting/%D0%A6%D0%B8%D0%BA%D0%BB%D0%B8.md)
+  - **05_FileSystem/**
+    - [Debugfs](Linux/05_FileSystem/debugfs.md)
+    - [fdisk](Linux/05_FileSystem/fdisk.md)
+    - [File System <!-- omit in toc -->](Linux/05_FileSystem/FileSystem.md)
+    - [inode <!-- omit in toc -->](Linux/05_FileSystem/Inode.md)
+    - [Жорсткі та символічні посилання](Linux/05_FileSystem/Links.md)
+    - [ієрархія Linux](Linux/05_FileSystem/LinuxHierarchy.md)
+    - [Концепція модульних конфігурацій (Директорії .d)](Linux/05_FileSystem/%D0%9A%D0%BE%D0%BD%D1%86%D0%B5%D0%BF%D1%86%D1%96%D1%8F%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B8%D1%85%20%D0%BA%D0%BE%D0%BD%D1%84%D1%96%D0%B3%D1%83%D1%80%D0%B0%D1%86%D1%96%D0%B9.md)
+    - [Монтування файлових систем <!-- omit in toc -->](Linux/05_FileSystem/%D0%9C%D0%BE%D0%BD%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%20%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%BE%D1%97%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B8.md)
+  - **06_Storage/**
+    - [df](Linux/06_Storage/df.md)
+    - [Команда du](Linux/06_Storage/du.md)
+    - [lsblk](Linux/06_Storage/lsblk.md)
+  - **07_FileManagement/**
+    - [Команда find](Linux/07_FileManagement/find.md)
+    - [Команда install](Linux/07_FileManagement/install.md)
+    - [ls](Linux/07_FileManagement/ls.md)
+    - [Робота з файлами <!-- omit in toc -->](Linux/07_FileManagement/%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B7%20%D1%84%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC%D0%B8.md)
+    - [Способи відображення файлів команд Linux (на прикладі команди ls)](Linux/07_FileManagement/%D0%A1%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8%20%D0%B2%D1%96%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D1%84%D0%B0%D0%B9%D0%BB%D1%96%D0%B2%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%20Linux.md)
+  - **08_TextProcessing/**
+    - [awk](Linux/08_TextProcessing/awk.md)
+    - [BRE / ERE / PCRE](Linux/08_TextProcessing/BRE-ERE-PCRE.md)
+    - [date](Linux/08_TextProcessing/date.md)
+    - [Команда grep](Linux/08_TextProcessing/grep.md)
+    - [POSIX](Linux/08_TextProcessing/POSIX.md)
+    - [sed <!-- omit in toc -->](Linux/08_TextProcessing/sed.md)
+    - [sort](Linux/08_TextProcessing/sort.md)
+    - [vi / vim — повна довідка](Linux/08_TextProcessing/vi-vim.md)
+    - [ВЕЛИКА таблиця: grep / sed / awk + regex](Linux/08_TextProcessing/%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8F-grep%2C%20sed%2C%20awk%2B%20regex.md)
+    - [Регулярні вирази в Linux — повна довідка](Linux/08_TextProcessing/%D0%A0%D0%B5%D0%B3%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%96%20%D0%B2%D0%B8%D1%80%D0%B0%D0%B7%D0%B8.md)
+  - **09_Archives/**
+    - [Робота з архівами](Linux/09_Archives/%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B7%20%D0%B0%D1%80%D1%85%D1%96%D0%B2%D0%B0%D0%BC%D0%B8.md)
+  - **10_Users/**
+    - [usermod <!-- omit in toc -->](Linux/10_Users/usermod.md)
+    - [USERS (КОРИСТУВАЧІ ТА ГРУПИ) <!-- omit in toc -->](Linux/10_Users/%D0%9A%D0%BE%D1%80%D0%B8%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%87%D1%96%20%D1%82%D0%B0%20%D0%B3%D1%80%D1%83%D0%BF%D0%B8.md)
+  - **11_Permissions/**
+    - [Команда chattr](Linux/11_Permissions/chattr.md)
+    - [Команда chmod](Linux/11_Permissions/chmod.md)
+    - [Команда chown](Linux/11_Permissions/chown.md)
+    - [Числові права та umask <!-- omit in toc -->](Linux/11_Permissions/umask.md)
+    - [PERMISSIONS (ПРАВА ДОСТУПУ) <!-- omit in toc -->](Linux/11_Permissions/%D0%9F%D1%80%D0%B0%D0%B2%D0%B0%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D1%83.md)
+    - [Створення файлів з правами](Linux/11_Permissions/%D0%A1%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%20%D1%84%D0%B0%D0%B9%D0%BB%D1%96%D0%B2%20%D0%B7%20%D0%BF%D1%80%D0%B0%D0%B2%D0%B0%D0%BC%D0%B8.md)
+  - **12_Processes/**
+    - [Розділ 1. Основи процесів у Linux <!-- omit in toc -->](Linux/12_Processes/1.%20%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%96%D0%B2.md)
+    - [🧠 Розділ 2. Типи процесів у Linux <!-- omit in toc -->](Linux/12_Processes/2.%20%D0%A2%D0%B8%D0%BF%D0%B8%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%96%D0%B2%20%D1%83%20Linux.md)
+    - [Розділ 3. Життєвий цикл процесу в Linux <!-- omit in toc -->](Linux/12_Processes/3.%20%D0%96%D0%B8%D1%82%D1%82%D1%94%D0%B2%D0%B8%D0%B9%20%D1%86%D0%B8%D0%BA%D0%BB%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%83%20%D0%B2%20Linux.md)
+    - [12_Processes](Linux/12_Processes/README.md)
+    - [Статуси процесів у Linux <!-- omit in toc -->](Linux/12_Processes/Statuses.md)
+  - **13_System/**
+    - [at](Linux/13_System/at.md)
+    - [cron](Linux/13_System/cron.md)
+    - [screen](Linux/13_System/screen.md)
+    - [systemd <!-- omit in toc -->](Linux/13_System/systemd.md)
+    - [tmux](Linux/13_System/tmux.md)
+    - [TPM](Linux/13_System/TPM.md)
+    - [unit-файл <!-- omit in toc -->](Linux/13_System/Unit-%D1%84%D0%B0%D0%B9%D0%BB%D0%B8.md)
+    - [Типи unit-файлів](Linux/13_System/%D0%A2%D0%B8%D0%BF%D0%B8%20unit-%D1%84%D0%B0%D0%B9%D0%BB%D1%96%D0%B2.md)
+  - **14_Networking/**
+    - [Команда wget](Linux/14_Networking/wget.md)
+  - **15_Package-Management/**
+    - [Встановлення програмного забезпечення](Linux/15_Package-Management/%D0%92%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F%20%20%D0%9F%D0%97.md)
+  - **19_Performance/**
+    - [OOM KILLER — ПОВНА ДОВІДКА  <!-- omit in toc -->](Linux/19_Performance/OOM%20killer.md)
+    - [📊 sar — System Activity Reporter <!-- omit in toc -->](Linux/19_Performance/sar.md)
+    - [Troubleshooting by levels](Linux/19_Performance/Troubleshooting%20by%20levels.md)
+    - [Troubleshooting <!-- omit in toc -->](Linux/19_Performance/Troubleshooting.md)
+  - **20_Documentation/**
+    - [Команди для отримання довідки](Linux/20_Documentation/Manual.md)
+  - **21_Collections/**
+    - [Команди Linux](Linux/21_Collections/Linux-commands.md)
+  - [Linux Knowledge Base <!-- omit in toc -->](Linux/README.md)
+- [Programming Languages](Programming%20Languages.md)
+- **Python/**
+  - [Dictionaries (Словники)](Python/Dictionaries.md)
+  - [ERRORS - Конспект по типам помилок і способам їх вирішення](Python/Errors.md)
+  - **Files/**
+    - [Керування файлами](Python/Files/Managing%20files.md)
+    - [Module CSV](Python/Files/Module%20CSV.md)
+    - [Module OS](Python/Files/Module%20OS.md)
+  - [Functions](Python/Functions.md)
+  - [Glossary](Python/Glossary-ua.md)
+  - [Python Glossary](Python/Glossary.md)
+  - [Handlers in Python](Python/Handlers.md)
+  - [Lists&Tuples](Python/Lists%26Tuples.md)
+  - **Modules/**
+    - [Конспект по модулю журналювання (logging) в Python](Python/Modules/Logging.md)
+  - [prints "red"](Python/OOP.md)
+  - [Others](Python/Others.md)
+  - [Python](Python/Python.md)
+  - [Python](Python/README.md)
+  - [Конспект по регулярним виразам (regex) у Python](Python/Regex.md)
+  - [Strings (Рядки)](Python/Strings.md)
+  - **Testing/**
+    - [Testing](Python/Testing/Testing.md)
+    - [Модульне тестування (Unit Testing)](Python/Testing/Unittest.md)
+  - [Типи даних](Python/Types.md)
+- **Security/**
+  - **CS50_Вступ до кібербезпеки/**
+    - [Захист облікових записів](Security/CS50_%D0%92%D1%81%D1%82%D1%83%D0%BF%20%D0%B4%D0%BE%20%D0%BA%D1%96%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D0%BA%D0%B8/1.%20%D0%97%D0%B0%D1%85%D0%B8%D1%81%D1%82%20%D0%BE%D0%B1%D0%BB%D1%96%D0%BA%D0%BE%D0%B2%D0%B8%D1%85%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%96%D0%B2.md)
+    - [Захист даних](Security/CS50_%D0%92%D1%81%D1%82%D1%83%D0%BF%20%D0%B4%D0%BE%20%D0%BA%D1%96%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D0%BA%D0%B8/2.%20%D0%97%D0%B0%D1%85%D0%B8%D1%81%D1%82%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85.md)
+    - [Захист систем](Security/CS50_%D0%92%D1%81%D1%82%D1%83%D0%BF%20%D0%B4%D0%BE%20%D0%BA%D1%96%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D0%BA%D0%B8/3.%20%D0%97%D0%B0%D1%85%D0%B8%D1%81%D1%82%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC.md)
+    - [Захист програмного забезпечення](Security/CS50_%D0%92%D1%81%D1%82%D1%83%D0%BF%20%D0%B4%D0%BE%20%D0%BA%D1%96%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D0%BA%D0%B8/4.%20%D0%97%D0%B0%D1%85%D0%B8%D1%81%D1%82%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F.md)
+    - [Збереження конфіденційності](Security/CS50_%D0%92%D1%81%D1%82%D1%83%D0%BF%20%D0%B4%D0%BE%20%D0%BA%D1%96%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D0%BA%D0%B8/5.%20%D0%97%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%BA%D0%BE%D0%BD%D1%84%D1%96%D0%B4%D0%B5%D0%BD%D1%86%D1%96%D0%B9%D0%BD%D0%BE%D1%81%D1%82%D1%96.md)
+- **Testing/**
+  - [ДОВІДНИК ПО TESTING LIBRARY + JEST](Testing/%40testing-library-react%20%2B%20Jest.md)
+  - **QA/**
+    - [Qa Wortschatz](Testing/QA/QA-Wortschatz.md)
+  - [Testing Tutorial](Testing/Testing_tutorial.md)
+- [Troubleshooting and Debugging](Troubleshooting%20and%20Debugging.md)
+- [Mind-blowing Useful Websites for Developers](useful-sites.md)
+- [Web to PDF](Web-to-pdf.md)
 <!-- AUTO-GENERATED-END -->
