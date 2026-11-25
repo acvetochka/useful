@@ -1,5 +1,8 @@
 # Useful-links
 
+<!-- AUTO-GENERATED-START -->
+<!-- AUTO-GENERATED-END -->
+
 1. AI
    - [AIContentDetectors](https://github.com/acvetochka/useful/blob/main/AI/AIContentDetectors.md)
 2. CMS
